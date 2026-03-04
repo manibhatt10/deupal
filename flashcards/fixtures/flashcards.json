@@ -1,0 +1,4502 @@
+[
+  {
+    "model": "flashcards.flashcard",
+    "pk": 1,
+    "fields": {
+      "german_text": "ich",
+      "nepali_text": "म",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 2,
+    "fields": {
+      "german_text": "du",
+      "nepali_text": "तिमी",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 3,
+    "fields": {
+      "german_text": "er",
+      "nepali_text": "ऊ (पुल्लिंग)",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 4,
+    "fields": {
+      "german_text": "sie",
+      "nepali_text": "उनी / तिनीहरू",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 5,
+    "fields": {
+      "german_text": "es",
+      "nepali_text": "यो (नपुंसक)",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 6,
+    "fields": {
+      "german_text": "wir",
+      "nepali_text": "हामी",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 7,
+    "fields": {
+      "german_text": "ihr",
+      "nepali_text": "तिमीहरू",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 8,
+    "fields": {
+      "german_text": "sein",
+      "nepali_text": "हुनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 9,
+    "fields": {
+      "german_text": "haben",
+      "nepali_text": "हुनु (साथमा)",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 10,
+    "fields": {
+      "german_text": "werden",
+      "nepali_text": "हुनु (भविष्य)",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 11,
+    "fields": {
+      "german_text": "können",
+      "nepali_text": "सक्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 12,
+    "fields": {
+      "german_text": "müssen",
+      "nepali_text": "गर्नुपर्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 13,
+    "fields": {
+      "german_text": "sagen",
+      "nepali_text": "भन्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 14,
+    "fields": {
+      "german_text": "machen",
+      "nepali_text": "गर्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 15,
+    "fields": {
+      "german_text": "geben",
+      "nepali_text": "दिनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 16,
+    "fields": {
+      "german_text": "kommen",
+      "nepali_text": "आउनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 17,
+    "fields": {
+      "german_text": "wollen",
+      "nepali_text": "चाहनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 18,
+    "fields": {
+      "german_text": "gehen",
+      "nepali_text": "जानु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 19,
+    "fields": {
+      "german_text": "wissen",
+      "nepali_text": "थाहा हुनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 20,
+    "fields": {
+      "german_text": "sehen",
+      "nepali_text": "हेर्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 21,
+    "fields": {
+      "german_text": "lassen",
+      "nepali_text": "छोड्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 22,
+    "fields": {
+      "german_text": "stehen",
+      "nepali_text": "उभिनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 23,
+    "fields": {
+      "german_text": "finden",
+      "nepali_text": "फेला पार्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 24,
+    "fields": {
+      "german_text": "bleiben",
+      "nepali_text": "बस्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 25,
+    "fields": {
+      "german_text": "liegen",
+      "nepali_text": "पल्टिनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 26,
+    "fields": {
+      "german_text": "heißen",
+      "nepali_text": "नाम हुनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 27,
+    "fields": {
+      "german_text": "denken",
+      "nepali_text": "सोच्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 28,
+    "fields": {
+      "german_text": "nehmen",
+      "nepali_text": "लिनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 29,
+    "fields": {
+      "german_text": "halten",
+      "nepali_text": "समात्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 30,
+    "fields": {
+      "german_text": "bringen",
+      "nepali_text": "ल्याउनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 31,
+    "fields": {
+      "german_text": "leben",
+      "nepali_text": "बाँच्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 32,
+    "fields": {
+      "german_text": "fahren",
+      "nepali_text": "चलाउनु / यात्रा गर्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 33,
+    "fields": {
+      "german_text": "meinen",
+      "nepali_text": "बुझाउनु / सोच्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 34,
+    "fields": {
+      "german_text": "fragen",
+      "nepali_text": "सोध्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 35,
+    "fields": {
+      "german_text": "kennen",
+      "nepali_text": "चिन्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 36,
+    "fields": {
+      "german_text": "gelten",
+      "nepali_text": "लागू हुनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 37,
+    "fields": {
+      "german_text": "stellen",
+      "nepali_text": "राख्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 38,
+    "fields": {
+      "german_text": "spielen",
+      "nepali_text": "खेल्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 39,
+    "fields": {
+      "german_text": "arbeiten",
+      "nepali_text": "काम गर्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 40,
+    "fields": {
+      "german_text": "brauchen",
+      "nepali_text": "चाहिनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 41,
+    "fields": {
+      "german_text": "folgen",
+      "nepali_text": "पछ्याउनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 42,
+    "fields": {
+      "german_text": "lernen",
+      "nepali_text": "सिक्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 43,
+    "fields": {
+      "german_text": "bestehen",
+      "nepali_text": "अवस्थित हुनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 44,
+    "fields": {
+      "german_text": "verstehen",
+      "nepali_text": "बुझ्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 45,
+    "fields": {
+      "german_text": "setzen",
+      "nepali_text": "बसाल्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 46,
+    "fields": {
+      "german_text": "bekommen",
+      "nepali_text": "पाउनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 47,
+    "fields": {
+      "german_text": "beginnen",
+      "nepali_text": "सुरु गर्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 48,
+    "fields": {
+      "german_text": "erzählen",
+      "nepali_text": "कथा भन्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 49,
+    "fields": {
+      "german_text": "versuchen",
+      "nepali_text": "प्रयास गर्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 50,
+    "fields": {
+      "german_text": "schreiben",
+      "nepali_text": "लेख्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 51,
+    "fields": {
+      "german_text": "laufen",
+      "nepali_text": "दौडिनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 52,
+    "fields": {
+      "german_text": "erklären",
+      "nepali_text": "व्याख्या गर्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 53,
+    "fields": {
+      "german_text": "entsprechen",
+      "nepali_text": "मेल खानु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 54,
+    "fields": {
+      "german_text": "sitzen",
+      "nepali_text": "बस्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 55,
+    "fields": {
+      "german_text": "ziehen",
+      "nepali_text": "तान्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 56,
+    "fields": {
+      "german_text": "scheinen",
+      "nepali_text": "देखिनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 57,
+    "fields": {
+      "german_text": "fallen",
+      "nepali_text": "खस्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 58,
+    "fields": {
+      "german_text": "gehören",
+      "nepali_text": "सम्बन्धित हुनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 59,
+    "fields": {
+      "german_text": "entstehen",
+      "nepali_text": "उत्पन्न हुनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 60,
+    "fields": {
+      "german_text": "erhalten",
+      "nepali_text": "प्राप्त गर्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 61,
+    "fields": {
+      "german_text": "treffen",
+      "nepali_text": "भेट्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 62,
+    "fields": {
+      "german_text": "suchen",
+      "nepali_text": "खोज्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 63,
+    "fields": {
+      "german_text": "legen",
+      "nepali_text": "राख्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 64,
+    "fields": {
+      "german_text": "vorstellen",
+      "nepali_text": "परिचय दिनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 65,
+    "fields": {
+      "german_text": "handeln",
+      "nepali_text": "व्यापार गर्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 66,
+    "fields": {
+      "german_text": "erreichen",
+      "nepali_text": "पुग्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 67,
+    "fields": {
+      "german_text": "tragen",
+      "nepali_text": "बोक्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 68,
+    "fields": {
+      "german_text": "schaffen",
+      "nepali_text": "सिर्जना गर्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 69,
+    "fields": {
+      "german_text": "lesen",
+      "nepali_text": "पढ्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 70,
+    "fields": {
+      "german_text": "verlieren",
+      "nepali_text": "हराउनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 71,
+    "fields": {
+      "german_text": "darstellen",
+      "nepali_text": "प्रस्तुत गर्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 72,
+    "fields": {
+      "german_text": "erkennen",
+      "nepali_text": "चिन्नु / पहिचान गर्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 73,
+    "fields": {
+      "german_text": "entwickeln",
+      "nepali_text": "विकास गर्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 74,
+    "fields": {
+      "german_text": "reden",
+      "nepali_text": "कुरा गर्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 75,
+    "fields": {
+      "german_text": "aussehen",
+      "nepali_text": "देखिनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 76,
+    "fields": {
+      "german_text": "erscheinen",
+      "nepali_text": "प्रकट हुनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 77,
+    "fields": {
+      "german_text": "bilden",
+      "nepali_text": "बनाउनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 78,
+    "fields": {
+      "german_text": "anfangen",
+      "nepali_text": "सुरु गर्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 79,
+    "fields": {
+      "german_text": "erwarten",
+      "nepali_text": "आशा गर्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 80,
+    "fields": {
+      "german_text": "wohnen",
+      "nepali_text": "बस्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 81,
+    "fields": {
+      "german_text": "betreffen",
+      "nepali_text": "सम्बन्धित हुनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 82,
+    "fields": {
+      "german_text": "warten",
+      "nepali_text": "पर्खनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 83,
+    "fields": {
+      "german_text": "vergehen",
+      "nepali_text": "बित्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 84,
+    "fields": {
+      "german_text": "helfen",
+      "nepali_text": "मद्दत गर्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 85,
+    "fields": {
+      "german_text": "gewinnen",
+      "nepali_text": "जित्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 86,
+    "fields": {
+      "german_text": "schließen",
+      "nepali_text": "बन्द गर्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 87,
+    "fields": {
+      "german_text": "fühlen",
+      "nepali_text": "महसुस गर्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 88,
+    "fields": {
+      "german_text": "bieten",
+      "nepali_text": "प्रस्ताव गर्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 89,
+    "fields": {
+      "german_text": "interessieren",
+      "nepali_text": "रुचि राख्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 90,
+    "fields": {
+      "german_text": "erinnern",
+      "nepali_text": "सम्झनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 91,
+    "fields": {
+      "german_text": "ergeben",
+      "nepali_text": "परिणाम दिनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 92,
+    "fields": {
+      "german_text": "anbieten",
+      "nepali_text": "प्रस्ताव दिनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 93,
+    "fields": {
+      "german_text": "studieren",
+      "nepali_text": "अध्ययन गर्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 94,
+    "fields": {
+      "german_text": "verbinden",
+      "nepali_text": "जोड्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 95,
+    "fields": {
+      "german_text": "ansehen",
+      "nepali_text": "हेर्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 96,
+    "fields": {
+      "german_text": "fehlen",
+      "nepali_text": "कमी हुनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 97,
+    "fields": {
+      "german_text": "bedeuten",
+      "nepali_text": "अर्थ हुनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 98,
+    "fields": {
+      "german_text": "vergleichen",
+      "nepali_text": "तुलना गर्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 99,
+    "fields": {
+      "german_text": "und",
+      "nepali_text": "र",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 100,
+    "fields": {
+      "german_text": "oder",
+      "nepali_text": "वा",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 101,
+    "fields": {
+      "german_text": "aber",
+      "nepali_text": "तर",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 102,
+    "fields": {
+      "german_text": "denn",
+      "nepali_text": "किनभने",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 103,
+    "fields": {
+      "german_text": "also",
+      "nepali_text": "त्यसैले",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 104,
+    "fields": {
+      "german_text": "der",
+      "nepali_text": "यो (पुल्लिंग)",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 105,
+    "fields": {
+      "german_text": "die",
+      "nepali_text": "यो (स्त्रीलिंग)",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 106,
+    "fields": {
+      "german_text": "das",
+      "nepali_text": "यो (नपुंसक)",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 107,
+    "fields": {
+      "german_text": "ein",
+      "nepali_text": "एउटा",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 108,
+    "fields": {
+      "german_text": "eine",
+      "nepali_text": "एउटी",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 109,
+    "fields": {
+      "german_text": "nicht",
+      "nepali_text": "होइन",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 110,
+    "fields": {
+      "german_text": "ja",
+      "nepali_text": "हो",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 111,
+    "fields": {
+      "german_text": "nein",
+      "nepali_text": "होइन",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 112,
+    "fields": {
+      "german_text": "was",
+      "nepali_text": "के",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 113,
+    "fields": {
+      "german_text": "wer",
+      "nepali_text": "को",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 114,
+    "fields": {
+      "german_text": "wie",
+      "nepali_text": "कसरी",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 115,
+    "fields": {
+      "german_text": "wo",
+      "nepali_text": "कहाँ",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 116,
+    "fields": {
+      "german_text": "wann",
+      "nepali_text": "कहिले",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 117,
+    "fields": {
+      "german_text": "warum",
+      "nepali_text": "किन",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 118,
+    "fields": {
+      "german_text": "hier",
+      "nepali_text": "यहाँ",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 119,
+    "fields": {
+      "german_text": "dort",
+      "nepali_text": "त्यहाँ",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 120,
+    "fields": {
+      "german_text": "jetzt",
+      "nepali_text": "अहिले",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 121,
+    "fields": {
+      "german_text": "heute",
+      "nepali_text": "आज",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 122,
+    "fields": {
+      "german_text": "gestern",
+      "nepali_text": "हिजो",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 123,
+    "fields": {
+      "german_text": "morgen",
+      "nepali_text": "भोलि",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 124,
+    "fields": {
+      "german_text": "immer",
+      "nepali_text": "सधैं",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 125,
+    "fields": {
+      "german_text": "nie",
+      "nepali_text": "कहिल्यै होइन",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 126,
+    "fields": {
+      "german_text": "oft",
+      "nepali_text": "प्रायः",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 127,
+    "fields": {
+      "german_text": "manchmal",
+      "nepali_text": "कहिलेकाहीं",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 128,
+    "fields": {
+      "german_text": "sehr",
+      "nepali_text": "धेरै",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 129,
+    "fields": {
+      "german_text": "auch",
+      "nepali_text": "पनि",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 130,
+    "fields": {
+      "german_text": "noch",
+      "nepali_text": "अझै",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 131,
+    "fields": {
+      "german_text": "schon",
+      "nepali_text": "पहिले नै",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 132,
+    "fields": {
+      "german_text": "nur",
+      "nepali_text": "मात्र",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 133,
+    "fields": {
+      "german_text": "dann",
+      "nepali_text": "त्यसपछि",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 134,
+    "fields": {
+      "german_text": "von",
+      "nepali_text": "बाट",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 135,
+    "fields": {
+      "german_text": "mit",
+      "nepali_text": "सँग",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 136,
+    "fields": {
+      "german_text": "für",
+      "nepali_text": "को लागि",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 137,
+    "fields": {
+      "german_text": "auf",
+      "nepali_text": "माथि",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 138,
+    "fields": {
+      "german_text": "in",
+      "nepali_text": "मा",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 139,
+    "fields": {
+      "german_text": "an",
+      "nepali_text": "मा (नजिक)",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 140,
+    "fields": {
+      "german_text": "zu",
+      "nepali_text": "तिर",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 141,
+    "fields": {
+      "german_text": "nach",
+      "nepali_text": "पछि",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 142,
+    "fields": {
+      "german_text": "über",
+      "nepali_text": "माथि / बारेमा",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 143,
+    "fields": {
+      "german_text": "bei",
+      "nepali_text": "नजिक",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 144,
+    "fields": {
+      "german_text": "aus",
+      "nepali_text": "बाहिर",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 145,
+    "fields": {
+      "german_text": "durch",
+      "nepali_text": "बाट / मार्फत",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 146,
+    "fields": {
+      "german_text": "unter",
+      "nepali_text": "तल",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 147,
+    "fields": {
+      "german_text": "vor",
+      "nepali_text": "अगाडि",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 148,
+    "fields": {
+      "german_text": "zwischen",
+      "nepali_text": "बीचमा",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 149,
+    "fields": {
+      "german_text": "gegen",
+      "nepali_text": "विरुद्ध",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 150,
+    "fields": {
+      "german_text": "ohne",
+      "nepali_text": "बिना",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 151,
+    "fields": {
+      "german_text": "bis",
+      "nepali_text": "सम्म",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 152,
+    "fields": {
+      "german_text": "seit",
+      "nepali_text": "देखि",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 153,
+    "fields": {
+      "german_text": "während",
+      "nepali_text": "जबकि",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 154,
+    "fields": {
+      "german_text": "Haus",
+      "nepali_text": "घर",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 155,
+    "fields": {
+      "german_text": "Frau",
+      "nepali_text": "महिला / श्रीमती",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 156,
+    "fields": {
+      "german_text": "Mann",
+      "nepali_text": "पुरुष / श्रीमान",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 157,
+    "fields": {
+      "german_text": "Kind",
+      "nepali_text": "बच्चा",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 158,
+    "fields": {
+      "german_text": "Tag",
+      "nepali_text": "दिन",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 159,
+    "fields": {
+      "german_text": "Hand",
+      "nepali_text": "हात",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 160,
+    "fields": {
+      "german_text": "Auge",
+      "nepali_text": "आँखा",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 161,
+    "fields": {
+      "german_text": "Wort",
+      "nepali_text": "शब्द",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 162,
+    "fields": {
+      "german_text": "Mensch",
+      "nepali_text": "मानिस",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 163,
+    "fields": {
+      "german_text": "Zeit",
+      "nepali_text": "समय",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 164,
+    "fields": {
+      "german_text": "Jahr",
+      "nepali_text": "वर्ष",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 165,
+    "fields": {
+      "german_text": "Stadt",
+      "nepali_text": "शहर",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 166,
+    "fields": {
+      "german_text": "Land",
+      "nepali_text": "देश",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 167,
+    "fields": {
+      "german_text": "Welt",
+      "nepali_text": "संसार",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 168,
+    "fields": {
+      "german_text": "Wasser",
+      "nepali_text": "पानी",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 169,
+    "fields": {
+      "german_text": "Straße",
+      "nepali_text": "सडक",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 170,
+    "fields": {
+      "german_text": "Schule",
+      "nepali_text": "विद्यालय",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 171,
+    "fields": {
+      "german_text": "Buch",
+      "nepali_text": "किताब",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 172,
+    "fields": {
+      "german_text": "Arbeit",
+      "nepali_text": "काम",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 173,
+    "fields": {
+      "german_text": "Geld",
+      "nepali_text": "पैसा",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 174,
+    "fields": {
+      "german_text": "Freund",
+      "nepali_text": "साथी",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 175,
+    "fields": {
+      "german_text": "Mutter",
+      "nepali_text": "आमा",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 176,
+    "fields": {
+      "german_text": "Vater",
+      "nepali_text": "बुबा",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 177,
+    "fields": {
+      "german_text": "Bruder",
+      "nepali_text": "दाजु / भाइ",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 178,
+    "fields": {
+      "german_text": "Schwester",
+      "nepali_text": "दिदी / बहिनी",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 179,
+    "fields": {
+      "german_text": "Familie",
+      "nepali_text": "परिवार",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 180,
+    "fields": {
+      "german_text": "Kopf",
+      "nepali_text": "टाउको",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 181,
+    "fields": {
+      "german_text": "Herz",
+      "nepali_text": "मुटु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 182,
+    "fields": {
+      "german_text": "Seite",
+      "nepali_text": "पक्ष / पृष्ठ",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 183,
+    "fields": {
+      "german_text": "Platz",
+      "nepali_text": "ठाउँ",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 184,
+    "fields": {
+      "german_text": "Frage",
+      "nepali_text": "प्रश्न",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 185,
+    "fields": {
+      "german_text": "Antwort",
+      "nepali_text": "उत्तर",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 186,
+    "fields": {
+      "german_text": "Name",
+      "nepali_text": "नाम",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 187,
+    "fields": {
+      "german_text": "Beispiel",
+      "nepali_text": "उदाहरण",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 188,
+    "fields": {
+      "german_text": "Stunde",
+      "nepali_text": "घण्टा",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 189,
+    "fields": {
+      "german_text": "Nacht",
+      "nepali_text": "रात",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 190,
+    "fields": {
+      "german_text": "Morgen",
+      "nepali_text": "बिहान",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 191,
+    "fields": {
+      "german_text": "Abend",
+      "nepali_text": "साँझ",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 192,
+    "fields": {
+      "german_text": "Monat",
+      "nepali_text": "महिना",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 193,
+    "fields": {
+      "german_text": "Woche",
+      "nepali_text": "हप्ता",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 194,
+    "fields": {
+      "german_text": "Ende",
+      "nepali_text": "अन्त",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 195,
+    "fields": {
+      "german_text": "Anfang",
+      "nepali_text": "सुरु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 196,
+    "fields": {
+      "german_text": "Teil",
+      "nepali_text": "भाग",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 197,
+    "fields": {
+      "german_text": "Grund",
+      "nepali_text": "कारण",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 198,
+    "fields": {
+      "german_text": "Problem",
+      "nepali_text": "समस्या",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 199,
+    "fields": {
+      "german_text": "Weg",
+      "nepali_text": "बाटो",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 200,
+    "fields": {
+      "german_text": "Ziel",
+      "nepali_text": "लक्ष्य",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 201,
+    "fields": {
+      "german_text": "Staat",
+      "nepali_text": "राज्य",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 202,
+    "fields": {
+      "german_text": "Geschichte",
+      "nepali_text": "इतिहास / कथा",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 203,
+    "fields": {
+      "german_text": "Macht",
+      "nepali_text": "शक्ति",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 204,
+    "fields": {
+      "german_text": "Sprache",
+      "nepali_text": "भाषा",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 205,
+    "fields": {
+      "german_text": "Bild",
+      "nepali_text": "तस्बिर",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 206,
+    "fields": {
+      "german_text": "Leben",
+      "nepali_text": "जीवन",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 207,
+    "fields": {
+      "german_text": "Sache",
+      "nepali_text": "कुरा",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 208,
+    "fields": {
+      "german_text": "Licht",
+      "nepali_text": "उज्यालो",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 209,
+    "fields": {
+      "german_text": "Musik",
+      "nepali_text": "संगीत",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 210,
+    "fields": {
+      "german_text": "Tier",
+      "nepali_text": "जनावर",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 211,
+    "fields": {
+      "german_text": "Tür",
+      "nepali_text": "ढोका",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 212,
+    "fields": {
+      "german_text": "Fenster",
+      "nepali_text": "झ्याल",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 213,
+    "fields": {
+      "german_text": "Tisch",
+      "nepali_text": "टेबल",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 214,
+    "fields": {
+      "german_text": "Stuhl",
+      "nepali_text": "कुर्सी",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 215,
+    "fields": {
+      "german_text": "Bett",
+      "nepali_text": "ओछ्यान",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 216,
+    "fields": {
+      "german_text": "Essen",
+      "nepali_text": "खाना",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 217,
+    "fields": {
+      "german_text": "Trinken",
+      "nepali_text": "पिउनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 218,
+    "fields": {
+      "german_text": "Milch",
+      "nepali_text": "दूध",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 219,
+    "fields": {
+      "german_text": "Brot",
+      "nepali_text": "रोटी",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 220,
+    "fields": {
+      "german_text": "Fleisch",
+      "nepali_text": "मासु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 221,
+    "fields": {
+      "german_text": "Obst",
+      "nepali_text": "फलफूल",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 222,
+    "fields": {
+      "german_text": "Gemüse",
+      "nepali_text": "तरकारी",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 223,
+    "fields": {
+      "german_text": "Reis",
+      "nepali_text": "भात",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 224,
+    "fields": {
+      "german_text": "Tee",
+      "nepali_text": "चिया",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 225,
+    "fields": {
+      "german_text": "Kaffee",
+      "nepali_text": "कफी",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 226,
+    "fields": {
+      "german_text": "Zucker",
+      "nepali_text": "चिनी",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 227,
+    "fields": {
+      "german_text": "Salz",
+      "nepali_text": "नुन",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 228,
+    "fields": {
+      "german_text": "Käse",
+      "nepali_text": "पनीर",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 229,
+    "fields": {
+      "german_text": "Butter",
+      "nepali_text": "मक्खन",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 230,
+    "fields": {
+      "german_text": "Ei",
+      "nepali_text": "अण्डा",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 231,
+    "fields": {
+      "german_text": "Fisch",
+      "nepali_text": "माछा",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 232,
+    "fields": {
+      "german_text": "Huhn",
+      "nepali_text": "कुखुरा",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 233,
+    "fields": {
+      "german_text": "Kartoffel",
+      "nepali_text": "आलु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 234,
+    "fields": {
+      "german_text": "Tomate",
+      "nepali_text": "गोलभेडा",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 235,
+    "fields": {
+      "german_text": "Zwiebel",
+      "nepali_text": "प्याज",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 236,
+    "fields": {
+      "german_text": "Apfel",
+      "nepali_text": "स्याउ",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 237,
+    "fields": {
+      "german_text": "Banane",
+      "nepali_text": "केरा",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 238,
+    "fields": {
+      "german_text": "Orange",
+      "nepali_text": "सुन्तला",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 239,
+    "fields": {
+      "german_text": "groß",
+      "nepali_text": "ठूलो",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 240,
+    "fields": {
+      "german_text": "klein",
+      "nepali_text": "सानो",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 241,
+    "fields": {
+      "german_text": "gut",
+      "nepali_text": "राम्रो",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 242,
+    "fields": {
+      "german_text": "schlecht",
+      "nepali_text": "नराम्रो",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 243,
+    "fields": {
+      "german_text": "neu",
+      "nepali_text": "नयाँ",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 244,
+    "fields": {
+      "german_text": "alt",
+      "nepali_text": "पुरानो",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 245,
+    "fields": {
+      "german_text": "jung",
+      "nepali_text": "जवान",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 246,
+    "fields": {
+      "german_text": "schön",
+      "nepali_text": "सुन्दर",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 247,
+    "fields": {
+      "german_text": "schnell",
+      "nepali_text": "छिटो",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 248,
+    "fields": {
+      "german_text": "langsam",
+      "nepali_text": "बिस्तारै",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 249,
+    "fields": {
+      "german_text": "hoch",
+      "nepali_text": "अग्लो",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 250,
+    "fields": {
+      "german_text": "tief",
+      "nepali_text": "गहिरो",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 251,
+    "fields": {
+      "german_text": "lang",
+      "nepali_text": "लामो",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 252,
+    "fields": {
+      "german_text": "kurz",
+      "nepali_text": "छोटो",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 253,
+    "fields": {
+      "german_text": "breit",
+      "nepali_text": "चौडा",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 254,
+    "fields": {
+      "german_text": "eng",
+      "nepali_text": "साँघुरो",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 255,
+    "fields": {
+      "german_text": "schwer",
+      "nepali_text": "गह्रौं / भारी",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 256,
+    "fields": {
+      "german_text": "leicht",
+      "nepali_text": "हल्का / सजिलो",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 257,
+    "fields": {
+      "german_text": "stark",
+      "nepali_text": "बलियो",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 258,
+    "fields": {
+      "german_text": "schwach",
+      "nepali_text": "कमजोर",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 259,
+    "fields": {
+      "german_text": "warm",
+      "nepali_text": "न्यानो",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 260,
+    "fields": {
+      "german_text": "kalt",
+      "nepali_text": "चिसो",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 261,
+    "fields": {
+      "german_text": "heiß",
+      "nepali_text": "तातो",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 262,
+    "fields": {
+      "german_text": "dunkel",
+      "nepali_text": "अँध्यारो",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 263,
+    "fields": {
+      "german_text": "hell",
+      "nepali_text": "उज्यालो",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 264,
+    "fields": {
+      "german_text": "richtig",
+      "nepali_text": "सही",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 265,
+    "fields": {
+      "german_text": "falsch",
+      "nepali_text": "गलत",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 266,
+    "fields": {
+      "german_text": "wichtig",
+      "nepali_text": "महत्त्वपूर्ण",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 267,
+    "fields": {
+      "german_text": "möglich",
+      "nepali_text": "सम्भव",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 268,
+    "fields": {
+      "german_text": "einfach",
+      "nepali_text": "सजिलो",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 269,
+    "fields": {
+      "german_text": "schwierig",
+      "nepali_text": "कठिन",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 270,
+    "fields": {
+      "german_text": "frei",
+      "nepali_text": "स्वतन्त्र / खाली",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 271,
+    "fields": {
+      "german_text": "offen",
+      "nepali_text": "खुला",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 272,
+    "fields": {
+      "german_text": "sicher",
+      "nepali_text": "सुरक्षित",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 273,
+    "fields": {
+      "german_text": "klar",
+      "nepali_text": "स्पष्ट",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 274,
+    "fields": {
+      "german_text": "genau",
+      "nepali_text": "ठीक / सही",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 275,
+    "fields": {
+      "german_text": "laut",
+      "nepali_text": "ठूलो आवाज",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 276,
+    "fields": {
+      "german_text": "leise",
+      "nepali_text": "सानो आवाज",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 277,
+    "fields": {
+      "german_text": "voll",
+      "nepali_text": "भरिएको",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 278,
+    "fields": {
+      "german_text": "leer",
+      "nepali_text": "खाली",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 279,
+    "fields": {
+      "german_text": "reich",
+      "nepali_text": "धनी",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 280,
+    "fields": {
+      "german_text": "arm",
+      "nepali_text": "गरिब",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 281,
+    "fields": {
+      "german_text": "glücklich",
+      "nepali_text": "खुसी",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 282,
+    "fields": {
+      "german_text": "traurig",
+      "nepali_text": "दुखी",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 283,
+    "fields": {
+      "german_text": "müde",
+      "nepali_text": "थकित",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 284,
+    "fields": {
+      "german_text": "hungrig",
+      "nepali_text": "भोकाएको",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 285,
+    "fields": {
+      "german_text": "durstig",
+      "nepali_text": "तिर्खाएको",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 286,
+    "fields": {
+      "german_text": "krank",
+      "nepali_text": "बिरामी",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 287,
+    "fields": {
+      "german_text": "gesund",
+      "nepali_text": "स्वस्थ",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 288,
+    "fields": {
+      "german_text": "rot",
+      "nepali_text": "रातो",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 289,
+    "fields": {
+      "german_text": "blau",
+      "nepali_text": "नीलो",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 290,
+    "fields": {
+      "german_text": "grün",
+      "nepali_text": "हरियो",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 291,
+    "fields": {
+      "german_text": "gelb",
+      "nepali_text": "पहेंलो",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 292,
+    "fields": {
+      "german_text": "weiß",
+      "nepali_text": "सेतो",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 293,
+    "fields": {
+      "german_text": "schwarz",
+      "nepali_text": "कालो",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 294,
+    "fields": {
+      "german_text": "Farbe",
+      "nepali_text": "रंग",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 295,
+    "fields": {
+      "german_text": "Zahl",
+      "nepali_text": "संख्या",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 296,
+    "fields": {
+      "german_text": "eins",
+      "nepali_text": "एक",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 297,
+    "fields": {
+      "german_text": "zwei",
+      "nepali_text": "दुई",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 298,
+    "fields": {
+      "german_text": "drei",
+      "nepali_text": "तीन",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 299,
+    "fields": {
+      "german_text": "vier",
+      "nepali_text": "चार",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 300,
+    "fields": {
+      "german_text": "fünf",
+      "nepali_text": "पाँच",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 301,
+    "fields": {
+      "german_text": "sechs",
+      "nepali_text": "छ",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 302,
+    "fields": {
+      "german_text": "sieben",
+      "nepali_text": "सात",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 303,
+    "fields": {
+      "german_text": "acht",
+      "nepali_text": "आठ",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 304,
+    "fields": {
+      "german_text": "neun",
+      "nepali_text": "नौ",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 305,
+    "fields": {
+      "german_text": "zehn",
+      "nepali_text": "दस",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 306,
+    "fields": {
+      "german_text": "hundert",
+      "nepali_text": "सय",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 307,
+    "fields": {
+      "german_text": "tausend",
+      "nepali_text": "हजार",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 308,
+    "fields": {
+      "german_text": "Montag",
+      "nepali_text": "सोमबार",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 309,
+    "fields": {
+      "german_text": "Dienstag",
+      "nepali_text": "मंगलबार",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 310,
+    "fields": {
+      "german_text": "Mittwoch",
+      "nepali_text": "बुधबार",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 311,
+    "fields": {
+      "german_text": "Donnerstag",
+      "nepali_text": "बिहीबार",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 312,
+    "fields": {
+      "german_text": "Freitag",
+      "nepali_text": "शुक्रबार",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 313,
+    "fields": {
+      "german_text": "Samstag",
+      "nepali_text": "शनिबार",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 314,
+    "fields": {
+      "german_text": "Sonntag",
+      "nepali_text": "आइतबार",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 315,
+    "fields": {
+      "german_text": "Januar",
+      "nepali_text": "जनवरी",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 316,
+    "fields": {
+      "german_text": "Februar",
+      "nepali_text": "फेब्रुअरी",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 317,
+    "fields": {
+      "german_text": "März",
+      "nepali_text": "मार्च",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 318,
+    "fields": {
+      "german_text": "April",
+      "nepali_text": "अप्रिल",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 319,
+    "fields": {
+      "german_text": "Mai",
+      "nepali_text": "मे",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 320,
+    "fields": {
+      "german_text": "Juni",
+      "nepali_text": "जुन",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 321,
+    "fields": {
+      "german_text": "Juli",
+      "nepali_text": "जुलाई",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 322,
+    "fields": {
+      "german_text": "August",
+      "nepali_text": "अगस्ट",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 323,
+    "fields": {
+      "german_text": "September",
+      "nepali_text": "सेप्टेम्बर",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 324,
+    "fields": {
+      "german_text": "Oktober",
+      "nepali_text": "अक्टोबर",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 325,
+    "fields": {
+      "german_text": "November",
+      "nepali_text": "नोभेम्बर",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 326,
+    "fields": {
+      "german_text": "Dezember",
+      "nepali_text": "डिसेम्बर",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 327,
+    "fields": {
+      "german_text": "Frühling",
+      "nepali_text": "बसन्त",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 328,
+    "fields": {
+      "german_text": "Sommer",
+      "nepali_text": "गर्मी",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 329,
+    "fields": {
+      "german_text": "Herbst",
+      "nepali_text": "शरद",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 330,
+    "fields": {
+      "german_text": "Winter",
+      "nepali_text": "जाडो",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 331,
+    "fields": {
+      "german_text": "Sonne",
+      "nepali_text": "सूर्य / घाम",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 332,
+    "fields": {
+      "german_text": "Mond",
+      "nepali_text": "चन्द्रमा",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 333,
+    "fields": {
+      "german_text": "Stern",
+      "nepali_text": "तारा",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 334,
+    "fields": {
+      "german_text": "Himmel",
+      "nepali_text": "आकाश",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 335,
+    "fields": {
+      "german_text": "Wolke",
+      "nepali_text": "बादल",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 336,
+    "fields": {
+      "german_text": "Regen",
+      "nepali_text": "वर्षा",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 337,
+    "fields": {
+      "german_text": "Schnee",
+      "nepali_text": "हिउँ",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 338,
+    "fields": {
+      "german_text": "Wind",
+      "nepali_text": "हावा",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 339,
+    "fields": {
+      "german_text": "Feuer",
+      "nepali_text": "आगो",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 340,
+    "fields": {
+      "german_text": "Erde",
+      "nepali_text": "पृथ्वी",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 341,
+    "fields": {
+      "german_text": "Berg",
+      "nepali_text": "पहाड",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 342,
+    "fields": {
+      "german_text": "Fluss",
+      "nepali_text": "नदी",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 343,
+    "fields": {
+      "german_text": "See",
+      "nepali_text": "ताल",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 344,
+    "fields": {
+      "german_text": "Meer",
+      "nepali_text": "समुद्र",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 345,
+    "fields": {
+      "german_text": "Wald",
+      "nepali_text": "जंगल",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 346,
+    "fields": {
+      "german_text": "Baum",
+      "nepali_text": "रूख",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 347,
+    "fields": {
+      "german_text": "Blume",
+      "nepali_text": "फूल",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 348,
+    "fields": {
+      "german_text": "Gras",
+      "nepali_text": "घाँस",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 349,
+    "fields": {
+      "german_text": "Garten",
+      "nepali_text": "बगैँचा",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 350,
+    "fields": {
+      "german_text": "Vogel",
+      "nepali_text": "चरा",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 351,
+    "fields": {
+      "german_text": "Hund",
+      "nepali_text": "कुकुर",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 352,
+    "fields": {
+      "german_text": "Katze",
+      "nepali_text": "बिरालो",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 353,
+    "fields": {
+      "german_text": "Pferd",
+      "nepali_text": "घोडा",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 354,
+    "fields": {
+      "german_text": "Kuh",
+      "nepali_text": "गाई",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 355,
+    "fields": {
+      "german_text": "Schwein",
+      "nepali_text": "सुँगुर",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 356,
+    "fields": {
+      "german_text": "Arzt",
+      "nepali_text": "डाक्टर",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 357,
+    "fields": {
+      "german_text": "Lehrer",
+      "nepali_text": "शिक्षक",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 358,
+    "fields": {
+      "german_text": "Schüler",
+      "nepali_text": "विद्यार्थी",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 359,
+    "fields": {
+      "german_text": "Polizei",
+      "nepali_text": "प्रहरी",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 360,
+    "fields": {
+      "german_text": "Kirche",
+      "nepali_text": "गिर्जाघर",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 361,
+    "fields": {
+      "german_text": "Markt",
+      "nepali_text": "बजार",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 362,
+    "fields": {
+      "german_text": "Laden",
+      "nepali_text": "पसल",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 363,
+    "fields": {
+      "german_text": "Restaurant",
+      "nepali_text": "भोजनालय",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 364,
+    "fields": {
+      "german_text": "Hotel",
+      "nepali_text": "होटल",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 365,
+    "fields": {
+      "german_text": "Krankenhaus",
+      "nepali_text": "अस्पताल",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 366,
+    "fields": {
+      "german_text": "Flughafen",
+      "nepali_text": "विमानस्थल",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 367,
+    "fields": {
+      "german_text": "Bahnhof",
+      "nepali_text": "रेलवे स्टेशन",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 368,
+    "fields": {
+      "german_text": "Bus",
+      "nepali_text": "बस",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 369,
+    "fields": {
+      "german_text": "Zug",
+      "nepali_text": "रेलगाडी",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 370,
+    "fields": {
+      "german_text": "Auto",
+      "nepali_text": "गाडी",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 371,
+    "fields": {
+      "german_text": "Fahrrad",
+      "nepali_text": "साइकल",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 372,
+    "fields": {
+      "german_text": "Flugzeug",
+      "nepali_text": "हवाइजहाज",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 373,
+    "fields": {
+      "german_text": "Schiff",
+      "nepali_text": "जहाज",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 374,
+    "fields": {
+      "german_text": "Brücke",
+      "nepali_text": "पुल",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 375,
+    "fields": {
+      "german_text": "kaufen",
+      "nepali_text": "किन्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 376,
+    "fields": {
+      "german_text": "verkaufen",
+      "nepali_text": "बेच्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 377,
+    "fields": {
+      "german_text": "zahlen",
+      "nepali_text": "तिर्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 378,
+    "fields": {
+      "german_text": "kosten",
+      "nepali_text": "मूल्य हुनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 379,
+    "fields": {
+      "german_text": "öffnen",
+      "nepali_text": "खोल्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 380,
+    "fields": {
+      "german_text": "schließen",
+      "nepali_text": "बन्द गर्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 381,
+    "fields": {
+      "german_text": "anfangen",
+      "nepali_text": "सुरु गर्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 382,
+    "fields": {
+      "german_text": "aufhören",
+      "nepali_text": "रोक्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 383,
+    "fields": {
+      "german_text": "vergessen",
+      "nepali_text": "बिर्सनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 384,
+    "fields": {
+      "german_text": "schlafen",
+      "nepali_text": "सुत्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 385,
+    "fields": {
+      "german_text": "aufwachen",
+      "nepali_text": "उठ्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 386,
+    "fields": {
+      "german_text": "essen",
+      "nepali_text": "खानु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 387,
+    "fields": {
+      "german_text": "trinken",
+      "nepali_text": "पिउनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 388,
+    "fields": {
+      "german_text": "kochen",
+      "nepali_text": "पकाउनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 389,
+    "fields": {
+      "german_text": "waschen",
+      "nepali_text": "धुनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 390,
+    "fields": {
+      "german_text": "putzen",
+      "nepali_text": "सफा गर्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 391,
+    "fields": {
+      "german_text": "tragen",
+      "nepali_text": "लगाउनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 392,
+    "fields": {
+      "german_text": "anziehen",
+      "nepali_text": "लुगा लगाउनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 393,
+    "fields": {
+      "german_text": "ausziehen",
+      "nepali_text": "लुगा फुकाल्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 394,
+    "fields": {
+      "german_text": "singen",
+      "nepali_text": "गाउनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 395,
+    "fields": {
+      "german_text": "tanzen",
+      "nepali_text": "नाच्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 396,
+    "fields": {
+      "german_text": "lachen",
+      "nepali_text": "हाँस्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 397,
+    "fields": {
+      "german_text": "weinen",
+      "nepali_text": "रुनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 398,
+    "fields": {
+      "german_text": "lieben",
+      "nepali_text": "माया गर्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 399,
+    "fields": {
+      "german_text": "hassen",
+      "nepali_text": "घृणा गर्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 400,
+    "fields": {
+      "german_text": "danken",
+      "nepali_text": "धन्यवाद दिनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 401,
+    "fields": {
+      "german_text": "bitten",
+      "nepali_text": "अनुरोध गर्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 402,
+    "fields": {
+      "german_text": "sprechen",
+      "nepali_text": "बोल्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 403,
+    "fields": {
+      "german_text": "hören",
+      "nepali_text": "सुन्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 404,
+    "fields": {
+      "german_text": "rufen",
+      "nepali_text": "बोलाउनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 405,
+    "fields": {
+      "german_text": "zeigen",
+      "nepali_text": "देखाउनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 406,
+    "fields": {
+      "german_text": "geben",
+      "nepali_text": "दिनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 407,
+    "fields": {
+      "german_text": "nehmen",
+      "nepali_text": "लिनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 408,
+    "fields": {
+      "german_text": "werfen",
+      "nepali_text": "फ्याँक्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 409,
+    "fields": {
+      "german_text": "fangen",
+      "nepali_text": "समात्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 410,
+    "fields": {
+      "german_text": "schneiden",
+      "nepali_text": "काट्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 411,
+    "fields": {
+      "german_text": "bauen",
+      "nepali_text": "बनाउनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 412,
+    "fields": {
+      "german_text": "reparieren",
+      "nepali_text": "मर्मत गर्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 413,
+    "fields": {
+      "german_text": "ändern",
+      "nepali_text": "परिवर्तन गर्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 414,
+    "fields": {
+      "german_text": "benutzen",
+      "nepali_text": "प्रयोग गर्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 415,
+    "fields": {
+      "german_text": "versuchen",
+      "nepali_text": "प्रयास गर्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 416,
+    "fields": {
+      "german_text": "wünschen",
+      "nepali_text": "चाहनु / शुभकामना दिनु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 417,
+    "fields": {
+      "german_text": "hoffen",
+      "nepali_text": "आशा गर्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 418,
+    "fields": {
+      "german_text": "glauben",
+      "nepali_text": "विश्वास गर्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 419,
+    "fields": {
+      "german_text": "wählen",
+      "nepali_text": "छान्नु / चुन्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 420,
+    "fields": {
+      "german_text": "entscheiden",
+      "nepali_text": "निर्णय गर्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 421,
+    "fields": {
+      "german_text": "beginnen",
+      "nepali_text": "सुरु गर्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 422,
+    "fields": {
+      "german_text": "beenden",
+      "nepali_text": "समाप्त गर्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 423,
+    "fields": {
+      "german_text": "gewinnen",
+      "nepali_text": "जित्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 424,
+    "fields": {
+      "german_text": "verlieren",
+      "nepali_text": "हार्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 425,
+    "fields": {
+      "german_text": "kämpfen",
+      "nepali_text": "लड्नु",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 426,
+    "fields": {
+      "german_text": "Preis",
+      "nepali_text": "मूल्य / पुरस्कार",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 427,
+    "fields": {
+      "german_text": "Prozent",
+      "nepali_text": "प्रतिशत",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 428,
+    "fields": {
+      "german_text": "Nummer",
+      "nepali_text": "नम्बर",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 429,
+    "fields": {
+      "german_text": "Gruppe",
+      "nepali_text": "समूह",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 430,
+    "fields": {
+      "german_text": "Ergebnis",
+      "nepali_text": "परिणाम",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 431,
+    "fields": {
+      "german_text": "Form",
+      "nepali_text": "रूप / आकार",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 432,
+    "fields": {
+      "german_text": "System",
+      "nepali_text": "प्रणाली",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 433,
+    "fields": {
+      "german_text": "Gesellschaft",
+      "nepali_text": "समाज",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 434,
+    "fields": {
+      "german_text": "Politik",
+      "nepali_text": "राजनीति",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 435,
+    "fields": {
+      "german_text": "Regierung",
+      "nepali_text": "सरकार",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 436,
+    "fields": {
+      "german_text": "Gesetz",
+      "nepali_text": "कानून",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 437,
+    "fields": {
+      "german_text": "Partei",
+      "nepali_text": "पार्टी / दल",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 438,
+    "fields": {
+      "german_text": "Zeitung",
+      "nepali_text": "पत्रिका",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 439,
+    "fields": {
+      "german_text": "Programm",
+      "nepali_text": "कार्यक्रम",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 440,
+    "fields": {
+      "german_text": "Universität",
+      "nepali_text": "विश्वविद्यालय",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 441,
+    "fields": {
+      "german_text": "Wirtschaft",
+      "nepali_text": "अर्थतन्त्र",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 442,
+    "fields": {
+      "german_text": "Unternehmen",
+      "nepali_text": "उद्यम / कम्पनी",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 443,
+    "fields": {
+      "german_text": "Recht",
+      "nepali_text": "अधिकार / कानून",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 444,
+    "fields": {
+      "german_text": "Entwicklung",
+      "nepali_text": "विकास",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 445,
+    "fields": {
+      "german_text": "Bereich",
+      "nepali_text": "क्षेत्र",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 446,
+    "fields": {
+      "german_text": "Minute",
+      "nepali_text": "मिनेट",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 447,
+    "fields": {
+      "german_text": "Uhr",
+      "nepali_text": "घडी / बजे",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 448,
+    "fields": {
+      "german_text": "Mal",
+      "nepali_text": "पटक",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 449,
+    "fields": {
+      "german_text": "Euro",
+      "nepali_text": "यूरो",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 450,
+    "fields": {
+      "german_text": "Kilometer",
+      "nepali_text": "किलोमिटर",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 451,
+    "fields": {
+      "german_text": "Meter",
+      "nepali_text": "मिटर",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 452,
+    "fields": {
+      "german_text": "Prozess",
+      "nepali_text": "प्रक्रिया",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 453,
+    "fields": {
+      "german_text": "Krieg",
+      "nepali_text": "युद्ध",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 454,
+    "fields": {
+      "german_text": "Frieden",
+      "nepali_text": "शान्ति",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 455,
+    "fields": {
+      "german_text": "Kultur",
+      "nepali_text": "संस्कृति",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 456,
+    "fields": {
+      "german_text": "Kunst",
+      "nepali_text": "कला",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 457,
+    "fields": {
+      "german_text": "Film",
+      "nepali_text": "चलचित्र",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 458,
+    "fields": {
+      "german_text": "Spiel",
+      "nepali_text": "खेल",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 459,
+    "fields": {
+      "german_text": "Sport",
+      "nepali_text": "खेलकुद",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 460,
+    "fields": {
+      "german_text": "Mannschaft",
+      "nepali_text": "टोली",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 461,
+    "fields": {
+      "german_text": "Körper",
+      "nepali_text": "शरीर",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 462,
+    "fields": {
+      "german_text": "Gesicht",
+      "nepali_text": "अनुहार",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 463,
+    "fields": {
+      "german_text": "Mund",
+      "nepali_text": "मुख",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 464,
+    "fields": {
+      "german_text": "Nase",
+      "nepali_text": "नाक",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 465,
+    "fields": {
+      "german_text": "Ohr",
+      "nepali_text": "कान",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 466,
+    "fields": {
+      "german_text": "Haar",
+      "nepali_text": "कपाल",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 467,
+    "fields": {
+      "german_text": "Finger",
+      "nepali_text": "औंला",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 468,
+    "fields": {
+      "german_text": "Fuß",
+      "nepali_text": "खुट्टा",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 469,
+    "fields": {
+      "german_text": "Bein",
+      "nepali_text": "खुट्टा (गोडा)",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 470,
+    "fields": {
+      "german_text": "Arm",
+      "nepali_text": "हात (पाखुरा)",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 471,
+    "fields": {
+      "german_text": "Rücken",
+      "nepali_text": "पिठ्यूँ",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 472,
+    "fields": {
+      "german_text": "Zahn",
+      "nepali_text": "दाँत",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 473,
+    "fields": {
+      "german_text": "Blut",
+      "nepali_text": "रगत",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 474,
+    "fields": {
+      "german_text": "Haut",
+      "nepali_text": "छाला",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 475,
+    "fields": {
+      "german_text": "Kleid",
+      "nepali_text": "लुगा",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 476,
+    "fields": {
+      "german_text": "Hemd",
+      "nepali_text": "सर्ट",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 477,
+    "fields": {
+      "german_text": "Hose",
+      "nepali_text": "पाइन्ट",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 478,
+    "fields": {
+      "german_text": "Schuh",
+      "nepali_text": "जुत्ता",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 479,
+    "fields": {
+      "german_text": "Jacke",
+      "nepali_text": "ज्याकेट",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 480,
+    "fields": {
+      "german_text": "Hut",
+      "nepali_text": "टोपी",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 481,
+    "fields": {
+      "german_text": "Tasche",
+      "nepali_text": "झोला",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 482,
+    "fields": {
+      "german_text": "Schlüssel",
+      "nepali_text": "चाबी",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 483,
+    "fields": {
+      "german_text": "Telefon",
+      "nepali_text": "टेलिफोन",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 484,
+    "fields": {
+      "german_text": "Computer",
+      "nepali_text": "कम्प्युटर",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 485,
+    "fields": {
+      "german_text": "Internet",
+      "nepali_text": "इन्टरनेट",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 486,
+    "fields": {
+      "german_text": "Brief",
+      "nepali_text": "पत्र",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 487,
+    "fields": {
+      "german_text": "Nachricht",
+      "nepali_text": "समाचार / सन्देश",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 488,
+    "fields": {
+      "german_text": "Idee",
+      "nepali_text": "विचार",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 489,
+    "fields": {
+      "german_text": "Meinung",
+      "nepali_text": "मत / विचार",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 490,
+    "fields": {
+      "german_text": "Wahrheit",
+      "nepali_text": "सत्य",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 491,
+    "fields": {
+      "german_text": "Freiheit",
+      "nepali_text": "स्वतन्त्रता",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 492,
+    "fields": {
+      "german_text": "Sicherheit",
+      "nepali_text": "सुरक्षा",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 493,
+    "fields": {
+      "german_text": "Kraft",
+      "nepali_text": "बल / शक्ति",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 494,
+    "fields": {
+      "german_text": "Erfolg",
+      "nepali_text": "सफलता",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 495,
+    "fields": {
+      "german_text": "Fehler",
+      "nepali_text": "गल्ती",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 496,
+    "fields": {
+      "german_text": "Zukunft",
+      "nepali_text": "भविष्य",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 497,
+    "fields": {
+      "german_text": "Vergangenheit",
+      "nepali_text": "भूतकाल",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 498,
+    "fields": {
+      "german_text": "Gegenwart",
+      "nepali_text": "वर्तमान",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 499,
+    "fields": {
+      "german_text": "Chance",
+      "nepali_text": "अवसर",
+      "status": "New"
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 500,
+    "fields": {
+      "german_text": "Gefahr",
+      "nepali_text": "खतरा",
+      "status": "New"
+    }
+  }
+]
