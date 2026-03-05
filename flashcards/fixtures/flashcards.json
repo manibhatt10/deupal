@@ -5,7 +5,8 @@
     "fields": {
       "german_text": "ich",
       "nepali_text": "म",
-      "status": "New"
+      "status": "New",
+      "english_text": "I"
     }
   },
   {
@@ -14,7 +15,8 @@
     "fields": {
       "german_text": "du",
       "nepali_text": "तिमी",
-      "status": "New"
+      "status": "New",
+      "english_text": "you (informal)"
     }
   },
   {
@@ -23,7 +25,8 @@
     "fields": {
       "german_text": "er",
       "nepali_text": "ऊ (पुल्लिंग)",
-      "status": "New"
+      "status": "New",
+      "english_text": "he"
     }
   },
   {
@@ -32,7 +35,8 @@
     "fields": {
       "german_text": "sie",
       "nepali_text": "उनी / तिनीहरू",
-      "status": "New"
+      "status": "New",
+      "english_text": "she / they"
     }
   },
   {
@@ -41,7 +45,8 @@
     "fields": {
       "german_text": "es",
       "nepali_text": "यो (नपुंसक)",
-      "status": "New"
+      "status": "New",
+      "english_text": "it"
     }
   },
   {
@@ -50,7 +55,8 @@
     "fields": {
       "german_text": "wir",
       "nepali_text": "हामी",
-      "status": "New"
+      "status": "New",
+      "english_text": "we"
     }
   },
   {
@@ -59,7 +65,8 @@
     "fields": {
       "german_text": "ihr",
       "nepali_text": "तिमीहरू",
-      "status": "New"
+      "status": "New",
+      "english_text": "you (plural)"
     }
   },
   {
@@ -68,7 +75,8 @@
     "fields": {
       "german_text": "sein",
       "nepali_text": "हुनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to be"
     }
   },
   {
@@ -77,7 +85,8 @@
     "fields": {
       "german_text": "haben",
       "nepali_text": "हुनु (साथमा)",
-      "status": "New"
+      "status": "New",
+      "english_text": "to have"
     }
   },
   {
@@ -86,7 +95,8 @@
     "fields": {
       "german_text": "werden",
       "nepali_text": "हुनु (भविष्य)",
-      "status": "New"
+      "status": "New",
+      "english_text": "to become"
     }
   },
   {
@@ -95,7 +105,8 @@
     "fields": {
       "german_text": "können",
       "nepali_text": "सक्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "can / to be able to"
     }
   },
   {
@@ -104,7 +115,8 @@
     "fields": {
       "german_text": "müssen",
       "nepali_text": "गर्नुपर्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "must / to have to"
     }
   },
   {
@@ -113,7 +125,8 @@
     "fields": {
       "german_text": "sagen",
       "nepali_text": "भन्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to say"
     }
   },
   {
@@ -122,7 +135,8 @@
     "fields": {
       "german_text": "machen",
       "nepali_text": "गर्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to make / to do"
     }
   },
   {
@@ -131,7 +145,8 @@
     "fields": {
       "german_text": "geben",
       "nepali_text": "दिनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to give"
     }
   },
   {
@@ -140,7 +155,8 @@
     "fields": {
       "german_text": "kommen",
       "nepali_text": "आउनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to come"
     }
   },
   {
@@ -149,7 +165,8 @@
     "fields": {
       "german_text": "wollen",
       "nepali_text": "चाहनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to want"
     }
   },
   {
@@ -158,7 +175,8 @@
     "fields": {
       "german_text": "gehen",
       "nepali_text": "जानु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to go"
     }
   },
   {
@@ -167,7 +185,8 @@
     "fields": {
       "german_text": "wissen",
       "nepali_text": "थाहा हुनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to know (a fact)"
     }
   },
   {
@@ -176,7 +195,8 @@
     "fields": {
       "german_text": "sehen",
       "nepali_text": "हेर्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to see"
     }
   },
   {
@@ -185,7 +205,8 @@
     "fields": {
       "german_text": "lassen",
       "nepali_text": "छोड्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to let / to leave"
     }
   },
   {
@@ -194,7 +215,8 @@
     "fields": {
       "german_text": "stehen",
       "nepali_text": "उभिनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to stand"
     }
   },
   {
@@ -203,7 +225,8 @@
     "fields": {
       "german_text": "finden",
       "nepali_text": "फेला पार्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to find"
     }
   },
   {
@@ -212,7 +235,8 @@
     "fields": {
       "german_text": "bleiben",
       "nepali_text": "बस्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to stay / to remain"
     }
   },
   {
@@ -221,7 +245,8 @@
     "fields": {
       "german_text": "liegen",
       "nepali_text": "पल्टिनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to lie (position)"
     }
   },
   {
@@ -230,7 +255,8 @@
     "fields": {
       "german_text": "heißen",
       "nepali_text": "नाम हुनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to be called"
     }
   },
   {
@@ -239,7 +265,8 @@
     "fields": {
       "german_text": "denken",
       "nepali_text": "सोच्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to think"
     }
   },
   {
@@ -248,7 +275,8 @@
     "fields": {
       "german_text": "nehmen",
       "nepali_text": "लिनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to take"
     }
   },
   {
@@ -257,7 +285,8 @@
     "fields": {
       "german_text": "halten",
       "nepali_text": "समात्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to hold / to stop"
     }
   },
   {
@@ -266,7 +295,8 @@
     "fields": {
       "german_text": "bringen",
       "nepali_text": "ल्याउनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to bring"
     }
   },
   {
@@ -275,7 +305,8 @@
     "fields": {
       "german_text": "leben",
       "nepali_text": "बाँच्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to live"
     }
   },
   {
@@ -284,7 +315,8 @@
     "fields": {
       "german_text": "fahren",
       "nepali_text": "चलाउनु / यात्रा गर्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to drive / to travel"
     }
   },
   {
@@ -293,7 +325,8 @@
     "fields": {
       "german_text": "meinen",
       "nepali_text": "बुझाउनु / सोच्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to mean / to think"
     }
   },
   {
@@ -302,7 +335,8 @@
     "fields": {
       "german_text": "fragen",
       "nepali_text": "सोध्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to ask"
     }
   },
   {
@@ -311,7 +345,8 @@
     "fields": {
       "german_text": "kennen",
       "nepali_text": "चिन्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to know (someone)"
     }
   },
   {
@@ -320,7 +355,8 @@
     "fields": {
       "german_text": "gelten",
       "nepali_text": "लागू हुनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to be valid / to apply"
     }
   },
   {
@@ -329,7 +365,8 @@
     "fields": {
       "german_text": "stellen",
       "nepali_text": "राख्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to put / to place"
     }
   },
   {
@@ -338,7 +375,8 @@
     "fields": {
       "german_text": "spielen",
       "nepali_text": "खेल्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to play"
     }
   },
   {
@@ -347,7 +385,8 @@
     "fields": {
       "german_text": "arbeiten",
       "nepali_text": "काम गर्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to work"
     }
   },
   {
@@ -356,7 +395,8 @@
     "fields": {
       "german_text": "brauchen",
       "nepali_text": "चाहिनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to need"
     }
   },
   {
@@ -365,7 +405,8 @@
     "fields": {
       "german_text": "folgen",
       "nepali_text": "पछ्याउनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to follow"
     }
   },
   {
@@ -374,7 +415,8 @@
     "fields": {
       "german_text": "lernen",
       "nepali_text": "सिक्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to learn"
     }
   },
   {
@@ -383,7 +425,8 @@
     "fields": {
       "german_text": "bestehen",
       "nepali_text": "अवस्थित हुनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to exist / to pass"
     }
   },
   {
@@ -392,7 +435,8 @@
     "fields": {
       "german_text": "verstehen",
       "nepali_text": "बुझ्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to understand"
     }
   },
   {
@@ -401,7 +445,8 @@
     "fields": {
       "german_text": "setzen",
       "nepali_text": "बसाल्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to set / to sit down"
     }
   },
   {
@@ -410,7 +455,8 @@
     "fields": {
       "german_text": "bekommen",
       "nepali_text": "पाउनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to receive / to get"
     }
   },
   {
@@ -419,7 +465,8 @@
     "fields": {
       "german_text": "beginnen",
       "nepali_text": "सुरु गर्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to begin"
     }
   },
   {
@@ -428,7 +475,8 @@
     "fields": {
       "german_text": "erzählen",
       "nepali_text": "कथा भन्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to tell / to narrate"
     }
   },
   {
@@ -437,7 +485,8 @@
     "fields": {
       "german_text": "versuchen",
       "nepali_text": "प्रयास गर्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to try"
     }
   },
   {
@@ -446,7 +495,8 @@
     "fields": {
       "german_text": "schreiben",
       "nepali_text": "लेख्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to write"
     }
   },
   {
@@ -455,7 +505,8 @@
     "fields": {
       "german_text": "laufen",
       "nepali_text": "दौडिनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to run / to walk"
     }
   },
   {
@@ -464,7 +515,8 @@
     "fields": {
       "german_text": "erklären",
       "nepali_text": "व्याख्या गर्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to explain"
     }
   },
   {
@@ -473,7 +525,8 @@
     "fields": {
       "german_text": "entsprechen",
       "nepali_text": "मेल खानु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to correspond"
     }
   },
   {
@@ -482,7 +535,8 @@
     "fields": {
       "german_text": "sitzen",
       "nepali_text": "बस्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to sit"
     }
   },
   {
@@ -491,7 +545,8 @@
     "fields": {
       "german_text": "ziehen",
       "nepali_text": "तान्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to pull / to move"
     }
   },
   {
@@ -500,7 +555,8 @@
     "fields": {
       "german_text": "scheinen",
       "nepali_text": "देखिनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to seem / to shine"
     }
   },
   {
@@ -509,7 +565,8 @@
     "fields": {
       "german_text": "fallen",
       "nepali_text": "खस्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to fall"
     }
   },
   {
@@ -518,7 +575,8 @@
     "fields": {
       "german_text": "gehören",
       "nepali_text": "सम्बन्धित हुनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to belong"
     }
   },
   {
@@ -527,7 +585,8 @@
     "fields": {
       "german_text": "entstehen",
       "nepali_text": "उत्पन्न हुनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to arise / to emerge"
     }
   },
   {
@@ -536,7 +595,8 @@
     "fields": {
       "german_text": "erhalten",
       "nepali_text": "प्राप्त गर्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to receive / to maintain"
     }
   },
   {
@@ -545,7 +605,8 @@
     "fields": {
       "german_text": "treffen",
       "nepali_text": "भेट्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to meet / to hit"
     }
   },
   {
@@ -554,7 +615,8 @@
     "fields": {
       "german_text": "suchen",
       "nepali_text": "खोज्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to search / to look for"
     }
   },
   {
@@ -563,7 +625,8 @@
     "fields": {
       "german_text": "legen",
       "nepali_text": "राख्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to lay / to put"
     }
   },
   {
@@ -572,7 +635,8 @@
     "fields": {
       "german_text": "vorstellen",
       "nepali_text": "परिचय दिनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to introduce / to imagine"
     }
   },
   {
@@ -581,7 +645,8 @@
     "fields": {
       "german_text": "handeln",
       "nepali_text": "व्यापार गर्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to act / to trade"
     }
   },
   {
@@ -590,7 +655,8 @@
     "fields": {
       "german_text": "erreichen",
       "nepali_text": "पुग्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to reach / to achieve"
     }
   },
   {
@@ -599,7 +665,8 @@
     "fields": {
       "german_text": "tragen",
       "nepali_text": "बोक्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to carry / to wear"
     }
   },
   {
@@ -608,7 +675,8 @@
     "fields": {
       "german_text": "schaffen",
       "nepali_text": "सिर्जना गर्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to create / to manage"
     }
   },
   {
@@ -617,7 +685,8 @@
     "fields": {
       "german_text": "lesen",
       "nepali_text": "पढ्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to read"
     }
   },
   {
@@ -626,7 +695,8 @@
     "fields": {
       "german_text": "verlieren",
       "nepali_text": "हराउनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to lose"
     }
   },
   {
@@ -635,7 +705,8 @@
     "fields": {
       "german_text": "darstellen",
       "nepali_text": "प्रस्तुत गर्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to represent / to portray"
     }
   },
   {
@@ -644,7 +715,8 @@
     "fields": {
       "german_text": "erkennen",
       "nepali_text": "चिन्नु / पहिचान गर्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to recognize"
     }
   },
   {
@@ -653,7 +725,8 @@
     "fields": {
       "german_text": "entwickeln",
       "nepali_text": "विकास गर्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to develop"
     }
   },
   {
@@ -662,7 +735,8 @@
     "fields": {
       "german_text": "reden",
       "nepali_text": "कुरा गर्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to talk / to speak"
     }
   },
   {
@@ -671,7 +745,8 @@
     "fields": {
       "german_text": "aussehen",
       "nepali_text": "देखिनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to look / to appear"
     }
   },
   {
@@ -680,7 +755,8 @@
     "fields": {
       "german_text": "erscheinen",
       "nepali_text": "प्रकट हुनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to appear / to seem"
     }
   },
   {
@@ -689,7 +765,8 @@
     "fields": {
       "german_text": "bilden",
       "nepali_text": "बनाउनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to form / to educate"
     }
   },
   {
@@ -698,7 +775,8 @@
     "fields": {
       "german_text": "anfangen",
       "nepali_text": "सुरु गर्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to start / to begin"
     }
   },
   {
@@ -707,7 +785,8 @@
     "fields": {
       "german_text": "erwarten",
       "nepali_text": "आशा गर्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to expect"
     }
   },
   {
@@ -716,7 +795,8 @@
     "fields": {
       "german_text": "wohnen",
       "nepali_text": "बस्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to live / to reside"
     }
   },
   {
@@ -725,7 +805,8 @@
     "fields": {
       "german_text": "betreffen",
       "nepali_text": "सम्बन्धित हुनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to concern / to affect"
     }
   },
   {
@@ -734,7 +815,8 @@
     "fields": {
       "german_text": "warten",
       "nepali_text": "पर्खनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to wait"
     }
   },
   {
@@ -743,7 +825,8 @@
     "fields": {
       "german_text": "vergehen",
       "nepali_text": "बित्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to pass (time)"
     }
   },
   {
@@ -752,7 +835,8 @@
     "fields": {
       "german_text": "helfen",
       "nepali_text": "मद्दत गर्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to help"
     }
   },
   {
@@ -761,7 +845,8 @@
     "fields": {
       "german_text": "gewinnen",
       "nepali_text": "जित्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to win"
     }
   },
   {
@@ -770,7 +855,8 @@
     "fields": {
       "german_text": "schließen",
       "nepali_text": "बन्द गर्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to close / to conclude"
     }
   },
   {
@@ -779,7 +865,8 @@
     "fields": {
       "german_text": "fühlen",
       "nepali_text": "महसुस गर्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to feel"
     }
   },
   {
@@ -788,7 +875,8 @@
     "fields": {
       "german_text": "bieten",
       "nepali_text": "प्रस्ताव गर्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to offer"
     }
   },
   {
@@ -797,7 +885,8 @@
     "fields": {
       "german_text": "interessieren",
       "nepali_text": "रुचि राख्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to interest"
     }
   },
   {
@@ -806,7 +895,8 @@
     "fields": {
       "german_text": "erinnern",
       "nepali_text": "सम्झनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to remember / to remind"
     }
   },
   {
@@ -815,7 +905,8 @@
     "fields": {
       "german_text": "ergeben",
       "nepali_text": "परिणाम दिनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to result / to yield"
     }
   },
   {
@@ -824,7 +915,8 @@
     "fields": {
       "german_text": "anbieten",
       "nepali_text": "प्रस्ताव दिनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to offer"
     }
   },
   {
@@ -833,7 +925,8 @@
     "fields": {
       "german_text": "studieren",
       "nepali_text": "अध्ययन गर्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to study"
     }
   },
   {
@@ -842,7 +935,8 @@
     "fields": {
       "german_text": "verbinden",
       "nepali_text": "जोड्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to connect"
     }
   },
   {
@@ -851,7 +945,8 @@
     "fields": {
       "german_text": "ansehen",
       "nepali_text": "हेर्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to look at / to watch"
     }
   },
   {
@@ -860,7 +955,8 @@
     "fields": {
       "german_text": "fehlen",
       "nepali_text": "कमी हुनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to be missing / to lack"
     }
   },
   {
@@ -869,7 +965,8 @@
     "fields": {
       "german_text": "bedeuten",
       "nepali_text": "अर्थ हुनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to mean / to signify"
     }
   },
   {
@@ -878,7 +975,8 @@
     "fields": {
       "german_text": "vergleichen",
       "nepali_text": "तुलना गर्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to compare"
     }
   },
   {
@@ -887,7 +985,8 @@
     "fields": {
       "german_text": "und",
       "nepali_text": "र",
-      "status": "New"
+      "status": "New",
+      "english_text": "and"
     }
   },
   {
@@ -896,7 +995,8 @@
     "fields": {
       "german_text": "oder",
       "nepali_text": "वा",
-      "status": "New"
+      "status": "New",
+      "english_text": "or"
     }
   },
   {
@@ -905,7 +1005,8 @@
     "fields": {
       "german_text": "aber",
       "nepali_text": "तर",
-      "status": "New"
+      "status": "New",
+      "english_text": "but"
     }
   },
   {
@@ -914,7 +1015,8 @@
     "fields": {
       "german_text": "denn",
       "nepali_text": "किनभने",
-      "status": "New"
+      "status": "New",
+      "english_text": "because / for"
     }
   },
   {
@@ -923,7 +1025,8 @@
     "fields": {
       "german_text": "also",
       "nepali_text": "त्यसैले",
-      "status": "New"
+      "status": "New",
+      "english_text": "so / therefore"
     }
   },
   {
@@ -932,7 +1035,8 @@
     "fields": {
       "german_text": "der",
       "nepali_text": "यो (पुल्लिंग)",
-      "status": "New"
+      "status": "New",
+      "english_text": "the (masculine)"
     }
   },
   {
@@ -941,7 +1045,8 @@
     "fields": {
       "german_text": "die",
       "nepali_text": "यो (स्त्रीलिंग)",
-      "status": "New"
+      "status": "New",
+      "english_text": "the (feminine/plural)"
     }
   },
   {
@@ -950,7 +1055,8 @@
     "fields": {
       "german_text": "das",
       "nepali_text": "यो (नपुंसक)",
-      "status": "New"
+      "status": "New",
+      "english_text": "the (neuter)"
     }
   },
   {
@@ -959,7 +1065,8 @@
     "fields": {
       "german_text": "ein",
       "nepali_text": "एउटा",
-      "status": "New"
+      "status": "New",
+      "english_text": "a / an (masculine/neuter)"
     }
   },
   {
@@ -968,7 +1075,8 @@
     "fields": {
       "german_text": "eine",
       "nepali_text": "एउटी",
-      "status": "New"
+      "status": "New",
+      "english_text": "a / an (feminine)"
     }
   },
   {
@@ -977,7 +1085,8 @@
     "fields": {
       "german_text": "nicht",
       "nepali_text": "होइन",
-      "status": "New"
+      "status": "New",
+      "english_text": "not"
     }
   },
   {
@@ -986,7 +1095,8 @@
     "fields": {
       "german_text": "ja",
       "nepali_text": "हो",
-      "status": "New"
+      "status": "New",
+      "english_text": "yes"
     }
   },
   {
@@ -995,7 +1105,8 @@
     "fields": {
       "german_text": "nein",
       "nepali_text": "होइन",
-      "status": "New"
+      "status": "New",
+      "english_text": "no"
     }
   },
   {
@@ -1004,7 +1115,8 @@
     "fields": {
       "german_text": "was",
       "nepali_text": "के",
-      "status": "New"
+      "status": "New",
+      "english_text": "what"
     }
   },
   {
@@ -1013,7 +1125,8 @@
     "fields": {
       "german_text": "wer",
       "nepali_text": "को",
-      "status": "New"
+      "status": "New",
+      "english_text": "who"
     }
   },
   {
@@ -1022,7 +1135,8 @@
     "fields": {
       "german_text": "wie",
       "nepali_text": "कसरी",
-      "status": "New"
+      "status": "New",
+      "english_text": "how / like"
     }
   },
   {
@@ -1031,7 +1145,8 @@
     "fields": {
       "german_text": "wo",
       "nepali_text": "कहाँ",
-      "status": "New"
+      "status": "New",
+      "english_text": "where"
     }
   },
   {
@@ -1040,7 +1155,8 @@
     "fields": {
       "german_text": "wann",
       "nepali_text": "कहिले",
-      "status": "New"
+      "status": "New",
+      "english_text": "when"
     }
   },
   {
@@ -1049,7 +1165,8 @@
     "fields": {
       "german_text": "warum",
       "nepali_text": "किन",
-      "status": "New"
+      "status": "New",
+      "english_text": "why"
     }
   },
   {
@@ -1058,7 +1175,8 @@
     "fields": {
       "german_text": "hier",
       "nepali_text": "यहाँ",
-      "status": "New"
+      "status": "New",
+      "english_text": "here"
     }
   },
   {
@@ -1067,7 +1185,8 @@
     "fields": {
       "german_text": "dort",
       "nepali_text": "त्यहाँ",
-      "status": "New"
+      "status": "New",
+      "english_text": "there (over there)"
     }
   },
   {
@@ -1076,7 +1195,8 @@
     "fields": {
       "german_text": "jetzt",
       "nepali_text": "अहिले",
-      "status": "New"
+      "status": "New",
+      "english_text": "now"
     }
   },
   {
@@ -1085,7 +1205,8 @@
     "fields": {
       "german_text": "heute",
       "nepali_text": "आज",
-      "status": "New"
+      "status": "New",
+      "english_text": "today"
     }
   },
   {
@@ -1094,7 +1215,8 @@
     "fields": {
       "german_text": "gestern",
       "nepali_text": "हिजो",
-      "status": "New"
+      "status": "New",
+      "english_text": "yesterday"
     }
   },
   {
@@ -1103,7 +1225,8 @@
     "fields": {
       "german_text": "morgen",
       "nepali_text": "भोलि",
-      "status": "New"
+      "status": "New",
+      "english_text": "tomorrow"
     }
   },
   {
@@ -1112,7 +1235,8 @@
     "fields": {
       "german_text": "immer",
       "nepali_text": "सधैं",
-      "status": "New"
+      "status": "New",
+      "english_text": "always"
     }
   },
   {
@@ -1121,7 +1245,8 @@
     "fields": {
       "german_text": "nie",
       "nepali_text": "कहिल्यै होइन",
-      "status": "New"
+      "status": "New",
+      "english_text": "never"
     }
   },
   {
@@ -1130,7 +1255,8 @@
     "fields": {
       "german_text": "oft",
       "nepali_text": "प्रायः",
-      "status": "New"
+      "status": "New",
+      "english_text": "often"
     }
   },
   {
@@ -1139,7 +1265,8 @@
     "fields": {
       "german_text": "manchmal",
       "nepali_text": "कहिलेकाहीं",
-      "status": "New"
+      "status": "New",
+      "english_text": "sometimes"
     }
   },
   {
@@ -1148,7 +1275,8 @@
     "fields": {
       "german_text": "sehr",
       "nepali_text": "धेरै",
-      "status": "New"
+      "status": "New",
+      "english_text": "very"
     }
   },
   {
@@ -1157,7 +1285,8 @@
     "fields": {
       "german_text": "auch",
       "nepali_text": "पनि",
-      "status": "New"
+      "status": "New",
+      "english_text": "also / too"
     }
   },
   {
@@ -1166,7 +1295,8 @@
     "fields": {
       "german_text": "noch",
       "nepali_text": "अझै",
-      "status": "New"
+      "status": "New",
+      "english_text": "still / yet"
     }
   },
   {
@@ -1175,7 +1305,8 @@
     "fields": {
       "german_text": "schon",
       "nepali_text": "पहिले नै",
-      "status": "New"
+      "status": "New",
+      "english_text": "already"
     }
   },
   {
@@ -1184,7 +1315,8 @@
     "fields": {
       "german_text": "nur",
       "nepali_text": "मात्र",
-      "status": "New"
+      "status": "New",
+      "english_text": "only"
     }
   },
   {
@@ -1193,7 +1325,8 @@
     "fields": {
       "german_text": "dann",
       "nepali_text": "त्यसपछि",
-      "status": "New"
+      "status": "New",
+      "english_text": "then"
     }
   },
   {
@@ -1202,7 +1335,8 @@
     "fields": {
       "german_text": "von",
       "nepali_text": "बाट",
-      "status": "New"
+      "status": "New",
+      "english_text": "from / of"
     }
   },
   {
@@ -1211,7 +1345,8 @@
     "fields": {
       "german_text": "mit",
       "nepali_text": "सँग",
-      "status": "New"
+      "status": "New",
+      "english_text": "with"
     }
   },
   {
@@ -1220,7 +1355,8 @@
     "fields": {
       "german_text": "für",
       "nepali_text": "को लागि",
-      "status": "New"
+      "status": "New",
+      "english_text": "for"
     }
   },
   {
@@ -1229,7 +1365,8 @@
     "fields": {
       "german_text": "auf",
       "nepali_text": "माथि",
-      "status": "New"
+      "status": "New",
+      "english_text": "on / upon"
     }
   },
   {
@@ -1238,7 +1375,8 @@
     "fields": {
       "german_text": "in",
       "nepali_text": "मा",
-      "status": "New"
+      "status": "New",
+      "english_text": "in"
     }
   },
   {
@@ -1247,7 +1385,8 @@
     "fields": {
       "german_text": "an",
       "nepali_text": "मा (नजिक)",
-      "status": "New"
+      "status": "New",
+      "english_text": "at / on"
     }
   },
   {
@@ -1256,7 +1395,8 @@
     "fields": {
       "german_text": "zu",
       "nepali_text": "तिर",
-      "status": "New"
+      "status": "New",
+      "english_text": "to / too"
     }
   },
   {
@@ -1265,7 +1405,8 @@
     "fields": {
       "german_text": "nach",
       "nepali_text": "पछि",
-      "status": "New"
+      "status": "New",
+      "english_text": "after / to"
     }
   },
   {
@@ -1274,7 +1415,8 @@
     "fields": {
       "german_text": "über",
       "nepali_text": "माथि / बारेमा",
-      "status": "New"
+      "status": "New",
+      "english_text": "over / about"
     }
   },
   {
@@ -1283,7 +1425,8 @@
     "fields": {
       "german_text": "bei",
       "nepali_text": "नजिक",
-      "status": "New"
+      "status": "New",
+      "english_text": "at / near / with"
     }
   },
   {
@@ -1292,7 +1435,8 @@
     "fields": {
       "german_text": "aus",
       "nepali_text": "बाहिर",
-      "status": "New"
+      "status": "New",
+      "english_text": "out of / from"
     }
   },
   {
@@ -1301,7 +1445,8 @@
     "fields": {
       "german_text": "durch",
       "nepali_text": "बाट / मार्फत",
-      "status": "New"
+      "status": "New",
+      "english_text": "through"
     }
   },
   {
@@ -1310,7 +1455,8 @@
     "fields": {
       "german_text": "unter",
       "nepali_text": "तल",
-      "status": "New"
+      "status": "New",
+      "english_text": "under / among"
     }
   },
   {
@@ -1319,7 +1465,8 @@
     "fields": {
       "german_text": "vor",
       "nepali_text": "अगाडि",
-      "status": "New"
+      "status": "New",
+      "english_text": "before / in front of"
     }
   },
   {
@@ -1328,7 +1475,8 @@
     "fields": {
       "german_text": "zwischen",
       "nepali_text": "बीचमा",
-      "status": "New"
+      "status": "New",
+      "english_text": "between"
     }
   },
   {
@@ -1337,7 +1485,8 @@
     "fields": {
       "german_text": "gegen",
       "nepali_text": "विरुद्ध",
-      "status": "New"
+      "status": "New",
+      "english_text": "against"
     }
   },
   {
@@ -1346,7 +1495,8 @@
     "fields": {
       "german_text": "ohne",
       "nepali_text": "बिना",
-      "status": "New"
+      "status": "New",
+      "english_text": "without"
     }
   },
   {
@@ -1355,7 +1505,8 @@
     "fields": {
       "german_text": "bis",
       "nepali_text": "सम्म",
-      "status": "New"
+      "status": "New",
+      "english_text": "until / to"
     }
   },
   {
@@ -1364,7 +1515,8 @@
     "fields": {
       "german_text": "seit",
       "nepali_text": "देखि",
-      "status": "New"
+      "status": "New",
+      "english_text": "since / for"
     }
   },
   {
@@ -1373,7 +1525,8 @@
     "fields": {
       "german_text": "während",
       "nepali_text": "जबकि",
-      "status": "New"
+      "status": "New",
+      "english_text": "during / while"
     }
   },
   {
@@ -1382,7 +1535,8 @@
     "fields": {
       "german_text": "Haus",
       "nepali_text": "घर",
-      "status": "New"
+      "status": "New",
+      "english_text": "house"
     }
   },
   {
@@ -1391,7 +1545,8 @@
     "fields": {
       "german_text": "Frau",
       "nepali_text": "महिला / श्रीमती",
-      "status": "New"
+      "status": "New",
+      "english_text": "woman"
     }
   },
   {
@@ -1400,7 +1555,8 @@
     "fields": {
       "german_text": "Mann",
       "nepali_text": "पुरुष / श्रीमान",
-      "status": "New"
+      "status": "New",
+      "english_text": "man"
     }
   },
   {
@@ -1409,7 +1565,8 @@
     "fields": {
       "german_text": "Kind",
       "nepali_text": "बच्चा",
-      "status": "New"
+      "status": "New",
+      "english_text": "child"
     }
   },
   {
@@ -1418,7 +1575,8 @@
     "fields": {
       "german_text": "Tag",
       "nepali_text": "दिन",
-      "status": "New"
+      "status": "New",
+      "english_text": "day"
     }
   },
   {
@@ -1427,7 +1585,8 @@
     "fields": {
       "german_text": "Hand",
       "nepali_text": "हात",
-      "status": "New"
+      "status": "New",
+      "english_text": "hand"
     }
   },
   {
@@ -1436,7 +1595,8 @@
     "fields": {
       "german_text": "Auge",
       "nepali_text": "आँखा",
-      "status": "New"
+      "status": "New",
+      "english_text": "eye"
     }
   },
   {
@@ -1445,7 +1605,8 @@
     "fields": {
       "german_text": "Wort",
       "nepali_text": "शब्द",
-      "status": "New"
+      "status": "New",
+      "english_text": "word"
     }
   },
   {
@@ -1454,7 +1615,8 @@
     "fields": {
       "german_text": "Mensch",
       "nepali_text": "मानिस",
-      "status": "New"
+      "status": "New",
+      "english_text": "person / human"
     }
   },
   {
@@ -1463,7 +1625,8 @@
     "fields": {
       "german_text": "Zeit",
       "nepali_text": "समय",
-      "status": "New"
+      "status": "New",
+      "english_text": "time"
     }
   },
   {
@@ -1472,7 +1635,8 @@
     "fields": {
       "german_text": "Jahr",
       "nepali_text": "वर्ष",
-      "status": "New"
+      "status": "New",
+      "english_text": "year"
     }
   },
   {
@@ -1481,7 +1645,8 @@
     "fields": {
       "german_text": "Stadt",
       "nepali_text": "शहर",
-      "status": "New"
+      "status": "New",
+      "english_text": "city"
     }
   },
   {
@@ -1490,7 +1655,8 @@
     "fields": {
       "german_text": "Land",
       "nepali_text": "देश",
-      "status": "New"
+      "status": "New",
+      "english_text": "country / land"
     }
   },
   {
@@ -1499,7 +1665,8 @@
     "fields": {
       "german_text": "Welt",
       "nepali_text": "संसार",
-      "status": "New"
+      "status": "New",
+      "english_text": "world"
     }
   },
   {
@@ -1508,7 +1675,8 @@
     "fields": {
       "german_text": "Wasser",
       "nepali_text": "पानी",
-      "status": "New"
+      "status": "New",
+      "english_text": "water"
     }
   },
   {
@@ -1517,7 +1685,8 @@
     "fields": {
       "german_text": "Straße",
       "nepali_text": "सडक",
-      "status": "New"
+      "status": "New",
+      "english_text": "street / road"
     }
   },
   {
@@ -1526,7 +1695,8 @@
     "fields": {
       "german_text": "Schule",
       "nepali_text": "विद्यालय",
-      "status": "New"
+      "status": "New",
+      "english_text": "school"
     }
   },
   {
@@ -1535,7 +1705,8 @@
     "fields": {
       "german_text": "Buch",
       "nepali_text": "किताब",
-      "status": "New"
+      "status": "New",
+      "english_text": "book"
     }
   },
   {
@@ -1544,7 +1715,8 @@
     "fields": {
       "german_text": "Arbeit",
       "nepali_text": "काम",
-      "status": "New"
+      "status": "New",
+      "english_text": "work"
     }
   },
   {
@@ -1553,7 +1725,8 @@
     "fields": {
       "german_text": "Geld",
       "nepali_text": "पैसा",
-      "status": "New"
+      "status": "New",
+      "english_text": "money"
     }
   },
   {
@@ -1562,7 +1735,8 @@
     "fields": {
       "german_text": "Freund",
       "nepali_text": "साथी",
-      "status": "New"
+      "status": "New",
+      "english_text": "friend"
     }
   },
   {
@@ -1571,7 +1745,8 @@
     "fields": {
       "german_text": "Mutter",
       "nepali_text": "आमा",
-      "status": "New"
+      "status": "New",
+      "english_text": "mother"
     }
   },
   {
@@ -1580,7 +1755,8 @@
     "fields": {
       "german_text": "Vater",
       "nepali_text": "बुबा",
-      "status": "New"
+      "status": "New",
+      "english_text": "father"
     }
   },
   {
@@ -1589,7 +1765,8 @@
     "fields": {
       "german_text": "Bruder",
       "nepali_text": "दाजु / भाइ",
-      "status": "New"
+      "status": "New",
+      "english_text": "brother"
     }
   },
   {
@@ -1598,7 +1775,8 @@
     "fields": {
       "german_text": "Schwester",
       "nepali_text": "दिदी / बहिनी",
-      "status": "New"
+      "status": "New",
+      "english_text": "sister"
     }
   },
   {
@@ -1607,7 +1785,8 @@
     "fields": {
       "german_text": "Familie",
       "nepali_text": "परिवार",
-      "status": "New"
+      "status": "New",
+      "english_text": "family"
     }
   },
   {
@@ -1616,7 +1795,8 @@
     "fields": {
       "german_text": "Kopf",
       "nepali_text": "टाउको",
-      "status": "New"
+      "status": "New",
+      "english_text": "head"
     }
   },
   {
@@ -1625,7 +1805,8 @@
     "fields": {
       "german_text": "Herz",
       "nepali_text": "मुटु",
-      "status": "New"
+      "status": "New",
+      "english_text": "heart"
     }
   },
   {
@@ -1634,7 +1815,8 @@
     "fields": {
       "german_text": "Seite",
       "nepali_text": "पक्ष / पृष्ठ",
-      "status": "New"
+      "status": "New",
+      "english_text": "side / page"
     }
   },
   {
@@ -1643,7 +1825,8 @@
     "fields": {
       "german_text": "Platz",
       "nepali_text": "ठाउँ",
-      "status": "New"
+      "status": "New",
+      "english_text": "place / square"
     }
   },
   {
@@ -1652,7 +1835,8 @@
     "fields": {
       "german_text": "Frage",
       "nepali_text": "प्रश्न",
-      "status": "New"
+      "status": "New",
+      "english_text": "question"
     }
   },
   {
@@ -1661,7 +1845,8 @@
     "fields": {
       "german_text": "Antwort",
       "nepali_text": "उत्तर",
-      "status": "New"
+      "status": "New",
+      "english_text": "answer"
     }
   },
   {
@@ -1670,7 +1855,8 @@
     "fields": {
       "german_text": "Name",
       "nepali_text": "नाम",
-      "status": "New"
+      "status": "New",
+      "english_text": "name"
     }
   },
   {
@@ -1679,7 +1865,8 @@
     "fields": {
       "german_text": "Beispiel",
       "nepali_text": "उदाहरण",
-      "status": "New"
+      "status": "New",
+      "english_text": "example"
     }
   },
   {
@@ -1688,7 +1875,8 @@
     "fields": {
       "german_text": "Stunde",
       "nepali_text": "घण्टा",
-      "status": "New"
+      "status": "New",
+      "english_text": "hour"
     }
   },
   {
@@ -1697,7 +1885,8 @@
     "fields": {
       "german_text": "Nacht",
       "nepali_text": "रात",
-      "status": "New"
+      "status": "New",
+      "english_text": "night"
     }
   },
   {
@@ -1706,7 +1895,8 @@
     "fields": {
       "german_text": "Morgen",
       "nepali_text": "बिहान",
-      "status": "New"
+      "status": "New",
+      "english_text": "morning"
     }
   },
   {
@@ -1715,7 +1905,8 @@
     "fields": {
       "german_text": "Abend",
       "nepali_text": "साँझ",
-      "status": "New"
+      "status": "New",
+      "english_text": "evening"
     }
   },
   {
@@ -1724,7 +1915,8 @@
     "fields": {
       "german_text": "Monat",
       "nepali_text": "महिना",
-      "status": "New"
+      "status": "New",
+      "english_text": "month"
     }
   },
   {
@@ -1733,7 +1925,8 @@
     "fields": {
       "german_text": "Woche",
       "nepali_text": "हप्ता",
-      "status": "New"
+      "status": "New",
+      "english_text": "week"
     }
   },
   {
@@ -1742,7 +1935,8 @@
     "fields": {
       "german_text": "Ende",
       "nepali_text": "अन्त",
-      "status": "New"
+      "status": "New",
+      "english_text": "end"
     }
   },
   {
@@ -1751,7 +1945,8 @@
     "fields": {
       "german_text": "Anfang",
       "nepali_text": "सुरु",
-      "status": "New"
+      "status": "New",
+      "english_text": "beginning"
     }
   },
   {
@@ -1760,7 +1955,8 @@
     "fields": {
       "german_text": "Teil",
       "nepali_text": "भाग",
-      "status": "New"
+      "status": "New",
+      "english_text": "part"
     }
   },
   {
@@ -1769,7 +1965,8 @@
     "fields": {
       "german_text": "Grund",
       "nepali_text": "कारण",
-      "status": "New"
+      "status": "New",
+      "english_text": "reason / ground"
     }
   },
   {
@@ -1778,7 +1975,8 @@
     "fields": {
       "german_text": "Problem",
       "nepali_text": "समस्या",
-      "status": "New"
+      "status": "New",
+      "english_text": "problem"
     }
   },
   {
@@ -1787,7 +1985,8 @@
     "fields": {
       "german_text": "Weg",
       "nepali_text": "बाटो",
-      "status": "New"
+      "status": "New",
+      "english_text": "way / path"
     }
   },
   {
@@ -1796,7 +1995,8 @@
     "fields": {
       "german_text": "Ziel",
       "nepali_text": "लक्ष्य",
-      "status": "New"
+      "status": "New",
+      "english_text": "goal / target"
     }
   },
   {
@@ -1805,7 +2005,8 @@
     "fields": {
       "german_text": "Staat",
       "nepali_text": "राज्य",
-      "status": "New"
+      "status": "New",
+      "english_text": "state / government"
     }
   },
   {
@@ -1814,7 +2015,8 @@
     "fields": {
       "german_text": "Geschichte",
       "nepali_text": "इतिहास / कथा",
-      "status": "New"
+      "status": "New",
+      "english_text": "history / story"
     }
   },
   {
@@ -1823,7 +2025,8 @@
     "fields": {
       "german_text": "Macht",
       "nepali_text": "शक्ति",
-      "status": "New"
+      "status": "New",
+      "english_text": "power"
     }
   },
   {
@@ -1832,7 +2035,8 @@
     "fields": {
       "german_text": "Sprache",
       "nepali_text": "भाषा",
-      "status": "New"
+      "status": "New",
+      "english_text": "language"
     }
   },
   {
@@ -1841,7 +2045,8 @@
     "fields": {
       "german_text": "Bild",
       "nepali_text": "तस्बिर",
-      "status": "New"
+      "status": "New",
+      "english_text": "picture / image"
     }
   },
   {
@@ -1850,7 +2055,8 @@
     "fields": {
       "german_text": "Leben",
       "nepali_text": "जीवन",
-      "status": "New"
+      "status": "New",
+      "english_text": "life"
     }
   },
   {
@@ -1859,7 +2065,8 @@
     "fields": {
       "german_text": "Sache",
       "nepali_text": "कुरा",
-      "status": "New"
+      "status": "New",
+      "english_text": "thing / matter"
     }
   },
   {
@@ -1868,7 +2075,8 @@
     "fields": {
       "german_text": "Licht",
       "nepali_text": "उज्यालो",
-      "status": "New"
+      "status": "New",
+      "english_text": "light"
     }
   },
   {
@@ -1877,7 +2085,8 @@
     "fields": {
       "german_text": "Musik",
       "nepali_text": "संगीत",
-      "status": "New"
+      "status": "New",
+      "english_text": "music"
     }
   },
   {
@@ -1886,7 +2095,8 @@
     "fields": {
       "german_text": "Tier",
       "nepali_text": "जनावर",
-      "status": "New"
+      "status": "New",
+      "english_text": "animal"
     }
   },
   {
@@ -1895,7 +2105,8 @@
     "fields": {
       "german_text": "Tür",
       "nepali_text": "ढोका",
-      "status": "New"
+      "status": "New",
+      "english_text": "door"
     }
   },
   {
@@ -1904,7 +2115,8 @@
     "fields": {
       "german_text": "Fenster",
       "nepali_text": "झ्याल",
-      "status": "New"
+      "status": "New",
+      "english_text": "window"
     }
   },
   {
@@ -1913,7 +2125,8 @@
     "fields": {
       "german_text": "Tisch",
       "nepali_text": "टेबल",
-      "status": "New"
+      "status": "New",
+      "english_text": "table"
     }
   },
   {
@@ -1922,7 +2135,8 @@
     "fields": {
       "german_text": "Stuhl",
       "nepali_text": "कुर्सी",
-      "status": "New"
+      "status": "New",
+      "english_text": "chair"
     }
   },
   {
@@ -1931,7 +2145,8 @@
     "fields": {
       "german_text": "Bett",
       "nepali_text": "ओछ्यान",
-      "status": "New"
+      "status": "New",
+      "english_text": "bed"
     }
   },
   {
@@ -1940,7 +2155,8 @@
     "fields": {
       "german_text": "Essen",
       "nepali_text": "खाना",
-      "status": "New"
+      "status": "New",
+      "english_text": "food / to eat"
     }
   },
   {
@@ -1949,7 +2165,8 @@
     "fields": {
       "german_text": "Trinken",
       "nepali_text": "पिउनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "drink / to drink"
     }
   },
   {
@@ -1958,7 +2175,8 @@
     "fields": {
       "german_text": "Milch",
       "nepali_text": "दूध",
-      "status": "New"
+      "status": "New",
+      "english_text": "milk"
     }
   },
   {
@@ -1967,7 +2185,8 @@
     "fields": {
       "german_text": "Brot",
       "nepali_text": "रोटी",
-      "status": "New"
+      "status": "New",
+      "english_text": "bread"
     }
   },
   {
@@ -1976,7 +2195,8 @@
     "fields": {
       "german_text": "Fleisch",
       "nepali_text": "मासु",
-      "status": "New"
+      "status": "New",
+      "english_text": "meat"
     }
   },
   {
@@ -1985,7 +2205,8 @@
     "fields": {
       "german_text": "Obst",
       "nepali_text": "फलफूल",
-      "status": "New"
+      "status": "New",
+      "english_text": "fruit"
     }
   },
   {
@@ -1994,7 +2215,8 @@
     "fields": {
       "german_text": "Gemüse",
       "nepali_text": "तरकारी",
-      "status": "New"
+      "status": "New",
+      "english_text": "vegetable"
     }
   },
   {
@@ -2003,7 +2225,8 @@
     "fields": {
       "german_text": "Reis",
       "nepali_text": "भात",
-      "status": "New"
+      "status": "New",
+      "english_text": "rice"
     }
   },
   {
@@ -2012,7 +2235,8 @@
     "fields": {
       "german_text": "Tee",
       "nepali_text": "चिया",
-      "status": "New"
+      "status": "New",
+      "english_text": "tea"
     }
   },
   {
@@ -2021,7 +2245,8 @@
     "fields": {
       "german_text": "Kaffee",
       "nepali_text": "कफी",
-      "status": "New"
+      "status": "New",
+      "english_text": "coffee"
     }
   },
   {
@@ -2030,7 +2255,8 @@
     "fields": {
       "german_text": "Zucker",
       "nepali_text": "चिनी",
-      "status": "New"
+      "status": "New",
+      "english_text": "sugar"
     }
   },
   {
@@ -2039,7 +2265,8 @@
     "fields": {
       "german_text": "Salz",
       "nepali_text": "नुन",
-      "status": "New"
+      "status": "New",
+      "english_text": "salt"
     }
   },
   {
@@ -2048,7 +2275,8 @@
     "fields": {
       "german_text": "Käse",
       "nepali_text": "पनीर",
-      "status": "New"
+      "status": "New",
+      "english_text": "cheese"
     }
   },
   {
@@ -2057,7 +2285,8 @@
     "fields": {
       "german_text": "Butter",
       "nepali_text": "मक्खन",
-      "status": "New"
+      "status": "New",
+      "english_text": "butter"
     }
   },
   {
@@ -2066,7 +2295,8 @@
     "fields": {
       "german_text": "Ei",
       "nepali_text": "अण्डा",
-      "status": "New"
+      "status": "New",
+      "english_text": "egg"
     }
   },
   {
@@ -2075,7 +2305,8 @@
     "fields": {
       "german_text": "Fisch",
       "nepali_text": "माछा",
-      "status": "New"
+      "status": "New",
+      "english_text": "fish"
     }
   },
   {
@@ -2084,7 +2315,8 @@
     "fields": {
       "german_text": "Huhn",
       "nepali_text": "कुखुरा",
-      "status": "New"
+      "status": "New",
+      "english_text": "chicken"
     }
   },
   {
@@ -2093,7 +2325,8 @@
     "fields": {
       "german_text": "Kartoffel",
       "nepali_text": "आलु",
-      "status": "New"
+      "status": "New",
+      "english_text": "potato"
     }
   },
   {
@@ -2102,7 +2335,8 @@
     "fields": {
       "german_text": "Tomate",
       "nepali_text": "गोलभेडा",
-      "status": "New"
+      "status": "New",
+      "english_text": "tomato"
     }
   },
   {
@@ -2111,7 +2345,8 @@
     "fields": {
       "german_text": "Zwiebel",
       "nepali_text": "प्याज",
-      "status": "New"
+      "status": "New",
+      "english_text": "onion"
     }
   },
   {
@@ -2120,7 +2355,8 @@
     "fields": {
       "german_text": "Apfel",
       "nepali_text": "स्याउ",
-      "status": "New"
+      "status": "New",
+      "english_text": "apple"
     }
   },
   {
@@ -2129,7 +2365,8 @@
     "fields": {
       "german_text": "Banane",
       "nepali_text": "केरा",
-      "status": "New"
+      "status": "New",
+      "english_text": "banana"
     }
   },
   {
@@ -2138,7 +2375,8 @@
     "fields": {
       "german_text": "Orange",
       "nepali_text": "सुन्तला",
-      "status": "New"
+      "status": "New",
+      "english_text": "orange"
     }
   },
   {
@@ -2147,7 +2385,8 @@
     "fields": {
       "german_text": "groß",
       "nepali_text": "ठूलो",
-      "status": "New"
+      "status": "New",
+      "english_text": "big / tall"
     }
   },
   {
@@ -2156,7 +2395,8 @@
     "fields": {
       "german_text": "klein",
       "nepali_text": "सानो",
-      "status": "New"
+      "status": "New",
+      "english_text": "small / little"
     }
   },
   {
@@ -2165,7 +2405,8 @@
     "fields": {
       "german_text": "gut",
       "nepali_text": "राम्रो",
-      "status": "New"
+      "status": "New",
+      "english_text": "good"
     }
   },
   {
@@ -2174,7 +2415,8 @@
     "fields": {
       "german_text": "schlecht",
       "nepali_text": "नराम्रो",
-      "status": "New"
+      "status": "New",
+      "english_text": "bad"
     }
   },
   {
@@ -2183,7 +2425,8 @@
     "fields": {
       "german_text": "neu",
       "nepali_text": "नयाँ",
-      "status": "New"
+      "status": "New",
+      "english_text": "new"
     }
   },
   {
@@ -2192,7 +2435,8 @@
     "fields": {
       "german_text": "alt",
       "nepali_text": "पुरानो",
-      "status": "New"
+      "status": "New",
+      "english_text": "old"
     }
   },
   {
@@ -2201,7 +2445,8 @@
     "fields": {
       "german_text": "jung",
       "nepali_text": "जवान",
-      "status": "New"
+      "status": "New",
+      "english_text": "young"
     }
   },
   {
@@ -2210,7 +2455,8 @@
     "fields": {
       "german_text": "schön",
       "nepali_text": "सुन्दर",
-      "status": "New"
+      "status": "New",
+      "english_text": "beautiful"
     }
   },
   {
@@ -2219,7 +2465,8 @@
     "fields": {
       "german_text": "schnell",
       "nepali_text": "छिटो",
-      "status": "New"
+      "status": "New",
+      "english_text": "fast / quick"
     }
   },
   {
@@ -2228,7 +2475,8 @@
     "fields": {
       "german_text": "langsam",
       "nepali_text": "बिस्तारै",
-      "status": "New"
+      "status": "New",
+      "english_text": "slow"
     }
   },
   {
@@ -2237,7 +2485,8 @@
     "fields": {
       "german_text": "hoch",
       "nepali_text": "अग्लो",
-      "status": "New"
+      "status": "New",
+      "english_text": "high / tall"
     }
   },
   {
@@ -2246,7 +2495,8 @@
     "fields": {
       "german_text": "tief",
       "nepali_text": "गहिरो",
-      "status": "New"
+      "status": "New",
+      "english_text": "deep / low"
     }
   },
   {
@@ -2255,7 +2505,8 @@
     "fields": {
       "german_text": "lang",
       "nepali_text": "लामो",
-      "status": "New"
+      "status": "New",
+      "english_text": "long"
     }
   },
   {
@@ -2264,7 +2515,8 @@
     "fields": {
       "german_text": "kurz",
       "nepali_text": "छोटो",
-      "status": "New"
+      "status": "New",
+      "english_text": "short"
     }
   },
   {
@@ -2273,7 +2525,8 @@
     "fields": {
       "german_text": "breit",
       "nepali_text": "चौडा",
-      "status": "New"
+      "status": "New",
+      "english_text": "wide / broad"
     }
   },
   {
@@ -2282,7 +2535,8 @@
     "fields": {
       "german_text": "eng",
       "nepali_text": "साँघुरो",
-      "status": "New"
+      "status": "New",
+      "english_text": "narrow / tight"
     }
   },
   {
@@ -2291,7 +2545,8 @@
     "fields": {
       "german_text": "schwer",
       "nepali_text": "गह्रौं / भारी",
-      "status": "New"
+      "status": "New",
+      "english_text": "heavy / difficult"
     }
   },
   {
@@ -2300,7 +2555,8 @@
     "fields": {
       "german_text": "leicht",
       "nepali_text": "हल्का / सजिलो",
-      "status": "New"
+      "status": "New",
+      "english_text": "light / easy"
     }
   },
   {
@@ -2309,7 +2565,8 @@
     "fields": {
       "german_text": "stark",
       "nepali_text": "बलियो",
-      "status": "New"
+      "status": "New",
+      "english_text": "strong"
     }
   },
   {
@@ -2318,7 +2575,8 @@
     "fields": {
       "german_text": "schwach",
       "nepali_text": "कमजोर",
-      "status": "New"
+      "status": "New",
+      "english_text": "weak"
     }
   },
   {
@@ -2327,7 +2585,8 @@
     "fields": {
       "german_text": "warm",
       "nepali_text": "न्यानो",
-      "status": "New"
+      "status": "New",
+      "english_text": "warm"
     }
   },
   {
@@ -2336,7 +2595,8 @@
     "fields": {
       "german_text": "kalt",
       "nepali_text": "चिसो",
-      "status": "New"
+      "status": "New",
+      "english_text": "cold"
     }
   },
   {
@@ -2345,7 +2605,8 @@
     "fields": {
       "german_text": "heiß",
       "nepali_text": "तातो",
-      "status": "New"
+      "status": "New",
+      "english_text": "hot"
     }
   },
   {
@@ -2354,7 +2615,8 @@
     "fields": {
       "german_text": "dunkel",
       "nepali_text": "अँध्यारो",
-      "status": "New"
+      "status": "New",
+      "english_text": "dark"
     }
   },
   {
@@ -2363,7 +2625,8 @@
     "fields": {
       "german_text": "hell",
       "nepali_text": "उज्यालो",
-      "status": "New"
+      "status": "New",
+      "english_text": "bright / light"
     }
   },
   {
@@ -2372,7 +2635,8 @@
     "fields": {
       "german_text": "richtig",
       "nepali_text": "सही",
-      "status": "New"
+      "status": "New",
+      "english_text": "correct / right"
     }
   },
   {
@@ -2381,7 +2645,8 @@
     "fields": {
       "german_text": "falsch",
       "nepali_text": "गलत",
-      "status": "New"
+      "status": "New",
+      "english_text": "wrong / false"
     }
   },
   {
@@ -2390,7 +2655,8 @@
     "fields": {
       "german_text": "wichtig",
       "nepali_text": "महत्त्वपूर्ण",
-      "status": "New"
+      "status": "New",
+      "english_text": "important"
     }
   },
   {
@@ -2399,7 +2665,8 @@
     "fields": {
       "german_text": "möglich",
       "nepali_text": "सम्भव",
-      "status": "New"
+      "status": "New",
+      "english_text": "possible"
     }
   },
   {
@@ -2408,7 +2675,8 @@
     "fields": {
       "german_text": "einfach",
       "nepali_text": "सजिलो",
-      "status": "New"
+      "status": "New",
+      "english_text": "simple / easy"
     }
   },
   {
@@ -2417,7 +2685,8 @@
     "fields": {
       "german_text": "schwierig",
       "nepali_text": "कठिन",
-      "status": "New"
+      "status": "New",
+      "english_text": "difficult"
     }
   },
   {
@@ -2426,7 +2695,8 @@
     "fields": {
       "german_text": "frei",
       "nepali_text": "स्वतन्त्र / खाली",
-      "status": "New"
+      "status": "New",
+      "english_text": "free"
     }
   },
   {
@@ -2435,7 +2705,8 @@
     "fields": {
       "german_text": "offen",
       "nepali_text": "खुला",
-      "status": "New"
+      "status": "New",
+      "english_text": "open"
     }
   },
   {
@@ -2444,7 +2715,8 @@
     "fields": {
       "german_text": "sicher",
       "nepali_text": "सुरक्षित",
-      "status": "New"
+      "status": "New",
+      "english_text": "safe / certain"
     }
   },
   {
@@ -2453,7 +2725,8 @@
     "fields": {
       "german_text": "klar",
       "nepali_text": "स्पष्ट",
-      "status": "New"
+      "status": "New",
+      "english_text": "clear"
     }
   },
   {
@@ -2462,7 +2735,8 @@
     "fields": {
       "german_text": "genau",
       "nepali_text": "ठीक / सही",
-      "status": "New"
+      "status": "New",
+      "english_text": "exactly"
     }
   },
   {
@@ -2471,7 +2745,8 @@
     "fields": {
       "german_text": "laut",
       "nepali_text": "ठूलो आवाज",
-      "status": "New"
+      "status": "New",
+      "english_text": "loud"
     }
   },
   {
@@ -2480,7 +2755,8 @@
     "fields": {
       "german_text": "leise",
       "nepali_text": "सानो आवाज",
-      "status": "New"
+      "status": "New",
+      "english_text": "quiet / soft"
     }
   },
   {
@@ -2489,7 +2765,8 @@
     "fields": {
       "german_text": "voll",
       "nepali_text": "भरिएको",
-      "status": "New"
+      "status": "New",
+      "english_text": "full"
     }
   },
   {
@@ -2498,7 +2775,8 @@
     "fields": {
       "german_text": "leer",
       "nepali_text": "खाली",
-      "status": "New"
+      "status": "New",
+      "english_text": "empty"
     }
   },
   {
@@ -2507,7 +2785,8 @@
     "fields": {
       "german_text": "reich",
       "nepali_text": "धनी",
-      "status": "New"
+      "status": "New",
+      "english_text": "rich"
     }
   },
   {
@@ -2516,7 +2795,8 @@
     "fields": {
       "german_text": "arm",
       "nepali_text": "गरिब",
-      "status": "New"
+      "status": "New",
+      "english_text": "poor"
     }
   },
   {
@@ -2525,7 +2805,8 @@
     "fields": {
       "german_text": "glücklich",
       "nepali_text": "खुसी",
-      "status": "New"
+      "status": "New",
+      "english_text": "happy"
     }
   },
   {
@@ -2534,7 +2815,8 @@
     "fields": {
       "german_text": "traurig",
       "nepali_text": "दुखी",
-      "status": "New"
+      "status": "New",
+      "english_text": "sad"
     }
   },
   {
@@ -2543,7 +2825,8 @@
     "fields": {
       "german_text": "müde",
       "nepali_text": "थकित",
-      "status": "New"
+      "status": "New",
+      "english_text": "tired"
     }
   },
   {
@@ -2552,7 +2835,8 @@
     "fields": {
       "german_text": "hungrig",
       "nepali_text": "भोकाएको",
-      "status": "New"
+      "status": "New",
+      "english_text": "hungry"
     }
   },
   {
@@ -2561,7 +2845,8 @@
     "fields": {
       "german_text": "durstig",
       "nepali_text": "तिर्खाएको",
-      "status": "New"
+      "status": "New",
+      "english_text": "thirsty"
     }
   },
   {
@@ -2570,7 +2855,8 @@
     "fields": {
       "german_text": "krank",
       "nepali_text": "बिरामी",
-      "status": "New"
+      "status": "New",
+      "english_text": "sick / ill"
     }
   },
   {
@@ -2579,7 +2865,8 @@
     "fields": {
       "german_text": "gesund",
       "nepali_text": "स्वस्थ",
-      "status": "New"
+      "status": "New",
+      "english_text": "healthy"
     }
   },
   {
@@ -2588,7 +2875,8 @@
     "fields": {
       "german_text": "rot",
       "nepali_text": "रातो",
-      "status": "New"
+      "status": "New",
+      "english_text": "red"
     }
   },
   {
@@ -2597,7 +2885,8 @@
     "fields": {
       "german_text": "blau",
       "nepali_text": "नीलो",
-      "status": "New"
+      "status": "New",
+      "english_text": "blue"
     }
   },
   {
@@ -2606,7 +2895,8 @@
     "fields": {
       "german_text": "grün",
       "nepali_text": "हरियो",
-      "status": "New"
+      "status": "New",
+      "english_text": "green"
     }
   },
   {
@@ -2615,7 +2905,8 @@
     "fields": {
       "german_text": "gelb",
       "nepali_text": "पहेंलो",
-      "status": "New"
+      "status": "New",
+      "english_text": "yellow"
     }
   },
   {
@@ -2624,7 +2915,8 @@
     "fields": {
       "german_text": "weiß",
       "nepali_text": "सेतो",
-      "status": "New"
+      "status": "New",
+      "english_text": "white"
     }
   },
   {
@@ -2633,7 +2925,8 @@
     "fields": {
       "german_text": "schwarz",
       "nepali_text": "कालो",
-      "status": "New"
+      "status": "New",
+      "english_text": "black"
     }
   },
   {
@@ -2642,7 +2935,8 @@
     "fields": {
       "german_text": "Farbe",
       "nepali_text": "रंग",
-      "status": "New"
+      "status": "New",
+      "english_text": "color"
     }
   },
   {
@@ -2651,7 +2945,8 @@
     "fields": {
       "german_text": "Zahl",
       "nepali_text": "संख्या",
-      "status": "New"
+      "status": "New",
+      "english_text": "number / figure"
     }
   },
   {
@@ -2660,7 +2955,8 @@
     "fields": {
       "german_text": "eins",
       "nepali_text": "एक",
-      "status": "New"
+      "status": "New",
+      "english_text": "one"
     }
   },
   {
@@ -2669,7 +2965,8 @@
     "fields": {
       "german_text": "zwei",
       "nepali_text": "दुई",
-      "status": "New"
+      "status": "New",
+      "english_text": "two"
     }
   },
   {
@@ -2678,7 +2975,8 @@
     "fields": {
       "german_text": "drei",
       "nepali_text": "तीन",
-      "status": "New"
+      "status": "New",
+      "english_text": "three"
     }
   },
   {
@@ -2687,7 +2985,8 @@
     "fields": {
       "german_text": "vier",
       "nepali_text": "चार",
-      "status": "New"
+      "status": "New",
+      "english_text": "four"
     }
   },
   {
@@ -2696,7 +2995,8 @@
     "fields": {
       "german_text": "fünf",
       "nepali_text": "पाँच",
-      "status": "New"
+      "status": "New",
+      "english_text": "five"
     }
   },
   {
@@ -2705,7 +3005,8 @@
     "fields": {
       "german_text": "sechs",
       "nepali_text": "छ",
-      "status": "New"
+      "status": "New",
+      "english_text": "six"
     }
   },
   {
@@ -2714,7 +3015,8 @@
     "fields": {
       "german_text": "sieben",
       "nepali_text": "सात",
-      "status": "New"
+      "status": "New",
+      "english_text": "seven"
     }
   },
   {
@@ -2723,7 +3025,8 @@
     "fields": {
       "german_text": "acht",
       "nepali_text": "आठ",
-      "status": "New"
+      "status": "New",
+      "english_text": "eight"
     }
   },
   {
@@ -2732,7 +3035,8 @@
     "fields": {
       "german_text": "neun",
       "nepali_text": "नौ",
-      "status": "New"
+      "status": "New",
+      "english_text": "nine"
     }
   },
   {
@@ -2741,7 +3045,8 @@
     "fields": {
       "german_text": "zehn",
       "nepali_text": "दस",
-      "status": "New"
+      "status": "New",
+      "english_text": "ten"
     }
   },
   {
@@ -2750,7 +3055,8 @@
     "fields": {
       "german_text": "hundert",
       "nepali_text": "सय",
-      "status": "New"
+      "status": "New",
+      "english_text": "hundred"
     }
   },
   {
@@ -2759,7 +3065,8 @@
     "fields": {
       "german_text": "tausend",
       "nepali_text": "हजार",
-      "status": "New"
+      "status": "New",
+      "english_text": "thousand"
     }
   },
   {
@@ -2768,7 +3075,8 @@
     "fields": {
       "german_text": "Montag",
       "nepali_text": "सोमबार",
-      "status": "New"
+      "status": "New",
+      "english_text": "Monday"
     }
   },
   {
@@ -2777,7 +3085,8 @@
     "fields": {
       "german_text": "Dienstag",
       "nepali_text": "मंगलबार",
-      "status": "New"
+      "status": "New",
+      "english_text": "Tuesday"
     }
   },
   {
@@ -2786,7 +3095,8 @@
     "fields": {
       "german_text": "Mittwoch",
       "nepali_text": "बुधबार",
-      "status": "New"
+      "status": "New",
+      "english_text": "Wednesday"
     }
   },
   {
@@ -2795,7 +3105,8 @@
     "fields": {
       "german_text": "Donnerstag",
       "nepali_text": "बिहीबार",
-      "status": "New"
+      "status": "New",
+      "english_text": "Thursday"
     }
   },
   {
@@ -2804,7 +3115,8 @@
     "fields": {
       "german_text": "Freitag",
       "nepali_text": "शुक्रबार",
-      "status": "New"
+      "status": "New",
+      "english_text": "Friday"
     }
   },
   {
@@ -2813,7 +3125,8 @@
     "fields": {
       "german_text": "Samstag",
       "nepali_text": "शनिबार",
-      "status": "New"
+      "status": "New",
+      "english_text": "Saturday"
     }
   },
   {
@@ -2822,7 +3135,8 @@
     "fields": {
       "german_text": "Sonntag",
       "nepali_text": "आइतबार",
-      "status": "New"
+      "status": "New",
+      "english_text": "Sunday"
     }
   },
   {
@@ -2831,7 +3145,8 @@
     "fields": {
       "german_text": "Januar",
       "nepali_text": "जनवरी",
-      "status": "New"
+      "status": "New",
+      "english_text": "January"
     }
   },
   {
@@ -2840,7 +3155,8 @@
     "fields": {
       "german_text": "Februar",
       "nepali_text": "फेब्रुअरी",
-      "status": "New"
+      "status": "New",
+      "english_text": "February"
     }
   },
   {
@@ -2849,7 +3165,8 @@
     "fields": {
       "german_text": "März",
       "nepali_text": "मार्च",
-      "status": "New"
+      "status": "New",
+      "english_text": "March"
     }
   },
   {
@@ -2858,7 +3175,8 @@
     "fields": {
       "german_text": "April",
       "nepali_text": "अप्रिल",
-      "status": "New"
+      "status": "New",
+      "english_text": "April"
     }
   },
   {
@@ -2867,7 +3185,8 @@
     "fields": {
       "german_text": "Mai",
       "nepali_text": "मे",
-      "status": "New"
+      "status": "New",
+      "english_text": "May"
     }
   },
   {
@@ -2876,7 +3195,8 @@
     "fields": {
       "german_text": "Juni",
       "nepali_text": "जुन",
-      "status": "New"
+      "status": "New",
+      "english_text": "June"
     }
   },
   {
@@ -2885,7 +3205,8 @@
     "fields": {
       "german_text": "Juli",
       "nepali_text": "जुलाई",
-      "status": "New"
+      "status": "New",
+      "english_text": "July"
     }
   },
   {
@@ -2894,7 +3215,8 @@
     "fields": {
       "german_text": "August",
       "nepali_text": "अगस्ट",
-      "status": "New"
+      "status": "New",
+      "english_text": "August"
     }
   },
   {
@@ -2903,7 +3225,8 @@
     "fields": {
       "german_text": "September",
       "nepali_text": "सेप्टेम्बर",
-      "status": "New"
+      "status": "New",
+      "english_text": "September"
     }
   },
   {
@@ -2912,7 +3235,8 @@
     "fields": {
       "german_text": "Oktober",
       "nepali_text": "अक्टोबर",
-      "status": "New"
+      "status": "New",
+      "english_text": "October"
     }
   },
   {
@@ -2921,7 +3245,8 @@
     "fields": {
       "german_text": "November",
       "nepali_text": "नोभेम्बर",
-      "status": "New"
+      "status": "New",
+      "english_text": "November"
     }
   },
   {
@@ -2930,7 +3255,8 @@
     "fields": {
       "german_text": "Dezember",
       "nepali_text": "डिसेम्बर",
-      "status": "New"
+      "status": "New",
+      "english_text": "December"
     }
   },
   {
@@ -2939,7 +3265,8 @@
     "fields": {
       "german_text": "Frühling",
       "nepali_text": "बसन्त",
-      "status": "New"
+      "status": "New",
+      "english_text": "spring"
     }
   },
   {
@@ -2948,7 +3275,8 @@
     "fields": {
       "german_text": "Sommer",
       "nepali_text": "गर्मी",
-      "status": "New"
+      "status": "New",
+      "english_text": "summer"
     }
   },
   {
@@ -2957,7 +3285,8 @@
     "fields": {
       "german_text": "Herbst",
       "nepali_text": "शरद",
-      "status": "New"
+      "status": "New",
+      "english_text": "autumn / fall"
     }
   },
   {
@@ -2966,7 +3295,8 @@
     "fields": {
       "german_text": "Winter",
       "nepali_text": "जाडो",
-      "status": "New"
+      "status": "New",
+      "english_text": "winter"
     }
   },
   {
@@ -2975,7 +3305,8 @@
     "fields": {
       "german_text": "Sonne",
       "nepali_text": "सूर्य / घाम",
-      "status": "New"
+      "status": "New",
+      "english_text": "sun"
     }
   },
   {
@@ -2984,7 +3315,8 @@
     "fields": {
       "german_text": "Mond",
       "nepali_text": "चन्द्रमा",
-      "status": "New"
+      "status": "New",
+      "english_text": "moon"
     }
   },
   {
@@ -2993,7 +3325,8 @@
     "fields": {
       "german_text": "Stern",
       "nepali_text": "तारा",
-      "status": "New"
+      "status": "New",
+      "english_text": "star"
     }
   },
   {
@@ -3002,7 +3335,8 @@
     "fields": {
       "german_text": "Himmel",
       "nepali_text": "आकाश",
-      "status": "New"
+      "status": "New",
+      "english_text": "sky / heaven"
     }
   },
   {
@@ -3011,7 +3345,8 @@
     "fields": {
       "german_text": "Wolke",
       "nepali_text": "बादल",
-      "status": "New"
+      "status": "New",
+      "english_text": "cloud"
     }
   },
   {
@@ -3020,7 +3355,8 @@
     "fields": {
       "german_text": "Regen",
       "nepali_text": "वर्षा",
-      "status": "New"
+      "status": "New",
+      "english_text": "rain"
     }
   },
   {
@@ -3029,7 +3365,8 @@
     "fields": {
       "german_text": "Schnee",
       "nepali_text": "हिउँ",
-      "status": "New"
+      "status": "New",
+      "english_text": "snow"
     }
   },
   {
@@ -3038,7 +3375,8 @@
     "fields": {
       "german_text": "Wind",
       "nepali_text": "हावा",
-      "status": "New"
+      "status": "New",
+      "english_text": "wind"
     }
   },
   {
@@ -3047,7 +3385,8 @@
     "fields": {
       "german_text": "Feuer",
       "nepali_text": "आगो",
-      "status": "New"
+      "status": "New",
+      "english_text": "fire"
     }
   },
   {
@@ -3056,7 +3395,8 @@
     "fields": {
       "german_text": "Erde",
       "nepali_text": "पृथ्वी",
-      "status": "New"
+      "status": "New",
+      "english_text": "earth"
     }
   },
   {
@@ -3065,7 +3405,8 @@
     "fields": {
       "german_text": "Berg",
       "nepali_text": "पहाड",
-      "status": "New"
+      "status": "New",
+      "english_text": "mountain"
     }
   },
   {
@@ -3074,7 +3415,8 @@
     "fields": {
       "german_text": "Fluss",
       "nepali_text": "नदी",
-      "status": "New"
+      "status": "New",
+      "english_text": "river"
     }
   },
   {
@@ -3083,7 +3425,8 @@
     "fields": {
       "german_text": "See",
       "nepali_text": "ताल",
-      "status": "New"
+      "status": "New",
+      "english_text": "lake / sea"
     }
   },
   {
@@ -3092,7 +3435,8 @@
     "fields": {
       "german_text": "Meer",
       "nepali_text": "समुद्र",
-      "status": "New"
+      "status": "New",
+      "english_text": "sea"
     }
   },
   {
@@ -3101,7 +3445,8 @@
     "fields": {
       "german_text": "Wald",
       "nepali_text": "जंगल",
-      "status": "New"
+      "status": "New",
+      "english_text": "forest"
     }
   },
   {
@@ -3110,7 +3455,8 @@
     "fields": {
       "german_text": "Baum",
       "nepali_text": "रूख",
-      "status": "New"
+      "status": "New",
+      "english_text": "tree"
     }
   },
   {
@@ -3119,7 +3465,8 @@
     "fields": {
       "german_text": "Blume",
       "nepali_text": "फूल",
-      "status": "New"
+      "status": "New",
+      "english_text": "flower"
     }
   },
   {
@@ -3128,7 +3475,8 @@
     "fields": {
       "german_text": "Gras",
       "nepali_text": "घाँस",
-      "status": "New"
+      "status": "New",
+      "english_text": "grass"
     }
   },
   {
@@ -3137,7 +3485,8 @@
     "fields": {
       "german_text": "Garten",
       "nepali_text": "बगैँचा",
-      "status": "New"
+      "status": "New",
+      "english_text": "garden"
     }
   },
   {
@@ -3146,7 +3495,8 @@
     "fields": {
       "german_text": "Vogel",
       "nepali_text": "चरा",
-      "status": "New"
+      "status": "New",
+      "english_text": "bird"
     }
   },
   {
@@ -3155,7 +3505,8 @@
     "fields": {
       "german_text": "Hund",
       "nepali_text": "कुकुर",
-      "status": "New"
+      "status": "New",
+      "english_text": "dog"
     }
   },
   {
@@ -3164,7 +3515,8 @@
     "fields": {
       "german_text": "Katze",
       "nepali_text": "बिरालो",
-      "status": "New"
+      "status": "New",
+      "english_text": "cat"
     }
   },
   {
@@ -3173,7 +3525,8 @@
     "fields": {
       "german_text": "Pferd",
       "nepali_text": "घोडा",
-      "status": "New"
+      "status": "New",
+      "english_text": "horse"
     }
   },
   {
@@ -3182,7 +3535,8 @@
     "fields": {
       "german_text": "Kuh",
       "nepali_text": "गाई",
-      "status": "New"
+      "status": "New",
+      "english_text": "cow"
     }
   },
   {
@@ -3191,7 +3545,8 @@
     "fields": {
       "german_text": "Schwein",
       "nepali_text": "सुँगुर",
-      "status": "New"
+      "status": "New",
+      "english_text": "pig"
     }
   },
   {
@@ -3200,7 +3555,8 @@
     "fields": {
       "german_text": "Arzt",
       "nepali_text": "डाक्टर",
-      "status": "New"
+      "status": "New",
+      "english_text": "doctor"
     }
   },
   {
@@ -3209,7 +3565,8 @@
     "fields": {
       "german_text": "Lehrer",
       "nepali_text": "शिक्षक",
-      "status": "New"
+      "status": "New",
+      "english_text": "teacher"
     }
   },
   {
@@ -3218,7 +3575,8 @@
     "fields": {
       "german_text": "Schüler",
       "nepali_text": "विद्यार्थी",
-      "status": "New"
+      "status": "New",
+      "english_text": "student / pupil"
     }
   },
   {
@@ -3227,7 +3585,8 @@
     "fields": {
       "german_text": "Polizei",
       "nepali_text": "प्रहरी",
-      "status": "New"
+      "status": "New",
+      "english_text": "police"
     }
   },
   {
@@ -3236,7 +3595,8 @@
     "fields": {
       "german_text": "Kirche",
       "nepali_text": "गिर्जाघर",
-      "status": "New"
+      "status": "New",
+      "english_text": "church"
     }
   },
   {
@@ -3245,7 +3605,8 @@
     "fields": {
       "german_text": "Markt",
       "nepali_text": "बजार",
-      "status": "New"
+      "status": "New",
+      "english_text": "market"
     }
   },
   {
@@ -3254,7 +3615,8 @@
     "fields": {
       "german_text": "Laden",
       "nepali_text": "पसल",
-      "status": "New"
+      "status": "New",
+      "english_text": "shop / store"
     }
   },
   {
@@ -3263,7 +3625,8 @@
     "fields": {
       "german_text": "Restaurant",
       "nepali_text": "भोजनालय",
-      "status": "New"
+      "status": "New",
+      "english_text": "restaurant"
     }
   },
   {
@@ -3272,7 +3635,8 @@
     "fields": {
       "german_text": "Hotel",
       "nepali_text": "होटल",
-      "status": "New"
+      "status": "New",
+      "english_text": "hotel"
     }
   },
   {
@@ -3281,7 +3645,8 @@
     "fields": {
       "german_text": "Krankenhaus",
       "nepali_text": "अस्पताल",
-      "status": "New"
+      "status": "New",
+      "english_text": "hospital"
     }
   },
   {
@@ -3290,7 +3655,8 @@
     "fields": {
       "german_text": "Flughafen",
       "nepali_text": "विमानस्थल",
-      "status": "New"
+      "status": "New",
+      "english_text": "airport"
     }
   },
   {
@@ -3299,7 +3665,8 @@
     "fields": {
       "german_text": "Bahnhof",
       "nepali_text": "रेलवे स्टेशन",
-      "status": "New"
+      "status": "New",
+      "english_text": "train station"
     }
   },
   {
@@ -3308,7 +3675,8 @@
     "fields": {
       "german_text": "Bus",
       "nepali_text": "बस",
-      "status": "New"
+      "status": "New",
+      "english_text": "bus"
     }
   },
   {
@@ -3317,7 +3685,8 @@
     "fields": {
       "german_text": "Zug",
       "nepali_text": "रेलगाडी",
-      "status": "New"
+      "status": "New",
+      "english_text": "train"
     }
   },
   {
@@ -3326,7 +3695,8 @@
     "fields": {
       "german_text": "Auto",
       "nepali_text": "गाडी",
-      "status": "New"
+      "status": "New",
+      "english_text": "car"
     }
   },
   {
@@ -3335,7 +3705,8 @@
     "fields": {
       "german_text": "Fahrrad",
       "nepali_text": "साइकल",
-      "status": "New"
+      "status": "New",
+      "english_text": "bicycle"
     }
   },
   {
@@ -3344,7 +3715,8 @@
     "fields": {
       "german_text": "Flugzeug",
       "nepali_text": "हवाइजहाज",
-      "status": "New"
+      "status": "New",
+      "english_text": "airplane"
     }
   },
   {
@@ -3353,7 +3725,8 @@
     "fields": {
       "german_text": "Schiff",
       "nepali_text": "जहाज",
-      "status": "New"
+      "status": "New",
+      "english_text": "ship"
     }
   },
   {
@@ -3362,7 +3735,8 @@
     "fields": {
       "german_text": "Brücke",
       "nepali_text": "पुल",
-      "status": "New"
+      "status": "New",
+      "english_text": "bridge"
     }
   },
   {
@@ -3371,7 +3745,8 @@
     "fields": {
       "german_text": "kaufen",
       "nepali_text": "किन्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to buy"
     }
   },
   {
@@ -3380,7 +3755,8 @@
     "fields": {
       "german_text": "verkaufen",
       "nepali_text": "बेच्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to sell"
     }
   },
   {
@@ -3389,7 +3765,8 @@
     "fields": {
       "german_text": "zahlen",
       "nepali_text": "तिर्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to pay"
     }
   },
   {
@@ -3398,7 +3775,8 @@
     "fields": {
       "german_text": "kosten",
       "nepali_text": "मूल्य हुनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to cost"
     }
   },
   {
@@ -3407,7 +3785,8 @@
     "fields": {
       "german_text": "öffnen",
       "nepali_text": "खोल्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to open"
     }
   },
   {
@@ -3416,7 +3795,8 @@
     "fields": {
       "german_text": "schließen",
       "nepali_text": "बन्द गर्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to close / to conclude"
     }
   },
   {
@@ -3425,7 +3805,8 @@
     "fields": {
       "german_text": "anfangen",
       "nepali_text": "सुरु गर्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to start / to begin"
     }
   },
   {
@@ -3434,7 +3815,8 @@
     "fields": {
       "german_text": "aufhören",
       "nepali_text": "रोक्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to stop / to quit"
     }
   },
   {
@@ -3443,7 +3825,8 @@
     "fields": {
       "german_text": "vergessen",
       "nepali_text": "बिर्सनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to forget"
     }
   },
   {
@@ -3452,7 +3835,8 @@
     "fields": {
       "german_text": "schlafen",
       "nepali_text": "सुत्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to sleep"
     }
   },
   {
@@ -3461,7 +3845,8 @@
     "fields": {
       "german_text": "aufwachen",
       "nepali_text": "उठ्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to wake up"
     }
   },
   {
@@ -3470,7 +3855,8 @@
     "fields": {
       "german_text": "essen",
       "nepali_text": "खानु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to eat"
     }
   },
   {
@@ -3479,7 +3865,8 @@
     "fields": {
       "german_text": "trinken",
       "nepali_text": "पिउनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to drink"
     }
   },
   {
@@ -3488,7 +3875,8 @@
     "fields": {
       "german_text": "kochen",
       "nepali_text": "पकाउनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to cook"
     }
   },
   {
@@ -3497,7 +3885,8 @@
     "fields": {
       "german_text": "waschen",
       "nepali_text": "धुनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to wash"
     }
   },
   {
@@ -3506,7 +3895,8 @@
     "fields": {
       "german_text": "putzen",
       "nepali_text": "सफा गर्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to clean"
     }
   },
   {
@@ -3515,7 +3905,8 @@
     "fields": {
       "german_text": "tragen",
       "nepali_text": "लगाउनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to carry / to wear"
     }
   },
   {
@@ -3524,7 +3915,8 @@
     "fields": {
       "german_text": "anziehen",
       "nepali_text": "लुगा लगाउनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to put on / to dress"
     }
   },
   {
@@ -3533,7 +3925,8 @@
     "fields": {
       "german_text": "ausziehen",
       "nepali_text": "लुगा फुकाल्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to take off / to undress"
     }
   },
   {
@@ -3542,7 +3935,8 @@
     "fields": {
       "german_text": "singen",
       "nepali_text": "गाउनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to sing"
     }
   },
   {
@@ -3551,7 +3945,8 @@
     "fields": {
       "german_text": "tanzen",
       "nepali_text": "नाच्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to dance"
     }
   },
   {
@@ -3560,7 +3955,8 @@
     "fields": {
       "german_text": "lachen",
       "nepali_text": "हाँस्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to laugh"
     }
   },
   {
@@ -3569,7 +3965,8 @@
     "fields": {
       "german_text": "weinen",
       "nepali_text": "रुनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to cry"
     }
   },
   {
@@ -3578,7 +3975,8 @@
     "fields": {
       "german_text": "lieben",
       "nepali_text": "माया गर्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to love"
     }
   },
   {
@@ -3587,7 +3985,8 @@
     "fields": {
       "german_text": "hassen",
       "nepali_text": "घृणा गर्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to hate"
     }
   },
   {
@@ -3596,7 +3995,8 @@
     "fields": {
       "german_text": "danken",
       "nepali_text": "धन्यवाद दिनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to thank"
     }
   },
   {
@@ -3605,7 +4005,8 @@
     "fields": {
       "german_text": "bitten",
       "nepali_text": "अनुरोध गर्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to ask / to request"
     }
   },
   {
@@ -3614,7 +4015,8 @@
     "fields": {
       "german_text": "sprechen",
       "nepali_text": "बोल्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to speak"
     }
   },
   {
@@ -3623,7 +4025,8 @@
     "fields": {
       "german_text": "hören",
       "nepali_text": "सुन्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to hear / to listen"
     }
   },
   {
@@ -3632,7 +4035,8 @@
     "fields": {
       "german_text": "rufen",
       "nepali_text": "बोलाउनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to call / to shout"
     }
   },
   {
@@ -3641,7 +4045,8 @@
     "fields": {
       "german_text": "zeigen",
       "nepali_text": "देखाउनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to show"
     }
   },
   {
@@ -3650,7 +4055,8 @@
     "fields": {
       "german_text": "geben",
       "nepali_text": "दिनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to give"
     }
   },
   {
@@ -3659,7 +4065,8 @@
     "fields": {
       "german_text": "nehmen",
       "nepali_text": "लिनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to take"
     }
   },
   {
@@ -3668,7 +4075,8 @@
     "fields": {
       "german_text": "werfen",
       "nepali_text": "फ्याँक्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to throw"
     }
   },
   {
@@ -3677,7 +4085,8 @@
     "fields": {
       "german_text": "fangen",
       "nepali_text": "समात्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to catch"
     }
   },
   {
@@ -3686,7 +4095,8 @@
     "fields": {
       "german_text": "schneiden",
       "nepali_text": "काट्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to cut"
     }
   },
   {
@@ -3695,7 +4105,8 @@
     "fields": {
       "german_text": "bauen",
       "nepali_text": "बनाउनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to build"
     }
   },
   {
@@ -3704,7 +4115,8 @@
     "fields": {
       "german_text": "reparieren",
       "nepali_text": "मर्मत गर्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to repair / to fix"
     }
   },
   {
@@ -3713,7 +4125,8 @@
     "fields": {
       "german_text": "ändern",
       "nepali_text": "परिवर्तन गर्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to change"
     }
   },
   {
@@ -3722,7 +4135,8 @@
     "fields": {
       "german_text": "benutzen",
       "nepali_text": "प्रयोग गर्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to use"
     }
   },
   {
@@ -3731,7 +4145,8 @@
     "fields": {
       "german_text": "versuchen",
       "nepali_text": "प्रयास गर्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to try"
     }
   },
   {
@@ -3740,7 +4155,8 @@
     "fields": {
       "german_text": "wünschen",
       "nepali_text": "चाहनु / शुभकामना दिनु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to wish"
     }
   },
   {
@@ -3749,7 +4165,8 @@
     "fields": {
       "german_text": "hoffen",
       "nepali_text": "आशा गर्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to hope"
     }
   },
   {
@@ -3758,7 +4175,8 @@
     "fields": {
       "german_text": "glauben",
       "nepali_text": "विश्वास गर्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to believe"
     }
   },
   {
@@ -3767,7 +4185,8 @@
     "fields": {
       "german_text": "wählen",
       "nepali_text": "छान्नु / चुन्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to choose / to vote"
     }
   },
   {
@@ -3776,7 +4195,8 @@
     "fields": {
       "german_text": "entscheiden",
       "nepali_text": "निर्णय गर्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to decide"
     }
   },
   {
@@ -3785,7 +4205,8 @@
     "fields": {
       "german_text": "beginnen",
       "nepali_text": "सुरु गर्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to begin"
     }
   },
   {
@@ -3794,7 +4215,8 @@
     "fields": {
       "german_text": "beenden",
       "nepali_text": "समाप्त गर्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to finish / to end"
     }
   },
   {
@@ -3803,7 +4225,8 @@
     "fields": {
       "german_text": "gewinnen",
       "nepali_text": "जित्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to win"
     }
   },
   {
@@ -3812,7 +4235,8 @@
     "fields": {
       "german_text": "verlieren",
       "nepali_text": "हार्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to lose"
     }
   },
   {
@@ -3821,7 +4245,8 @@
     "fields": {
       "german_text": "kämpfen",
       "nepali_text": "लड्नु",
-      "status": "New"
+      "status": "New",
+      "english_text": "to fight"
     }
   },
   {
@@ -3830,7 +4255,8 @@
     "fields": {
       "german_text": "Preis",
       "nepali_text": "मूल्य / पुरस्कार",
-      "status": "New"
+      "status": "New",
+      "english_text": "price / prize"
     }
   },
   {
@@ -3839,7 +4265,8 @@
     "fields": {
       "german_text": "Prozent",
       "nepali_text": "प्रतिशत",
-      "status": "New"
+      "status": "New",
+      "english_text": "percent"
     }
   },
   {
@@ -3848,7 +4275,8 @@
     "fields": {
       "german_text": "Nummer",
       "nepali_text": "नम्बर",
-      "status": "New"
+      "status": "New",
+      "english_text": "number"
     }
   },
   {
@@ -3857,7 +4285,8 @@
     "fields": {
       "german_text": "Gruppe",
       "nepali_text": "समूह",
-      "status": "New"
+      "status": "New",
+      "english_text": "group"
     }
   },
   {
@@ -3866,7 +4295,8 @@
     "fields": {
       "german_text": "Ergebnis",
       "nepali_text": "परिणाम",
-      "status": "New"
+      "status": "New",
+      "english_text": "result"
     }
   },
   {
@@ -3875,7 +4305,8 @@
     "fields": {
       "german_text": "Form",
       "nepali_text": "रूप / आकार",
-      "status": "New"
+      "status": "New",
+      "english_text": "form / shape"
     }
   },
   {
@@ -3884,7 +4315,8 @@
     "fields": {
       "german_text": "System",
       "nepali_text": "प्रणाली",
-      "status": "New"
+      "status": "New",
+      "english_text": "system"
     }
   },
   {
@@ -3893,7 +4325,8 @@
     "fields": {
       "german_text": "Gesellschaft",
       "nepali_text": "समाज",
-      "status": "New"
+      "status": "New",
+      "english_text": "society"
     }
   },
   {
@@ -3902,7 +4335,8 @@
     "fields": {
       "german_text": "Politik",
       "nepali_text": "राजनीति",
-      "status": "New"
+      "status": "New",
+      "english_text": "politics"
     }
   },
   {
@@ -3911,7 +4345,8 @@
     "fields": {
       "german_text": "Regierung",
       "nepali_text": "सरकार",
-      "status": "New"
+      "status": "New",
+      "english_text": "government"
     }
   },
   {
@@ -3920,7 +4355,8 @@
     "fields": {
       "german_text": "Gesetz",
       "nepali_text": "कानून",
-      "status": "New"
+      "status": "New",
+      "english_text": "law"
     }
   },
   {
@@ -3929,7 +4365,8 @@
     "fields": {
       "german_text": "Partei",
       "nepali_text": "पार्टी / दल",
-      "status": "New"
+      "status": "New",
+      "english_text": "party (political)"
     }
   },
   {
@@ -3938,7 +4375,8 @@
     "fields": {
       "german_text": "Zeitung",
       "nepali_text": "पत्रिका",
-      "status": "New"
+      "status": "New",
+      "english_text": "newspaper"
     }
   },
   {
@@ -3947,7 +4385,8 @@
     "fields": {
       "german_text": "Programm",
       "nepali_text": "कार्यक्रम",
-      "status": "New"
+      "status": "New",
+      "english_text": "program"
     }
   },
   {
@@ -3956,7 +4395,8 @@
     "fields": {
       "german_text": "Universität",
       "nepali_text": "विश्वविद्यालय",
-      "status": "New"
+      "status": "New",
+      "english_text": "university"
     }
   },
   {
@@ -3965,7 +4405,8 @@
     "fields": {
       "german_text": "Wirtschaft",
       "nepali_text": "अर्थतन्त्र",
-      "status": "New"
+      "status": "New",
+      "english_text": "economy"
     }
   },
   {
@@ -3974,7 +4415,8 @@
     "fields": {
       "german_text": "Unternehmen",
       "nepali_text": "उद्यम / कम्पनी",
-      "status": "New"
+      "status": "New",
+      "english_text": "company / enterprise"
     }
   },
   {
@@ -3983,7 +4425,8 @@
     "fields": {
       "german_text": "Recht",
       "nepali_text": "अधिकार / कानून",
-      "status": "New"
+      "status": "New",
+      "english_text": "right / law"
     }
   },
   {
@@ -3992,7 +4435,8 @@
     "fields": {
       "german_text": "Entwicklung",
       "nepali_text": "विकास",
-      "status": "New"
+      "status": "New",
+      "english_text": "development"
     }
   },
   {
@@ -4001,7 +4445,8 @@
     "fields": {
       "german_text": "Bereich",
       "nepali_text": "क्षेत्र",
-      "status": "New"
+      "status": "New",
+      "english_text": "area / field"
     }
   },
   {
@@ -4010,7 +4455,8 @@
     "fields": {
       "german_text": "Minute",
       "nepali_text": "मिनेट",
-      "status": "New"
+      "status": "New",
+      "english_text": "minute"
     }
   },
   {
@@ -4019,7 +4465,8 @@
     "fields": {
       "german_text": "Uhr",
       "nepali_text": "घडी / बजे",
-      "status": "New"
+      "status": "New",
+      "english_text": "clock / o'clock"
     }
   },
   {
@@ -4028,7 +4475,8 @@
     "fields": {
       "german_text": "Mal",
       "nepali_text": "पटक",
-      "status": "New"
+      "status": "New",
+      "english_text": "time (instance)"
     }
   },
   {
@@ -4037,7 +4485,8 @@
     "fields": {
       "german_text": "Euro",
       "nepali_text": "यूरो",
-      "status": "New"
+      "status": "New",
+      "english_text": "euro"
     }
   },
   {
@@ -4046,7 +4495,8 @@
     "fields": {
       "german_text": "Kilometer",
       "nepali_text": "किलोमिटर",
-      "status": "New"
+      "status": "New",
+      "english_text": "kilometer"
     }
   },
   {
@@ -4055,7 +4505,8 @@
     "fields": {
       "german_text": "Meter",
       "nepali_text": "मिटर",
-      "status": "New"
+      "status": "New",
+      "english_text": "meter"
     }
   },
   {
@@ -4064,7 +4515,8 @@
     "fields": {
       "german_text": "Prozess",
       "nepali_text": "प्रक्रिया",
-      "status": "New"
+      "status": "New",
+      "english_text": "process / trial"
     }
   },
   {
@@ -4073,7 +4525,8 @@
     "fields": {
       "german_text": "Krieg",
       "nepali_text": "युद्ध",
-      "status": "New"
+      "status": "New",
+      "english_text": "war"
     }
   },
   {
@@ -4082,7 +4535,8 @@
     "fields": {
       "german_text": "Frieden",
       "nepali_text": "शान्ति",
-      "status": "New"
+      "status": "New",
+      "english_text": "peace"
     }
   },
   {
@@ -4091,7 +4545,8 @@
     "fields": {
       "german_text": "Kultur",
       "nepali_text": "संस्कृति",
-      "status": "New"
+      "status": "New",
+      "english_text": "culture"
     }
   },
   {
@@ -4100,7 +4555,8 @@
     "fields": {
       "german_text": "Kunst",
       "nepali_text": "कला",
-      "status": "New"
+      "status": "New",
+      "english_text": "art"
     }
   },
   {
@@ -4109,7 +4565,8 @@
     "fields": {
       "german_text": "Film",
       "nepali_text": "चलचित्र",
-      "status": "New"
+      "status": "New",
+      "english_text": "film / movie"
     }
   },
   {
@@ -4118,7 +4575,8 @@
     "fields": {
       "german_text": "Spiel",
       "nepali_text": "खेल",
-      "status": "New"
+      "status": "New",
+      "english_text": "game"
     }
   },
   {
@@ -4127,7 +4585,8 @@
     "fields": {
       "german_text": "Sport",
       "nepali_text": "खेलकुद",
-      "status": "New"
+      "status": "New",
+      "english_text": "sport"
     }
   },
   {
@@ -4136,7 +4595,8 @@
     "fields": {
       "german_text": "Mannschaft",
       "nepali_text": "टोली",
-      "status": "New"
+      "status": "New",
+      "english_text": "team"
     }
   },
   {
@@ -4145,7 +4605,8 @@
     "fields": {
       "german_text": "Körper",
       "nepali_text": "शरीर",
-      "status": "New"
+      "status": "New",
+      "english_text": "body"
     }
   },
   {
@@ -4154,7 +4615,8 @@
     "fields": {
       "german_text": "Gesicht",
       "nepali_text": "अनुहार",
-      "status": "New"
+      "status": "New",
+      "english_text": "face"
     }
   },
   {
@@ -4163,7 +4625,8 @@
     "fields": {
       "german_text": "Mund",
       "nepali_text": "मुख",
-      "status": "New"
+      "status": "New",
+      "english_text": "mouth"
     }
   },
   {
@@ -4172,7 +4635,8 @@
     "fields": {
       "german_text": "Nase",
       "nepali_text": "नाक",
-      "status": "New"
+      "status": "New",
+      "english_text": "nose"
     }
   },
   {
@@ -4181,7 +4645,8 @@
     "fields": {
       "german_text": "Ohr",
       "nepali_text": "कान",
-      "status": "New"
+      "status": "New",
+      "english_text": "ear"
     }
   },
   {
@@ -4190,7 +4655,8 @@
     "fields": {
       "german_text": "Haar",
       "nepali_text": "कपाल",
-      "status": "New"
+      "status": "New",
+      "english_text": "hair"
     }
   },
   {
@@ -4199,7 +4665,8 @@
     "fields": {
       "german_text": "Finger",
       "nepali_text": "औंला",
-      "status": "New"
+      "status": "New",
+      "english_text": "finger"
     }
   },
   {
@@ -4208,7 +4675,8 @@
     "fields": {
       "german_text": "Fuß",
       "nepali_text": "खुट्टा",
-      "status": "New"
+      "status": "New",
+      "english_text": "foot"
     }
   },
   {
@@ -4217,7 +4685,8 @@
     "fields": {
       "german_text": "Bein",
       "nepali_text": "खुट्टा (गोडा)",
-      "status": "New"
+      "status": "New",
+      "english_text": "leg"
     }
   },
   {
@@ -4226,7 +4695,8 @@
     "fields": {
       "german_text": "Arm",
       "nepali_text": "हात (पाखुरा)",
-      "status": "New"
+      "status": "New",
+      "english_text": "arm"
     }
   },
   {
@@ -4235,7 +4705,8 @@
     "fields": {
       "german_text": "Rücken",
       "nepali_text": "पिठ्यूँ",
-      "status": "New"
+      "status": "New",
+      "english_text": "back"
     }
   },
   {
@@ -4244,7 +4715,8 @@
     "fields": {
       "german_text": "Zahn",
       "nepali_text": "दाँत",
-      "status": "New"
+      "status": "New",
+      "english_text": "tooth"
     }
   },
   {
@@ -4253,7 +4725,8 @@
     "fields": {
       "german_text": "Blut",
       "nepali_text": "रगत",
-      "status": "New"
+      "status": "New",
+      "english_text": "blood"
     }
   },
   {
@@ -4262,7 +4735,8 @@
     "fields": {
       "german_text": "Haut",
       "nepali_text": "छाला",
-      "status": "New"
+      "status": "New",
+      "english_text": "skin"
     }
   },
   {
@@ -4271,7 +4745,8 @@
     "fields": {
       "german_text": "Kleid",
       "nepali_text": "लुगा",
-      "status": "New"
+      "status": "New",
+      "english_text": "dress"
     }
   },
   {
@@ -4280,7 +4755,8 @@
     "fields": {
       "german_text": "Hemd",
       "nepali_text": "सर्ट",
-      "status": "New"
+      "status": "New",
+      "english_text": "shirt"
     }
   },
   {
@@ -4289,7 +4765,8 @@
     "fields": {
       "german_text": "Hose",
       "nepali_text": "पाइन्ट",
-      "status": "New"
+      "status": "New",
+      "english_text": "pants / trousers"
     }
   },
   {
@@ -4298,7 +4775,8 @@
     "fields": {
       "german_text": "Schuh",
       "nepali_text": "जुत्ता",
-      "status": "New"
+      "status": "New",
+      "english_text": "shoe"
     }
   },
   {
@@ -4307,7 +4785,8 @@
     "fields": {
       "german_text": "Jacke",
       "nepali_text": "ज्याकेट",
-      "status": "New"
+      "status": "New",
+      "english_text": "jacket"
     }
   },
   {
@@ -4316,7 +4795,8 @@
     "fields": {
       "german_text": "Hut",
       "nepali_text": "टोपी",
-      "status": "New"
+      "status": "New",
+      "english_text": "hat"
     }
   },
   {
@@ -4325,7 +4805,8 @@
     "fields": {
       "german_text": "Tasche",
       "nepali_text": "झोला",
-      "status": "New"
+      "status": "New",
+      "english_text": "bag / pocket"
     }
   },
   {
@@ -4334,7 +4815,8 @@
     "fields": {
       "german_text": "Schlüssel",
       "nepali_text": "चाबी",
-      "status": "New"
+      "status": "New",
+      "english_text": "key"
     }
   },
   {
@@ -4343,7 +4825,8 @@
     "fields": {
       "german_text": "Telefon",
       "nepali_text": "टेलिफोन",
-      "status": "New"
+      "status": "New",
+      "english_text": "telephone"
     }
   },
   {
@@ -4352,7 +4835,8 @@
     "fields": {
       "german_text": "Computer",
       "nepali_text": "कम्प्युटर",
-      "status": "New"
+      "status": "New",
+      "english_text": "computer"
     }
   },
   {
@@ -4361,7 +4845,8 @@
     "fields": {
       "german_text": "Internet",
       "nepali_text": "इन्टरनेट",
-      "status": "New"
+      "status": "New",
+      "english_text": "internet"
     }
   },
   {
@@ -4370,7 +4855,8 @@
     "fields": {
       "german_text": "Brief",
       "nepali_text": "पत्र",
-      "status": "New"
+      "status": "New",
+      "english_text": "letter"
     }
   },
   {
@@ -4379,7 +4865,8 @@
     "fields": {
       "german_text": "Nachricht",
       "nepali_text": "समाचार / सन्देश",
-      "status": "New"
+      "status": "New",
+      "english_text": "message / news"
     }
   },
   {
@@ -4388,7 +4875,8 @@
     "fields": {
       "german_text": "Idee",
       "nepali_text": "विचार",
-      "status": "New"
+      "status": "New",
+      "english_text": "idea"
     }
   },
   {
@@ -4397,7 +4885,8 @@
     "fields": {
       "german_text": "Meinung",
       "nepali_text": "मत / विचार",
-      "status": "New"
+      "status": "New",
+      "english_text": "opinion"
     }
   },
   {
@@ -4406,7 +4895,8 @@
     "fields": {
       "german_text": "Wahrheit",
       "nepali_text": "सत्य",
-      "status": "New"
+      "status": "New",
+      "english_text": "truth"
     }
   },
   {
@@ -4415,7 +4905,8 @@
     "fields": {
       "german_text": "Freiheit",
       "nepali_text": "स्वतन्त्रता",
-      "status": "New"
+      "status": "New",
+      "english_text": "freedom"
     }
   },
   {
@@ -4424,7 +4915,8 @@
     "fields": {
       "german_text": "Sicherheit",
       "nepali_text": "सुरक्षा",
-      "status": "New"
+      "status": "New",
+      "english_text": "safety / security"
     }
   },
   {
@@ -4433,7 +4925,8 @@
     "fields": {
       "german_text": "Kraft",
       "nepali_text": "बल / शक्ति",
-      "status": "New"
+      "status": "New",
+      "english_text": "power / force"
     }
   },
   {
@@ -4442,7 +4935,8 @@
     "fields": {
       "german_text": "Erfolg",
       "nepali_text": "सफलता",
-      "status": "New"
+      "status": "New",
+      "english_text": "success"
     }
   },
   {
@@ -4451,7 +4945,8 @@
     "fields": {
       "german_text": "Fehler",
       "nepali_text": "गल्ती",
-      "status": "New"
+      "status": "New",
+      "english_text": "mistake / error"
     }
   },
   {
@@ -4460,7 +4955,8 @@
     "fields": {
       "german_text": "Zukunft",
       "nepali_text": "भविष्य",
-      "status": "New"
+      "status": "New",
+      "english_text": "future"
     }
   },
   {
@@ -4469,7 +4965,8 @@
     "fields": {
       "german_text": "Vergangenheit",
       "nepali_text": "भूतकाल",
-      "status": "New"
+      "status": "New",
+      "english_text": "past"
     }
   },
   {
@@ -4478,7 +4975,8 @@
     "fields": {
       "german_text": "Gegenwart",
       "nepali_text": "वर्तमान",
-      "status": "New"
+      "status": "New",
+      "english_text": "present"
     }
   },
   {
@@ -4487,7 +4985,8 @@
     "fields": {
       "german_text": "Chance",
       "nepali_text": "अवसर",
-      "status": "New"
+      "status": "New",
+      "english_text": "chance / opportunity"
     }
   },
   {
@@ -4496,7 +4995,8 @@
     "fields": {
       "german_text": "Gefahr",
       "nepali_text": "खतरा",
-      "status": "New"
+      "status": "New",
+      "english_text": "danger"
     }
   }
 ]

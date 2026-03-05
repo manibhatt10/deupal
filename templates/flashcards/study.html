@@ -14,7 +14,7 @@
         <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight">
             <span class="bg-gradient-to-r from-sky-500 via-cyan-500 to-blue-500 bg-clip-text text-transparent">GermanAnki</span>
         </h1>
-        <p class="mt-3 text-slate-500 dark:text-slate-400 text-lg">Master the 500 most common German words &middot; Nepali translations</p>
+        <p class="mt-3 text-slate-500 dark:text-slate-400 text-lg">Master the 500 most common German words &middot; Nepali &amp; English translations</p>
     </header>
 
     <!-- Progress Bar -->
@@ -59,8 +59,13 @@
                     </div>
                     <div class="card-back glass-card bg-gradient-to-br from-sky-100/60 to-cyan-100/60 dark:from-sky-900/50 dark:to-cyan-900/50">
                         <div class="status-badge badge-{{ card.status|lower }} text-xs font-semibold px-3 py-1 rounded-full absolute top-3 right-3"><span>{{ card.status }}</span></div>
-                        <span class="text-3xl font-bold text-slate-800 dark:text-white">{{ card.nepali_text }}</span>
-                        <span class="mt-2 text-sm text-sky-700 dark:text-sky-300">&#127467;&#127477; Nepali</span>
+                        <span class="text-2xl font-bold text-slate-800 dark:text-white">{{ card.english_text }}</span>
+                        <span class="text-lg font-semibold text-sky-700 dark:text-sky-300 mt-1">{{ card.nepali_text }}</span>
+                        <div class="flex items-center gap-3 mt-2 text-xs text-slate-500 dark:text-slate-400">
+                            <span>&#127468;&#127463; English</span>
+                            <span>&middot;</span>
+                            <span>&#127467;&#127477; Nepali</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -88,7 +93,7 @@
     {% endif %}
 
     <footer class="text-center text-slate-400 dark:text-slate-600 text-sm pb-6">
-        <p>GermanAnki &middot; 500 Most Common German Words &middot; Nepali Translations</p>
+        <p>GermanAnki &middot; 500 Most Common German Words &middot; Nepali &amp; English Translations</p>
     </footer>
 </div>
 {% endblock %}
