@@ -12,11 +12,12 @@
     <!-- Header -->
     <header class="text-center mb-10">
         <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight">
-            <span class="bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
+            <span class="bg-gradient-to-r from-sky-500 via-cyan-500 to-blue-500 bg-clip-text text-transparent">
                 GermanAnki
             </span>
         </h1>
-        <p class="mt-3 text-slate-400 text-lg">Master the 500 most common German words · Nepali translations</p>
+        <p class="mt-3 text-slate-500 dark:text-slate-400 text-lg">Master the 500 most common German words · Nepali
+            translations</p>
     </header>
 
     <!-- Progress Bar -->
@@ -24,23 +25,26 @@
         <div class="flex items-center justify-between mb-3 text-sm font-medium">
             <div class="flex items-center gap-4">
                 <span class="flex items-center gap-1.5">
-                    <span class="w-3 h-3 rounded-full bg-blue-500 inline-block"></span>
-                    New: <strong id="count-new">{{ new_count }}</strong>
+                    <span class="w-3 h-3 rounded-full bg-sky-500 inline-block"></span>
+                    <span class="text-slate-700 dark:text-slate-200">New: <strong id="count-new">{{ new_count
+                            }}</strong></span>
                 </span>
                 <span class="flex items-center gap-1.5">
                     <span class="w-3 h-3 rounded-full bg-amber-500 inline-block"></span>
-                    Revision: <strong id="count-revision">{{ revision_count }}</strong>
+                    <span class="text-slate-700 dark:text-slate-200">Revision: <strong id="count-revision">{{
+                            revision_count }}</strong></span>
                 </span>
                 <span class="flex items-center gap-1.5">
                     <span class="w-3 h-3 rounded-full bg-emerald-500 inline-block"></span>
-                    Mastered: <strong id="count-mastered">{{ mastered_count }}</strong>
+                    <span class="text-slate-700 dark:text-slate-200">Mastered: <strong id="count-mastered">{{
+                            mastered_count }}</strong></span>
                 </span>
             </div>
-            <span class="text-slate-400">{{ total }} total</span>
+            <span class="text-slate-500 dark:text-slate-400">{{ total }} total</span>
         </div>
-        <div class="w-full bg-slate-800 rounded-full h-3 overflow-hidden flex">
+        <div class="w-full bg-sky-100 dark:bg-slate-800 rounded-full h-3 overflow-hidden flex">
             {% if total > 0 %}
-            <div id="progress-new" class="progress-segment bg-blue-500 h-full"
+            <div id="progress-new" class="progress-segment bg-sky-500 h-full"
                 style="width: {% widthratio new_count total 100 %}%"></div>
             <div id="progress-revision" class="progress-segment bg-amber-500 h-full"
                 style="width: {% widthratio revision_count total 100 %}%"></div>
@@ -64,17 +68,19 @@
                             class="status-badge badge-{{ card.status|lower }} text-xs font-semibold px-3 py-1 rounded-full absolute top-3 right-3">
                             <span>{{ card.status }}</span>
                         </div>
-                        <span class="text-3xl font-bold text-white tracking-wide">{{ card.german_text }}</span>
-                        <span class="mt-2 text-sm text-slate-400">Click to flip</span>
+                        <span class="text-3xl font-bold text-slate-800 dark:text-white tracking-wide">{{
+                            card.german_text }}</span>
+                        <span class="mt-2 text-sm text-slate-400 dark:text-slate-400">Click to flip</span>
                     </div>
                     <!-- Back -->
-                    <div class="card-back glass-card bg-gradient-to-br from-indigo-900/50 to-purple-900/50">
+                    <div
+                        class="card-back glass-card bg-gradient-to-br from-sky-100/60 to-cyan-100/60 dark:from-sky-900/50 dark:to-cyan-900/50">
                         <div
                             class="status-badge badge-{{ card.status|lower }} text-xs font-semibold px-3 py-1 rounded-full absolute top-3 right-3">
                             <span>{{ card.status }}</span>
                         </div>
-                        <span class="text-3xl font-bold text-white">{{ card.nepali_text }}</span>
-                        <span class="mt-2 text-sm text-indigo-300">🇳🇵 Nepali</span>
+                        <span class="text-3xl font-bold text-slate-800 dark:text-white">{{ card.nepali_text }}</span>
+                        <span class="mt-2 text-sm text-sky-700 dark:text-sky-300">🇳🇵 Nepali</span>
                     </div>
                 </div>
             </div>
@@ -82,17 +88,17 @@
             <!-- Status Buttons -->
             <div class="status-buttons flex gap-2 mt-3">
                 <button
-                    class="btn-status flex-1 py-2 px-3 rounded-lg text-xs font-semibold badge-new text-white {% if card.status == 'New' %}ring-2 ring-white scale-105{% endif %}"
+                    class="btn-status flex-1 py-2 px-3 rounded-lg text-xs font-semibold badge-new text-white {% if card.status == 'New' %}ring-2 ring-sky-300 dark:ring-white scale-105{% endif %}"
                     data-card-id="{{ card.id }}" data-status="New">
                     📘 New
                 </button>
                 <button
-                    class="btn-status flex-1 py-2 px-3 rounded-lg text-xs font-semibold badge-revision text-white {% if card.status == 'Revision' %}ring-2 ring-white scale-105{% endif %}"
+                    class="btn-status flex-1 py-2 px-3 rounded-lg text-xs font-semibold badge-revision text-white {% if card.status == 'Revision' %}ring-2 ring-sky-300 dark:ring-white scale-105{% endif %}"
                     data-card-id="{{ card.id }}" data-status="Revision">
                     🔄 Revision
                 </button>
                 <button
-                    class="btn-status flex-1 py-2 px-3 rounded-lg text-xs font-semibold badge-mastered text-white {% if card.status == 'Mastered' %}ring-2 ring-white scale-105{% endif %}"
+                    class="btn-status flex-1 py-2 px-3 rounded-lg text-xs font-semibold badge-mastered text-white {% if card.status == 'Mastered' %}ring-2 ring-sky-300 dark:ring-white scale-105{% endif %}"
                     data-card-id="{{ card.id }}" data-status="Mastered">
                     ✅ Mastered
                 </button>
@@ -104,7 +110,7 @@
     <!-- Next 10 Button -->
     <div class="text-center mb-12">
         <a href="/"
-            class="inline-flex items-center gap-2 px-8 py-3 rounded-xl bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white font-semibold text-lg shadow-lg shadow-indigo-500/25 transition-all duration-300 hover:shadow-xl hover:shadow-indigo-500/40 hover:-translate-y-0.5">
+            class="inline-flex items-center gap-2 px-8 py-3 rounded-xl bg-gradient-to-r from-sky-500 to-cyan-500 hover:from-sky-400 hover:to-cyan-400 text-white font-semibold text-lg shadow-lg shadow-sky-500/25 transition-all duration-300 hover:shadow-xl hover:shadow-sky-500/40 hover:-translate-y-0.5">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                 <path fill-rule="evenodd"
                     d="M4 2a1 1 0 011 1v2.101a7.002 7.002 0 0111.601 2.566 1 1 0 11-1.885.666A5.002 5.002 0 005.999 7H9a1 1 0 010 2H4a1 1 0 01-1-1V3a1 1 0 011-1zm.008 9.057a1 1 0 011.276.61A5.002 5.002 0 0014.001 13H11a1 1 0 110-2h5a1 1 0 011 1v5a1 1 0 11-2 0v-2.101a7.002 7.002 0 01-11.601-2.566 1 1 0 01.61-1.276z"
@@ -116,15 +122,16 @@
 
     {% else %}
     <div class="text-center py-20">
-        <p class="text-2xl text-slate-400">No flashcards found.</p>
-        <p class="text-slate-500 mt-2">Run <code
-                class="bg-slate-800 px-2 py-1 rounded">python manage.py loaddata flashcards</code> to load the word set.
+        <p class="text-2xl text-slate-500 dark:text-slate-400">No flashcards found.</p>
+        <p class="text-slate-400 dark:text-slate-500 mt-2">Run <code
+                class="bg-sky-100 dark:bg-slate-800 px-2 py-1 rounded text-slate-700 dark:text-slate-300">python manage.py loaddata flashcards</code>
+            to load the word set.
         </p>
     </div>
     {% endif %}
 
     <!-- Footer -->
-    <footer class="text-center text-slate-600 text-sm pb-6">
+    <footer class="text-center text-slate-400 dark:text-slate-600 text-sm pb-6">
         <p>GermanAnki &middot; 500 Most Common German Words &middot; Nepali Translations</p>
     </footer>
 </div>

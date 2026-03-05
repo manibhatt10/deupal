@@ -1,14 +1,28 @@
 {% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}GermanAnki{% endblock %}</title>
-    <meta name="description" content="Learn the 500 most common German words with Nepali translations using interactive flashcards.">
+    <meta name="description"
+        content="Learn the 500 most common German words with Nepali translations using interactive flashcards.">
+
+    <!-- Anti-flash: apply saved theme before paint -->
+    <script>
+        (function () {
+            const theme = localStorage.getItem('theme');
+            if (theme === 'light') {
+                document.documentElement.classList.remove('dark');
+            }
+        })();
+    </script>
+
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
+            darkMode: 'class',
             theme: {
                 extend: {
                     fontFamily: {
@@ -16,16 +30,16 @@
                     },
                     colors: {
                         brand: {
-                            50: '#eef2ff',
-                            100: '#e0e7ff',
-                            200: '#c7d2fe',
-                            300: '#a5b4fc',
-                            400: '#818cf8',
-                            500: '#6366f1',
-                            600: '#4f46e5',
-                            700: '#4338ca',
-                            800: '#3730a3',
-                            900: '#312e81',
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            200: '#bae6fd',
+                            300: '#7dd3fc',
+                            400: '#38bdf8',
+                            500: '#0ea5e9',
+                            600: '#0284c7',
+                            700: '#0369a1',
+                            800: '#075985',
+                            900: '#0c4a6e',
                         }
                     }
                 }
@@ -34,11 +48,40 @@
     </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 </head>
-<body class="bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 min-h-screen text-white font-sans">
+
+<body class="min-h-screen font-sans transition-colors duration-300
+             bg-gradient-to-br from-sky-50 via-blue-50 to-cyan-50 text-slate-800
+             dark:bg-gradient-to-br dark:from-slate-900 dark:via-sky-950 dark:to-slate-900 dark:text-white">
+
+    <!-- Theme Toggle Button -->
+    <button id="theme-toggle" type="button" aria-label="Toggle light/dark mode" class="theme-toggle fixed top-5 right-5 z-50 p-3 rounded-full
+               bg-white/80 dark:bg-slate-800/80 backdrop-blur-md
+               border border-sky-200 dark:border-sky-700
+               shadow-lg shadow-sky-500/10 dark:shadow-sky-500/5
+               hover:scale-110 active:scale-95
+               transition-all duration-300 cursor-pointer group">
+        <!-- Sun icon (shown in dark mode) -->
+        <svg id="icon-sun"
+            class="w-5 h-5 text-amber-400 hidden dark:block transition-transform duration-500 group-hover:rotate-45"
+            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+        </svg>
+        <!-- Moon icon (shown in light mode) -->
+        <svg id="icon-moon"
+            class="w-5 h-5 text-sky-600 block dark:hidden transition-transform duration-500 group-hover:-rotate-12"
+            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
+        </svg>
+    </button>
+
     {% block content %}{% endblock %}
     <script src="{% static 'js/app.js' %}"></script>
 </body>
+
 </html>

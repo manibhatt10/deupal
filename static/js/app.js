@@ -16,8 +16,30 @@ function getCookie(name) {
 
 const csrftoken = getCookie('csrftoken');
 
+// ===== Theme Toggle =====
+function initTheme() {
+    const toggle = document.getElementById('theme-toggle');
+    if (!toggle) return;
+
+    toggle.addEventListener('click', () => {
+        const html = document.documentElement;
+        const isDark = html.classList.contains('dark');
+
+        if (isDark) {
+            html.classList.remove('dark');
+            localStorage.setItem('theme', 'light');
+        } else {
+            html.classList.add('dark');
+            localStorage.setItem('theme', 'dark');
+        }
+    });
+}
+
 // ===== Card Flip =====
 document.addEventListener('DOMContentLoaded', () => {
+    // Initialize theme toggle
+    initTheme();
+
     // Flip cards on click (only on the card area, not the buttons)
     document.querySelectorAll('.card-container').forEach(card => {
         card.addEventListener('click', (e) => {
@@ -58,9 +80,9 @@ async function updateStatus(cardId, newStatus, button) {
 
     // Highlight active button
     cardEl.querySelectorAll('.btn-status').forEach(b => {
-        b.classList.remove('ring-2', 'ring-white', 'scale-105');
+        b.classList.remove('ring-2', 'ring-sky-300', 'ring-white', 'scale-105');
     });
-    button.classList.add('ring-2', 'ring-white', 'scale-105');
+    button.classList.add('ring-2', 'ring-sky-300', 'scale-105');
 
     try {
         const response = await fetch('/update/', {
