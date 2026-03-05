@@ -10,6 +10,7 @@ class Flashcard(models.Model):
 
     german_text = models.CharField(max_length=200)
     nepali_text = models.CharField(max_length=200)
+    english_text = models.CharField(max_length=200, default='')
     status = models.CharField(
         max_length=10, choices=STATUS_CHOICES, default='New'
     )
