@@ -151,45 +151,74 @@
     animation: pulse-soft 2s ease-in-out infinite;
 }
 
-/* Stagger children */
-.card-grid>*:nth-child(1) {
-    animation-delay: 0.05s;
+/* ===== Card Slide Transitions ===== */
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(60px) scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0) scale(1);
+    }
 }
 
-.card-grid>*:nth-child(2) {
-    animation-delay: 0.10s;
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-60px) scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0) scale(1);
+    }
 }
 
-.card-grid>*:nth-child(3) {
-    animation-delay: 0.15s;
+@keyframes slideOutLeft {
+    from {
+        opacity: 1;
+        transform: translateX(0) scale(1);
+    }
+
+    to {
+        opacity: 0;
+        transform: translateX(-60px) scale(0.95);
+    }
 }
 
-.card-grid>*:nth-child(4) {
-    animation-delay: 0.20s;
+@keyframes slideOutRight {
+    from {
+        opacity: 1;
+        transform: translateX(0) scale(1);
+    }
+
+    to {
+        opacity: 0;
+        transform: translateX(60px) scale(0.95);
+    }
 }
 
-.card-grid>*:nth-child(5) {
-    animation-delay: 0.25s;
+.slide-in-right {
+    animation: slideInRight 0.35s ease-out forwards;
 }
 
-.card-grid>*:nth-child(6) {
-    animation-delay: 0.30s;
+.slide-in-left {
+    animation: slideInLeft 0.35s ease-out forwards;
 }
 
-.card-grid>*:nth-child(7) {
-    animation-delay: 0.35s;
+.slide-out-left {
+    animation: slideOutLeft 0.25s ease-in forwards;
 }
 
-.card-grid>*:nth-child(8) {
-    animation-delay: 0.40s;
+.slide-out-right {
+    animation: slideOutRight 0.25s ease-in forwards;
 }
 
-.card-grid>*:nth-child(9) {
-    animation-delay: 0.45s;
-}
-
-.card-grid>*:nth-child(10) {
-    animation-delay: 0.50s;
+/* ===== Single Card Container ===== */
+.single-card-container {
+    transition: opacity 0.3s ease;
 }
 
 /* ===== Floating orb backgrounds ===== */
@@ -200,14 +229,9 @@
     pointer-events: none;
     z-index: 0;
     transition: opacity 0.5s ease;
-}
-
-/* Light mode: subtle orbs */
-.orb {
     opacity: 0.12;
 }
 
-/* Dark mode (AMOLED): barely-visible orbs */
 .dark .orb {
     opacity: 0.06;
 }
@@ -239,7 +263,6 @@
     animation: float 12s ease-in-out infinite 2s;
 }
 
-/* Dark mode: more visible orbs */
 .dark .orb {
     opacity: 0.18;
 }
@@ -267,4 +290,56 @@
 
 .theme-toggle:hover {
     box-shadow: 0 0 20px rgba(14, 165, 233, 0.25);
+}
+
+/* ===== Google Button ===== */
+.google-btn {
+    text-decoration: none;
+}
+
+.google-btn:hover {
+    background: #f8f9fa;
+}
+
+.dark .google-btn:hover {
+    background: rgba(255, 255, 255, 0.98);
+}
+
+/* ===== Navigation Arrows ===== */
+.nav-arrow {
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* ===== Responsive Adjustments ===== */
+@media (max-width: 640px) {
+    .orb-1 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .orb-2 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .orb-3 {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+/* ===== Touch-friendly card on mobile ===== */
+@media (hover: none) and (pointer: coarse) {
+    .card-container {
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .btn-status {
+        min-height: 44px;
+    }
+
+    .nav-arrow {
+        min-width: 44px;
+        min-height: 44px;
+    }
 }

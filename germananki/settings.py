@@ -37,8 +37,17 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sites',
+    # allauth
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    'allauth.socialaccount.providers.google',
+    # local
     'flashcards',
 ]
+
+SITE_ID = 1
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -48,6 +57,12 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'allauth.account.middleware.AccountMiddleware',
+]
+
+AUTHENTICATION_BACKENDS = [
+    'django.contrib.auth.backends.ModelBackend',
+    'allauth.account.auth_backends.AuthenticationBackend',
 ]
 
 ROOT_URLCONF = 'germananki.urls'
@@ -117,3 +132,27 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [BASE_DIR / 'static']
+
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# ── django-allauth config ──────────────────────────────────
+LOGIN_URL = '/'
+LOGIN_REDIRECT_URL = '/study/'
+LOGOUT_REDIRECT_URL = '/'
+ACCOUNT_LOGIN_ON_GET = True
+SOCIALACCOUNT_LOGIN_ON_GET = True
+ACCOUNT_LOGOUT_ON_GET = True
+ACCOUNT_EMAIL_VERIFICATION = 'none'
+SOCIALACCOUNT_STORE_TOKENS = True
+
+SOCIALACCOUNT_PROVIDERS = {
+    'google': {
+        'SCOPE': ['profile', 'email'],
+        'AUTH_PARAMS': {'access_type': 'online'},
+        'APP': {
+            'client_id': '',      # ← fill in from Google Cloud Console
+            'secret': '',         # ← fill in from Google Cloud Console
+            'key': '',
+        }
+    }
+}
