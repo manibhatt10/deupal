@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>{% block title %}GermanAnki{% endblock %}</title>
     <meta name="description"
         content="Learn the 500 most common German words with Nepali translations using interactive flashcards.">
@@ -79,6 +79,30 @@
                 d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
         </svg>
     </button>
+
+    <!-- User Nav Bar -->
+    {% if user.is_authenticated %}
+    <nav class="fixed top-5 left-5 z-50 flex items-center gap-3">
+        <div class="flex items-center gap-2 px-4 py-2 rounded-full
+                    bg-white/80 dark:bg-black/90 backdrop-blur-md
+                    border border-sky-200 dark:border-sky-800/50
+                    shadow-lg shadow-sky-500/10 dark:shadow-sky-500/5">
+            <!-- User avatar -->
+            <div
+                class="w-7 h-7 rounded-full bg-gradient-to-br from-sky-400 to-cyan-500 flex items-center justify-center text-white text-xs font-bold">
+                {{ user.email|first|upper }}
+            </div>
+            <span
+                class="text-sm font-medium text-slate-700 dark:text-slate-200 hidden sm:inline max-w-[140px] truncate">
+                {{ user.email }}
+            </span>
+            <a href="{% url 'account_logout' %}"
+                class="ml-2 text-xs font-semibold text-rose-500 hover:text-rose-400 transition-colors">
+                Logout
+            </a>
+        </div>
+    </nav>
+    {% endif %}
 
     {% block content %}{% endblock %}
     <script src="{% static 'js/app.js' %}"></script>

@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}GermanAnki - Sign In{% endblock %}
+
+{% block content %}
+<!-- Floating orbs -->
+<div class="orb orb-1"></div>
+<div class="orb orb-2"></div>
+<div class="orb orb-3"></div>
+
+<div class="relative z-10 min-h-screen flex flex-col items-center justify-center px-4 sm:px-6">
+
+    <!-- Hero Card -->
+    <div class="glass-card rounded-2xl sm:rounded-3xl p-8 sm:p-12 max-w-md w-full text-center animate-fade-in-up">
+
+        <!-- Logo -->
+        <div class="mb-6">
+            <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight">
+                <span
+                    class="bg-gradient-to-r from-sky-500 via-cyan-500 to-blue-500 bg-clip-text text-transparent">GermanAnki</span>
+            </h1>
+            <p class="mt-3 text-slate-500 dark:text-slate-400 text-sm sm:text-base leading-relaxed">
+                Master the <strong class="text-slate-700 dark:text-slate-200">500 most common German words</strong><br>
+                with Nepali &amp; English translations
+            </p>
+        </div>
+
+        <!-- Features -->
+        <div class="flex flex-col gap-3 mb-8 text-left">
+            <div class="flex items-center gap-3 text-sm text-slate-600 dark:text-slate-300">
+                <span
+                    class="flex-shrink-0 w-8 h-8 rounded-lg bg-sky-500/10 dark:bg-sky-500/20 flex items-center justify-center text-sky-500">
+                    &#128218;
+                </span>
+                <span>Interactive flashcards with flip animations</span>
+            </div>
+            <div class="flex items-center gap-3 text-sm text-slate-600 dark:text-slate-300">
+                <span
+                    class="flex-shrink-0 w-8 h-8 rounded-lg bg-emerald-500/10 dark:bg-emerald-500/20 flex items-center justify-center text-emerald-500">
+                    &#9989;
+                </span>
+                <span>Track your progress: New → Revision → Mastered</span>
+            </div>
+            <div class="flex items-center gap-3 text-sm text-slate-600 dark:text-slate-300">
+                <span
+                    class="flex-shrink-0 w-8 h-8 rounded-lg bg-amber-500/10 dark:bg-amber-500/20 flex items-center justify-center text-amber-500">
+                    &#128241;
+                </span>
+                <span>Sync progress across all your devices</span>
+            </div>
+        </div>
+
+        <!-- Divider -->
+        <div class="flex items-center gap-4 mb-6">
+            <div class="flex-1 h-px bg-slate-200 dark:bg-slate-800"></div>
+            <span class="text-xs text-slate-400 dark:text-slate-500 uppercase tracking-wider font-medium">Sign in to
+                start</span>
+            <div class="flex-1 h-px bg-slate-200 dark:bg-slate-800"></div>
+        </div>
+
+        <!-- Google Sign-In Button -->
+        <a href="{% url 'google_login' %}" id="google-login-btn" class="google-btn inline-flex items-center justify-center gap-3 w-full
+                  px-6 py-3.5 rounded-xl
+                  bg-white dark:bg-white/95
+                  border border-slate-200 dark:border-slate-300
+                  text-slate-700 font-semibold text-sm sm:text-base
+                  shadow-md hover:shadow-xl
+                  hover:-translate-y-0.5
+                  transition-all duration-300 cursor-pointer
+                  no-underline">
+            <!-- Google "G" Logo SVG -->
+            <svg width="20" height="20" viewBox="0 0 48 48">
+                <path fill="#EA4335"
+                    d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z" />
+                <path fill="#4285F4"
+                    d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z" />
+                <path fill="#FBBC05"
+                    d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z" />
+                <path fill="#34A853"
+                    d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z" />
+            </svg>
+            <span>Continue with Google</span>
+        </a>
+
+        <p class="mt-5 text-xs text-slate-400 dark:text-slate-500">
+            Your progress is saved securely with your Google account
+        </p>
+    </div>
+
+    <footer class="text-center text-slate-400 dark:text-slate-600 text-xs sm:text-sm py-6 mt-8">
+        <p>GermanAnki &middot; 500 Most Common German Words</p>
+    </footer>
+</div>
+{% endblock %}

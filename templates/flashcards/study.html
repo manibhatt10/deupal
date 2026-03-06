@@ -7,93 +7,135 @@
 <div class="orb orb-2"></div>
 <div class="orb orb-3"></div>
 
-<div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+<div class="relative z-10 max-w-2xl mx-auto px-4 sm:px-6 py-8 min-h-screen flex flex-col">
 
     <!-- Header -->
-    <header class="text-center mb-10">
-        <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight">
-            <span class="bg-gradient-to-r from-sky-500 via-cyan-500 to-blue-500 bg-clip-text text-transparent">GermanAnki</span>
+    <header class="text-center mb-6 sm:mb-8 pt-12 sm:pt-4">
+        <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight">
+            <span
+                class="bg-gradient-to-r from-sky-500 via-cyan-500 to-blue-500 bg-clip-text text-transparent">GermanAnki</span>
         </h1>
-        <p class="mt-3 text-slate-500 dark:text-slate-400 text-lg">Master the 500 most common German words &middot; Nepali &amp; English translations</p>
+        <p class="mt-2 text-slate-500 dark:text-slate-400 text-sm sm:text-base">Master the 500 most common German words
+        </p>
     </header>
 
     <!-- Progress Bar -->
-    <div class="mb-8 glass-card rounded-xl p-5">
-        <div class="flex items-center justify-between mb-3 text-sm font-medium">
-            <div class="flex items-center gap-4">
+    <div class="mb-6 glass-card rounded-xl p-4 sm:p-5">
+        <div class="flex flex-wrap items-center justify-between mb-3 text-xs sm:text-sm font-medium gap-2">
+            <div class="flex items-center gap-3 sm:gap-4 flex-wrap">
                 <span class="flex items-center gap-1.5">
-                    <span class="w-3 h-3 rounded-full bg-sky-500 inline-block"></span>
-                    <span class="text-slate-700 dark:text-slate-200">New: <strong id="count-new">{{ new_count }}</strong></span>
+                    <span class="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full bg-sky-500 inline-block"></span>
+                    <span class="text-slate-700 dark:text-slate-200">New: <strong id="count-new">{{ new_count
+                            }}</strong></span>
                 </span>
                 <span class="flex items-center gap-1.5">
-                    <span class="w-3 h-3 rounded-full bg-amber-500 inline-block"></span>
-                    <span class="text-slate-700 dark:text-slate-200">Revision: <strong id="count-revision">{{ revision_count }}</strong></span>
+                    <span class="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full bg-amber-500 inline-block"></span>
+                    <span class="text-slate-700 dark:text-slate-200">Revision: <strong id="count-revision">{{
+                            revision_count }}</strong></span>
                 </span>
                 <span class="flex items-center gap-1.5">
-                    <span class="w-3 h-3 rounded-full bg-emerald-500 inline-block"></span>
-                    <span class="text-slate-700 dark:text-slate-200">Mastered: <strong id="count-mastered">{{ mastered_count }}</strong></span>
+                    <span class="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full bg-emerald-500 inline-block"></span>
+                    <span class="text-slate-700 dark:text-slate-200">Mastered: <strong id="count-mastered">{{
+                            mastered_count }}</strong></span>
                 </span>
             </div>
             <span class="text-slate-500 dark:text-slate-400">{{ total }} total</span>
         </div>
-        <div class="w-full bg-sky-100 dark:bg-neutral-900 rounded-full h-3 overflow-hidden flex">
+        <div class="w-full bg-sky-100 dark:bg-neutral-900 rounded-full h-2.5 sm:h-3 overflow-hidden flex">
             {% if total > 0 %}
-            <div id="progress-new" class="progress-segment bg-sky-500 h-full" style="width: {% widthratio new_count total 100 %}%"></div>
-            <div id="progress-revision" class="progress-segment bg-amber-500 h-full" style="width: {% widthratio revision_count total 100 %}%"></div>
-            <div id="progress-mastered" class="progress-segment bg-emerald-500 h-full" style="width: {% widthratio mastered_count total 100 %}%"></div>
+            <div id="progress-new" class="progress-segment bg-sky-500 h-full"
+                style="width: {% widthratio new_count total 100 %}%"></div>
+            <div id="progress-revision" class="progress-segment bg-amber-500 h-full"
+                style="width: {% widthratio revision_count total 100 %}%"></div>
+            <div id="progress-mastered" class="progress-segment bg-emerald-500 h-full"
+                style="width: {% widthratio mastered_count total 100 %}%"></div>
             {% endif %}
         </div>
     </div>
 
-    <!-- Card Grid -->
-    {% if cards %}
-    <div class="card-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-6 mb-10">
-        {% for card in cards %}
-        <div class="card-wrapper animate-fade-in-up opacity-0" data-card-id="{{ card.id }}">
-            <div class="card-container cursor-pointer h-56" id="card-{{ card.id }}">
-                <div class="card-inner">
-                    <div class="card-front glass-card">
-                        <div class="status-badge badge-{{ card.status|lower }} text-xs font-semibold px-3 py-1 rounded-full absolute top-3 right-3"><span>{{ card.status }}</span></div>
-                        <span class="text-3xl font-bold text-slate-800 dark:text-white tracking-wide">{{ card.german_text }}</span>
-                        <span class="mt-2 text-sm text-slate-400">Click to flip</span>
-                    </div>
-                    <div class="card-back glass-card bg-gradient-to-br from-sky-100/60 to-cyan-100/60 dark:from-sky-900/50 dark:to-cyan-900/50">
-                        <div class="status-badge badge-{{ card.status|lower }} text-xs font-semibold px-3 py-1 rounded-full absolute top-3 right-3"><span>{{ card.status }}</span></div>
-                        <span class="text-2xl font-bold text-slate-800 dark:text-white">{{ card.english_text }}</span>
-                        <span class="text-lg font-semibold text-sky-700 dark:text-sky-300 mt-1">{{ card.nepali_text }}</span>
-                        <div class="flex items-center gap-3 mt-2 text-xs text-slate-500 dark:text-slate-400">
-                            <span>&#127468;&#127463; English</span>
-                            <span>&middot;</span>
-                            <span>&#127467;&#127477; Nepali</span>
+    <!-- Single Card Area -->
+    <div class="flex-1 flex flex-col items-center justify-center">
+
+        <!-- Card counter -->
+        <div id="card-counter"
+            class="text-sm text-slate-400 dark:text-slate-500 mb-4 opacity-0 transition-opacity duration-300"></div>
+
+        <!-- Card + Navigation wrapper -->
+        <div class="w-full flex items-center justify-center gap-2 sm:gap-4">
+
+            <!-- Prev Button -->
+            <button id="btn-prev" type="button" aria-label="Previous card"
+                class="nav-arrow flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-white/60 dark:bg-white/5 backdrop-blur-sm border border-sky-200/50 dark:border-sky-800/30 shadow-md hover:shadow-lg flex items-center justify-center text-slate-500 dark:text-slate-400 hover:text-sky-500 dark:hover:text-sky-400 hover:scale-110 active:scale-95 transition-all duration-200 cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 sm:w-6 sm:h-6" fill="none" viewBox="0 0 24 24"
+                    stroke-width="2.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                </svg>
+            </button>
+
+            <!-- Card Container -->
+            <div id="single-card" class="single-card-container w-full max-w-md">
+                <div class="card-container cursor-pointer h-64 sm:h-72 md:h-80" id="active-card">
+                    <div class="card-inner">
+                        <div class="card-front glass-card">
+                            <div id="card-badge"
+                                class="status-badge badge-new text-xs font-semibold px-3 py-1 rounded-full absolute top-3 right-3">
+                                <span>New</span></div>
+                            <span id="card-german"
+                                class="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-800 dark:text-white tracking-wide text-center px-4">Loading...</span>
+                            <span class="mt-3 text-xs sm:text-sm text-slate-400">Tap to flip</span>
+                        </div>
+                        <div
+                            class="card-back glass-card bg-gradient-to-br from-sky-100/60 to-cyan-100/60 dark:from-sky-900/50 dark:to-cyan-900/50">
+                            <div id="card-badge-back"
+                                class="status-badge badge-new text-xs font-semibold px-3 py-1 rounded-full absolute top-3 right-3">
+                                <span>New</span></div>
+                            <span id="card-english"
+                                class="text-xl sm:text-2xl md:text-3xl font-bold text-slate-800 dark:text-white text-center px-4"></span>
+                            <span id="card-nepali"
+                                class="text-base sm:text-lg font-semibold text-sky-700 dark:text-sky-300 mt-2 text-center"></span>
+                            <div class="flex items-center gap-3 mt-3 text-xs text-slate-500 dark:text-slate-400">
+                                <span>&#127468;&#127463; English</span>
+                                <span>&middot;</span>
+                                <span>&#127467;&#127477; Nepali</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="status-buttons flex gap-2 mt-3">
-                <button class="btn-status flex-1 py-2 px-3 rounded-lg text-xs font-semibold badge-new text-white {% if card.status == 'New' %}ring-2 ring-sky-300 dark:ring-white scale-105{% endif %}" data-card-id="{{ card.id }}" data-status="New">&#128214; New</button>
-                <button class="btn-status flex-1 py-2 px-3 rounded-lg text-xs font-semibold badge-revision text-white {% if card.status == 'Revision' %}ring-2 ring-sky-300 dark:ring-white scale-105{% endif %}" data-card-id="{{ card.id }}" data-status="Revision">&#128260; Revision</button>
-                <button class="btn-status flex-1 py-2 px-3 rounded-lg text-xs font-semibold badge-mastered text-white {% if card.status == 'Mastered' %}ring-2 ring-sky-300 dark:ring-white scale-105{% endif %}" data-card-id="{{ card.id }}" data-status="Mastered">&#9989; Mastered</button>
-            </div>
+
+            <!-- Next Button -->
+            <button id="btn-next" type="button" aria-label="Next card"
+                class="nav-arrow flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-white/60 dark:bg-white/5 backdrop-blur-sm border border-sky-200/50 dark:border-sky-800/30 shadow-md hover:shadow-lg flex items-center justify-center text-slate-500 dark:text-slate-400 hover:text-sky-500 dark:hover:text-sky-400 hover:scale-110 active:scale-95 transition-all duration-200 cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 sm:w-6 sm:h-6" fill="none" viewBox="0 0 24 24"
+                    stroke-width="2.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                </svg>
+            </button>
         </div>
-        {% endfor %}
+
+        <!-- Status Buttons -->
+        <div id="status-buttons" class="flex gap-2 sm:gap-3 mt-5 sm:mt-6 w-full max-w-md">
+            <button
+                class="btn-status flex-1 py-2.5 sm:py-3 px-3 rounded-xl text-xs sm:text-sm font-semibold badge-new text-white transition-all duration-200"
+                data-status="New">&#128214; New</button>
+            <button
+                class="btn-status flex-1 py-2.5 sm:py-3 px-3 rounded-xl text-xs sm:text-sm font-semibold badge-revision text-white transition-all duration-200"
+                data-status="Revision">&#128260; Revision</button>
+            <button
+                class="btn-status flex-1 py-2.5 sm:py-3 px-3 rounded-xl text-xs sm:text-sm font-semibold badge-mastered text-white transition-all duration-200"
+                data-status="Mastered">&#9989; Mastered</button>
+        </div>
+
+        <!-- Keyboard hints -->
+        <div class="hidden sm:flex items-center gap-4 mt-4 text-xs text-slate-400 dark:text-slate-500">
+            <span>&larr; &rarr; Navigate</span>
+            <span>Space: Flip</span>
+            <span>1/2/3: Status</span>
+        </div>
     </div>
 
-    <div class="text-center mb-12">
-        <a href="/" class="inline-flex items-center gap-2 px-8 py-3 rounded-xl bg-gradient-to-r from-sky-500 to-cyan-500 hover:from-sky-400 hover:to-cyan-400 text-white font-semibold text-lg shadow-lg shadow-sky-500/25 transition-all duration-300 hover:shadow-xl hover:shadow-sky-500/40 hover:-translate-y-0.5">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4 2a1 1 0 011 1v2.101a7.002 7.002 0 0111.601 2.566 1 1 0 11-1.885.666A5.002 5.002 0 005.999 7H9a1 1 0 010 2H4a1 1 0 01-1-1V3a1 1 0 011-1zm.008 9.057a1 1 0 011.276.61A5.002 5.002 0 0014.001 13H11a1 1 0 110-2h5a1 1 0 011 1v5a1 1 0 11-2 0v-2.101a7.002 7.002 0 01-11.601-2.566 1 1 0 01.61-1.276z" clip-rule="evenodd" /></svg>
-            Next 10 Cards
-        </a>
-    </div>
-
-    {% else %}
-    <div class="text-center py-20">
-        <p class="text-2xl text-slate-500 dark:text-slate-400">No flashcards found.</p>
-        <p class="text-slate-400 dark:text-slate-500 mt-2">Run <code class="bg-sky-100 dark:bg-slate-800 px-2 py-1 rounded text-slate-700 dark:text-slate-300">python manage.py loaddata flashcards</code> to load the word set.</p>
-    </div>
-    {% endif %}
-
-    <footer class="text-center text-slate-400 dark:text-slate-600 text-sm pb-6">
-        <p>GermanAnki &middot; 500 Most Common German Words &middot; Nepali &amp; English Translations</p>
+    <footer class="text-center text-slate-400 dark:text-slate-600 text-xs sm:text-sm py-6 mt-auto">
+        <p>GermanAnki &middot; 500 Most Common German Words &middot; Nepali &amp; English</p>
     </footer>
 </div>
 {% endblock %}
