@@ -16,7 +16,6 @@ def login_view(request):
     return render(request, 'flashcards/login.html')
 
 
-@login_required
 def study(request):
     """
     Serve the study page. Cards are fetched one-at-a-time via the API.
@@ -24,8 +23,12 @@ def study(request):
     """
     user = request.user
     total = Flashcard.objects.count()
-    mastered = UserFlashcardProgress.objects.filter(user=user, status='Mastered').count()
-    revision = UserFlashcardProgress.objects.filter(user=user, status='Revision').count()
+    if user.is_authenticated:
+        mastered = UserFlashcardProgress.objects.filter(user=user, status='Mastered').count()
+        revision = UserFlashcardProgress.objects.filter(user=user, status='Revision').count()
+    else:
+        mastered = 0
+        revision = 0
     new_count = total - mastered - revision
 
     context = {
@@ -33,6 +36,7 @@ def study(request):
         'new_count': new_count,
         'revision_count': revision,
         'mastered_count': mastered,
+        'is_guest': not user.is_authenticated,
     }
     return render(request, 'flashcards/study.html', context)
 
@@ -184,3 +188,9 @@ def get_stats(request):
         'revision_count': revision,
         'mastered_count': mastered,
     })
+
+
+def all_cards(request):
+    """Return all cards for guest local storage."""
+    cards = Flashcard.objects.all().values('id', 'german_text', 'nepali_text', 'english_text')
+    return JsonResponse({'success': True, 'cards': list(cards)})

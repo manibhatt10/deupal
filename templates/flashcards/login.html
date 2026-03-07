@@ -82,8 +82,17 @@
             <span>Continue with Google</span>
         </a>
 
+        <!-- Guest Button -->
+        <div class="mt-4 flex flex-col items-center">
+            <span class="text-sm text-slate-500 mb-2">or</span>
+            <a href="{% url 'flashcards:study' %}"
+                class="text-sky-600 dark:text-sky-400 font-semibold hover:underline text-sm transition-colors cursor-pointer">
+                Continue as Guest
+            </a>
+        </div>
+
         <p class="mt-5 text-xs text-slate-400 dark:text-slate-500">
-            Your progress is saved securely with your Google account
+            Your progress is saved securely with your Google account<br />(or locally on your device as a Guest)
         </p>
     </div>
 

@@ -21,6 +21,11 @@ let currentCardId = null;
 let isFlipped = false;
 let isTransitioning = false;
 
+// Guest State
+let isGuest = false;
+let allGuestCards = [];
+let guestProgress = {};
+
 // ===== Theme Toggle =====
 function initTheme() {
     const toggle = document.getElementById('theme-toggle');
@@ -114,18 +119,23 @@ async function fetchCard(direction = 'next') {
     await new Promise(r => setTimeout(r, 250));
 
     try {
-        let url = '/api/card/?direction=' + direction;
-        if (currentCardId) {
-            url += '&current_id=' + currentCardId;
-        }
-
-        const response = await fetch(url);
-        const data = await response.json();
-
-        if (data.success) {
-            renderCard(data);
+        if (isGuest) {
+            const localData = getGuestCard(direction, currentCardId);
+            if (localData) renderCard({ success: true, ...localData });
         } else {
-            console.error('Failed to fetch card:', data.error);
+            let url = '/api/card/?direction=' + direction;
+            if (currentCardId) {
+                url += '&current_id=' + currentCardId;
+            }
+
+            const response = await fetch(url);
+            const data = await response.json();
+
+            if (data.success) {
+                renderCard(data);
+            } else {
+                console.error('Failed to fetch card:', data.error);
+            }
         }
     } catch (err) {
         console.error('Network error:', err);
@@ -139,6 +149,41 @@ async function fetchCard(direction = 'next') {
     container.classList.remove(slideInClass);
 
     isTransitioning = false;
+}
+
+function getGuestCard(direction, currentId) {
+    const cardsWithMeta = allGuestCards.map(c => {
+        const s = guestProgress[c.id] || 'New';
+        let p = 0;
+        if (s === 'Revision') p = 1;
+        if (s === 'Mastered') p = 2;
+        return { ...c, status: s, priority: p };
+    });
+
+    cardsWithMeta.sort((a, b) => {
+        if (a.priority !== b.priority) return a.priority - b.priority;
+        return a.id - b.id;
+    });
+
+    if (cardsWithMeta.length === 0) return null;
+
+    let currentIndex = -1;
+    if (currentId) currentIndex = cardsWithMeta.findIndex(c => c.id == currentId);
+
+    let nextIndex = 0;
+    if (currentIndex !== -1) {
+        if (direction === 'next') {
+            nextIndex = (currentIndex + 1) % cardsWithMeta.length;
+        } else {
+            nextIndex = (currentIndex - 1 + cardsWithMeta.length) % cardsWithMeta.length;
+        }
+    }
+
+    return {
+        card: cardsWithMeta[nextIndex],
+        position: nextIndex + 1,
+        total: cardsWithMeta.length
+    };
 }
 
 // ===== Status Update =====
@@ -161,31 +206,55 @@ async function updateStatus(newStatus) {
     highlightStatusButton(newStatus);
 
     try {
-        const response = await fetch('/update/', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'X-CSRFToken': csrftoken,
-            },
-            body: JSON.stringify({
-                card_id: currentCardId,
-                new_status: newStatus,
-            }),
-        });
-
-        const data = await response.json();
-
-        if (data.success) {
-            updateProgressBar(data.new_count, data.revision_count, data.mastered_count, data.total);
-
-            // Auto-advance to next card after a short delay
+        if (isGuest) {
+            guestProgress[currentCardId] = newStatus;
+            localStorage.setItem('guestProgress', JSON.stringify(guestProgress));
+            const stats = getGuestStats();
+            updateProgressBar(stats.new_count, stats.revision_count, stats.mastered_count, stats.total);
             setTimeout(() => fetchCard('next'), 400);
         } else {
-            console.error('Update failed:', data.error);
+            const response = await fetch('/update/', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'X-CSRFToken': csrftoken,
+                },
+                body: JSON.stringify({
+                    card_id: currentCardId,
+                    new_status: newStatus,
+                }),
+            });
+
+            const data = await response.json();
+
+            if (data.success) {
+                updateProgressBar(data.new_count, data.revision_count, data.mastered_count, data.total);
+
+                // Auto-advance to next card after a short delay
+                setTimeout(() => fetchCard('next'), 400);
+            } else {
+                console.error('Update failed:', data.error);
+            }
         }
     } catch (err) {
         console.error('Network error:', err);
     }
+}
+
+function getGuestStats() {
+    let newCount = 0, revCount = 0, mastCount = 0;
+    allGuestCards.forEach(c => {
+        const s = guestProgress[c.id] || 'New';
+        if (s === 'Revision') revCount++;
+        else if (s === 'Mastered') mastCount++;
+        else newCount++;
+    });
+    return {
+        new_count: newCount,
+        revision_count: revCount,
+        mastered_count: mastCount,
+        total: allGuestCards.length
+    };
 }
 
 // ===== Progress Bar =====
@@ -238,8 +307,25 @@ function initSwipe() {
 }
 
 // ===== Init =====
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
     initTheme();
+
+    const guestData = document.getElementById('guest-data');
+    if (guestData) {
+        isGuest = guestData.dataset.isGuest === 'true';
+        if (isGuest) {
+            guestProgress = JSON.parse(localStorage.getItem('guestProgress') || '{}');
+            try {
+                const res = await fetch('/api/all_cards/');
+                const data = await res.json();
+                if (data.success) {
+                    allGuestCards = data.cards;
+                    const stats = getGuestStats();
+                    updateProgressBar(stats.new_count, stats.revision_count, stats.mastered_count, stats.total);
+                }
+            } catch (e) { console.error(e); }
+        }
+    }
 
     // Only init the study page features if the card elements exist
     const activeCard = document.getElementById('active-card');
