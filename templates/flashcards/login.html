@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% load static %}
+{% load static socialaccount %}
 {% block title %}GermanAnki - Sign In{% endblock %}
 
 {% block content %}
@@ -59,7 +59,7 @@
         </div>
 
         <!-- Google Sign-In Button -->
-        <a href="{% url 'google_login' %}" id="google-login-btn" class="google-btn inline-flex items-center justify-center gap-3 w-full
+        <a href="{% provider_login_url 'google' %}" id="google-login-btn" class="google-btn inline-flex items-center justify-center gap-3 w-full
                   px-6 py-3.5 rounded-xl
                   bg-white dark:bg-white/95
                   border border-slate-200 dark:border-slate-300
