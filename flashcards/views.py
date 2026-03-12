@@ -1,7 +1,7 @@
 import json
 
 from django.contrib.auth.decorators import login_required
-from django.db.models import Case, When, Value, IntegerField, Subquery, OuterRef, CharField
+from django.db.models import Case, When, Value, IntegerField, Subquery, OuterRef, CharField, Q
 from django.http import JsonResponse
 from django.shortcuts import render, redirect
 from django.views.decorators.http import require_POST
@@ -53,6 +53,7 @@ def get_card(request):
     user = request.user
     direction = request.GET.get('direction', 'next')
     current_id = request.GET.get('current_id')
+    filter_status = request.GET.get('filter_status')
 
     # Annotate each flashcard with the user's status (default 'New')
     cards = Flashcard.objects.annotate(
@@ -69,6 +70,12 @@ def get_card(request):
             output_field=IntegerField(),
         ),
     ).order_by('priority', 'id')
+
+    if filter_status in ('New', 'Revision', 'Mastered'):
+        if filter_status == 'New':
+            cards = cards.filter(Q(user_status='New') | Q(user_status__isnull=True))
+        else:
+            cards = cards.filter(user_status=filter_status)
 
     if current_id:
         try:
@@ -187,6 +194,42 @@ def get_stats(request):
         'new_count': new_count,
         'revision_count': revision,
         'mastered_count': mastered,
+    })
+
+
+@login_required
+def get_word_list(request):
+    """Return all words for a given status ('New', 'Revision', 'Mastered') as JSON."""
+    user = request.user
+    status_filter = request.GET.get('status')
+
+    if status_filter not in ('New', 'Revision', 'Mastered'):
+        return JsonResponse({'success': False, 'error': 'Invalid status'}, status=400)
+
+    # Annotate with user status
+    cards = Flashcard.objects.annotate(
+        user_status=Subquery(
+            UserFlashcardProgress.objects.filter(
+                user=user, flashcard=OuterRef('pk')
+            ).values('status')[:1],
+            output_field=CharField(),
+        )
+    )
+
+    if status_filter == 'New':
+        # New is either 'New' specifically recorded or NULL progress
+        filtered_cards = cards.filter(Q(user_status='New') | Q(user_status__isnull=True))
+    else:
+        filtered_cards = cards.filter(user_status=status_filter)
+
+    # Order by ID or alphabetically? Let's go with ID for consistency.
+    data = list(filtered_cards.values('id', 'german_text', 'nepali_text', 'english_text'))
+    
+    return JsonResponse({
+        'success': True,
+        'status': status_filter,
+        'cards': data,
+        'count': len(data)
     })
 
 

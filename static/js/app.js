@@ -20,6 +20,7 @@ const csrftoken = getCookie('csrftoken');
 let currentCardId = null;
 let isFlipped = false;
 let isTransitioning = false;
+let currentFilter = null;
 
 // Guest State
 let isGuest = false;
@@ -127,6 +128,9 @@ async function fetchCard(direction = 'next') {
             if (currentCardId) {
                 url += '&current_id=' + currentCardId;
             }
+            if (currentFilter) {
+                url += '&filter_status=' + currentFilter;
+            }
 
             const response = await fetch(url);
             const data = await response.json();
@@ -152,13 +156,17 @@ async function fetchCard(direction = 'next') {
 }
 
 function getGuestCard(direction, currentId) {
-    const cardsWithMeta = allGuestCards.map(c => {
+    let cardsWithMeta = allGuestCards.map(c => {
         const s = guestProgress[c.id] || 'New';
         let p = 0;
         if (s === 'Revision') p = 1;
         if (s === 'Mastered') p = 2;
         return { ...c, status: s, priority: p };
     });
+
+    if (currentFilter) {
+        cardsWithMeta = cardsWithMeta.filter(c => c.status === currentFilter);
+    }
 
     cardsWithMeta.sort((a, b) => {
         if (a.priority !== b.priority) return a.priority - b.priority;
@@ -278,6 +286,92 @@ function updateProgressBar(newCount, revisionCount, masteredCount, total) {
     if (masteredLabel) masteredLabel.textContent = masteredCount;
 }
 
+// ===== Word List Modal =====
+async function openWordList(status) {
+    const modal = document.getElementById('word-list-modal');
+    const title = document.getElementById('modal-title');
+    const items = document.getElementById('word-items');
+    const countLabel = document.getElementById('modal-count');
+
+    if (!modal || !title || !items) return;
+
+    title.textContent = `${status} Word List`;
+    items.innerHTML = '<div class="text-center py-8 text-slate-500 animate-pulse">Fetching words...</div>';
+    modal.classList.remove('hidden');
+    document.body.style.overflow = 'hidden'; // Prevent scroll
+
+    try {
+        let words = [];
+        if (isGuest) {
+            words = allGuestCards.filter(c => {
+                const s = guestProgress[c.id] || 'New';
+                if (status === 'New') return s === 'New';
+                return s === status;
+            });
+        } else {
+            const res = await fetch(`/api/word_list/?status=${status}`);
+            const data = await res.json();
+            if (data.success) {
+                words = data.cards;
+            } else {
+                items.innerHTML = `<div class="text-center py-8 text-rose-500">Error: ${data.error}</div>`;
+                return;
+            }
+        }
+
+        if (words.length === 0) {
+            items.innerHTML = '<div class="text-center py-8 text-slate-500">No words found in this category.</div>';
+            if (countLabel) countLabel.textContent = '0';
+        } else {
+            items.innerHTML = words.map(card => `
+                <div class="p-3 rounded-lg bg-white/5 border border-white/5 flex flex-col sm:flex-row sm:items-center justify-between gap-2 hover:bg-white/10 transition-colors">
+                    <div>
+                        <div class="font-bold text-lg text-slate-200">${card.german_text}</div>
+                        <div class="text-xs text-sky-400 font-medium">${card.nepali_text}</div>
+                    </div>
+                    <div class="text-sm text-slate-400 italic sm:text-right">
+                        ${card.english_text}
+                    </div>
+                </div>
+            `).join('');
+            if (countLabel) countLabel.textContent = words.length;
+        }
+    } catch (err) {
+        console.error(err);
+        items.innerHTML = '<div class="text-center py-8 text-rose-500">Failed to load word list.</div>';
+    }
+}
+
+function closeWordList() {
+    const modal = document.getElementById('word-list-modal');
+    if (modal) modal.classList.add('hidden');
+    document.body.style.overflow = '';
+}
+
+// ===== Filter Logic =====
+function setFilter(status) {
+    if (currentFilter === status) {
+        currentFilter = null; // Toggle off
+    } else {
+        currentFilter = status;
+    }
+
+    // Update UI highlighting
+    document.querySelectorAll('.filter-category').forEach(el => {
+        el.classList.remove('ring-2', 'ring-offset-2', 'ring-sky-400', 'ring-amber-400', 'ring-emerald-400', 'dark:ring-offset-neutral-800');
+        if (currentFilter && el.dataset.status === currentFilter) {
+            let ringClass = 'ring-sky-400';
+            if (currentFilter === 'Revision') ringClass = 'ring-amber-400';
+            if (currentFilter === 'Mastered') ringClass = 'ring-emerald-400';
+            el.classList.add('ring-2', 'ring-offset-2', ringClass, 'dark:ring-offset-neutral-800');
+        }
+    });
+
+    // Reset current card and fetch
+    currentCardId = null;
+    fetchCard('next');
+}
+
 // ===== Swipe Support =====
 let touchStartX = 0;
 let touchStartY = 0;
@@ -350,6 +444,32 @@ document.addEventListener('DOMContentLoaded', async () => {
             updateStatus(btn.dataset.status);
         });
     });
+
+    // Filter categories
+    document.querySelectorAll('.filter-category').forEach(btn => {
+        btn.addEventListener('click', () => {
+            setFilter(btn.dataset.status);
+        });
+    });
+
+    // Word List Buttons
+    const btnNew = document.getElementById('btn-list-new');
+    const btnRev = document.getElementById('btn-list-revision');
+    const btnMast = document.getElementById('btn-list-mastered');
+    const btnClose = document.getElementById('btn-close-modal');
+    const modal = document.getElementById('word-list-modal');
+
+    if (btnNew) btnNew.addEventListener('click', () => openWordList('New'));
+    if (btnRev) btnRev.addEventListener('click', () => openWordList('Revision'));
+    if (btnMast) btnMast.addEventListener('click', () => openWordList('Mastered'));
+    if (btnClose) btnClose.addEventListener('click', closeWordList);
+    if (modal) {
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal || e.target.classList.contains('absolute')) {
+                closeWordList();
+            }
+        });
+    }
 
     // Keyboard shortcuts
     document.addEventListener('keydown', (e) => {

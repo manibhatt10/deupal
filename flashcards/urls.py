@@ -10,4 +10,5 @@ urlpatterns = [
     path('api/card/', views.get_card, name='get_card'),
     path('api/stats/', views.get_stats, name='get_stats'),
     path('api/all_cards/', views.all_cards, name='all_cards'),
+    path('api/word_list/', views.get_word_list, name='get_word_list'),
 ]
