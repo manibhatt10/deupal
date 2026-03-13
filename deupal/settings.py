@@ -1,5 +1,5 @@
 """
-Django settings for germananki project.
+Django settings for deupal project.
 """
 
 from pathlib import Path
@@ -68,7 +68,7 @@ AUTHENTICATION_BACKENDS = [
     "allauth.account.auth_backends.AuthenticationBackend",
 ]
 
-ROOT_URLCONF = "germananki.urls"
+ROOT_URLCONF = "deupal.urls"
 
 # TEMPLATES
 TEMPLATES = [
@@ -86,7 +86,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "germananki.wsgi.application"
+WSGI_APPLICATION = "deupal.wsgi.application"
 
 # DATABASE
 DATABASES = {
